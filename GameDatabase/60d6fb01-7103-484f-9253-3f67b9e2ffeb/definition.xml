@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        name="Keyforge"
+        id="60d6fb01-7103-484f-9253-3f67b9e2ffeb"
+        octgnVersion="3.1.0.0"
+        version="0.0.1.1"
+        scriptVersion="3.1.0.2"
+        markersize="16"
+        tags="OCTGN, Keyforge"
+        description="The Keyforge Game Package for OCTGN."
+        setsurl="http://octgngames.com/keyforge/"
+        gameurl="http://octgngames.com/keyforge/"
+        authors="brine"
+        iconurl="http://s29.postimg.org/qsmlsels5/Boite_de_base.png">
+    <scripts>
+        <script src="scripts/actions.py"/>
+        <script src="scripts/changelog.py"/>
+    </scripts>
+    <events>
+    </events>
+    <symbols>
+        <symbol name="Brobnar" id="brobnar" src="symbols/brobnar.png" />
+        <symbol name="Dis" id="dis" src="symbols/dis.png" />
+        <symbol name="Logos" id="logos" src="symbols/logos.png" />
+        <symbol name="Mars" id="mars" src="symbols/mars.png" />
+        <symbol name="Sanctum" id="sanctum" src="symbols/sanctum.png" />
+        <symbol name="Shadows" id="shadows" src="symbols/shadows.png" />
+        <symbol name="Untamed" id="untamed" src="symbols/untamed.png" />
+        <symbol name="Æmber" id="aember" src="symbols/aember.png" />
+        <symbol name="Damage" id="damage" src="symbols/damage.png" />
+    </symbols>
+    <proxygen definitionsrc="proxy/proxydef.xml"/>
+    <documents>
+    </documents>
+    <gameModes/>
+    <globalvariables>
+    </globalvariables>
+    <card back="cards/back.png" front="cards/front.png" width="63" height="88" cornerRadius="3">
+        <property name="Type" type="String"/>
+        <property name="Traits" type="String"/>
+        <property name="House" type="String"/>
+        <property name="Rarity" type="String"/>
+        <property name="Æmber" type="Integer"/>
+        <property name="Power" type="Integer"/>
+        <property name="Armor" type="String"/>
+        <property name="Text" type="String"/>
+        <property name="Number" type="Integer"/>
+    </card>
+    <table name="Table" visibility="undefined" ordered="False" width="960" height="540" background="background/background.jpg" backgroundStyle="uniformToFill" >
+            <groupaction menu="Create Keys" execute="createKeys"/>
+            <groupaction menu="Roll Die" shortcut="ctrl+R" execute="rollDie"/>
+            <groupaction menu="Change Die" shortcut="ctrl+shift+R" execute="setDie"/>
+            <groupaction menu="Ready All Cards" shortcut="ctrl+Q" execute="readyCards"/>
+            <groupaction menu="Generate Deck" execute="generateDeck"/>
+            <cardaction menu="Ready/Exhaust Card" default="True" execute="readyExhaust"/>
+            <cardaction menu="Reap" shortcut="ctrl+R" execute="reap"/>
+            <cardaction menu="Fight" shortcut="ctrl+F" execute="fight"/>
+            <cardaction menu="Action" shortcut="ctrl+A" execute="action"/>
+            <cardaction menu="Reveal/Hide Card" shortcut="ctrl+F" execute="revealHide"/>
+            <cardaction menu="Forge Key" shortcut="ctrl+W" execute="forgeKey"/>
+            <cardaction menu="Add 1 Æmber" shortcut="ctrl+1" execute="addAember"/>
+            <cardaction menu="Remove 1 Æmber" shortcut="ctrl+shift+1" execute="removeAember"/>
+            <cardaction menu="Clear all Æmber" execute="clearAember"/>
+            <cardaction menu="Add 1 Damage" shortcut="ctrl+2" execute="addDamage"/>
+            <cardaction menu="Remove 1 Damage" shortcut="ctrl+shift+2" execute="removeDamage"/>
+            <cardaction menu="Clear all Damage" execute="clearDamage"/>
+            <cardaction menu="Discard Card" shortcut="del" execute="discard"/>
+            <cardaction menu="Archive Card" shortcut="ins" execute="archive"/>
+    </table>
+    <player summary="H: {#Hand} Æ: C: {#Chains}">
+        <counter name="Æmber" value="0" icon="symbols/aember.png" />
+        <counter name="Chains" value="0" icon="symbols/discard.png" />
+        <hand name="Hand" visibility="me" ordered="False" icon="symbols/hand.png">
+            <groupaction menu="Random Discard" execute="randomDiscard"/>
+            <groupaction menu="Mulligan Hand" execute="mulligan"/>
+            <cardaction menu="Discard Card" shortcut="del" execute="discard"/>
+            <cardaction menu="Archive Card" shortcut="ins" execute="archive"/>
+        </hand>
+        <group name="Deck" visibility="none" icon="symbols/faction.png">
+            <groupaction menu="Shuffle" shortcut="CTRL+S" execute="shuffle"/>
+            <groupaction menu="Draw" shortcut="CTRL+D" default="True" execute="draw"/>
+            <groupaction menu="Draw Many" shortcut="CTRL+SHIFT+D" execute="drawMany"/>
+        </group>
+        <group name="Discard Pile" visibility="all" icon="symbols/dead.png" shortcut="del">
+            <groupaction menu="View Discard Pile" default="True" execute="viewGroup"/>
+            <cardaction menu="Archive Card" shortcut="ins" execute="archive"/>
+        </group>
+        <group name="Archives" visibility="me" icon="symbols/hold.png" shortcut="ins" >
+            <groupaction menu="View Archives" default="True" execute="viewGroup"/>
+            <groupaction menu="Move Archives to Hand" execute="drawArchives"/>
+        </group>
+    </player>
+    <deck>
+        <section name="Cards" group="Deck"/>
+    </deck>
+</game>

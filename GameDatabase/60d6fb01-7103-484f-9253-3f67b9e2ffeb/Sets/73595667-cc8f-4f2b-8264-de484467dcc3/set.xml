@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<set name="Markers"
+	 id="73595667-cc8f-4f2b-8264-de484467dcc3" 
+	 gameId="60d6fb01-7103-484f-9253-3f67b9e2ffeb" 
+	 gameVersion="1.0.0.0" 
+	 version="1.0"
+     hidden="true">
+	 
+	<markers>
+		<marker id="6f12fd99-6f04-4483-9786-44ff654c8a25" name="Æmber Counter"/>
+		<marker id="bbc64689-67f3-4378-b2f0-d22a3829459c" name="Damage Counter"/>
+	</markers>
+    <cards>
+		<card id="e6fb13af-e30d-409b-8f6c-b4bfb13aea61" name="Blue Key">
+			<property name="Type" value="Key" />
+            <property name="Æmber" value="0" />
+			<property name="Traits" value="Blue" />
+            <alternate name="Blue Key" type="full" >
+                <property name="Type" value="Key" />
+                <property name="Æmber" value="7" />
+                <property name="Traits" value="Blue" />
+            </alternate>
+		</card>
+		<card id="33cafd56-4124-40dc-acec-8393567ec824" name="Yellow Key">
+			<property name="Type" value="Key" />
+            <property name="Æmber" value="0" />
+			<property name="Traits" value="Yellow" />
+            <alternate name="Yellow Key" type="full" >
+                <property name="Type" value="Key" />
+                <property name="Æmber" value="7" />
+                <property name="Traits" value="Yellow" />
+            </alternate>
+		</card>
+		<card id="c13977a0-55d7-4d58-8c00-045794821556" name="Red Key">
+			<property name="Type" value="Key" />
+            <property name="Æmber" value="0" />
+			<property name="Traits" value="Red" />
+            <alternate name="Red Key" type="full" >
+                <property name="Type" value="Key" />
+                <property name="Æmber" value="7" />
+                <property name="Traits" value="Red" />
+            </alternate>
+		</card>
+    </cards>
+</set>
