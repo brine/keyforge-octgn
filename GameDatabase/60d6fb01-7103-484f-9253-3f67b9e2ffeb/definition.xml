@@ -3,7 +3,7 @@
         name="Keyforge"
         id="60d6fb01-7103-484f-9253-3f67b9e2ffeb"
         octgnVersion="3.1.0.0"
-        version="0.0.1.1"
+        version="0.0.1.2"
         scriptVersion="3.1.0.2"
         markersize="16"
         tags="OCTGN, Keyforge"
@@ -56,6 +56,7 @@
             <cardaction menu="Reap" shortcut="ctrl+R" execute="reap"/>
             <cardaction menu="Fight" shortcut="ctrl+F" execute="fight"/>
             <cardaction menu="Action" shortcut="ctrl+A" execute="action"/>
+            <cardaction menu="Stun" shortcut="ctrl+V" execute="stun"/>
             <cardaction menu="Reveal/Hide Card" shortcut="ctrl+F" execute="revealHide"/>
             <cardaction menu="Forge Key" shortcut="ctrl+W" execute="forgeKey"/>
             <cardaction menu="Add 1 Æmber" shortcut="ctrl+1" execute="addAember"/>
@@ -64,10 +65,13 @@
             <cardaction menu="Add 1 Damage" shortcut="ctrl+2" execute="addDamage"/>
             <cardaction menu="Remove 1 Damage" shortcut="ctrl+shift+2" execute="removeDamage"/>
             <cardaction menu="Clear all Damage" execute="clearDamage"/>
+            <cardaction menu="Add 1 Power" shortcut="ctrl+3" execute="addPower"/>
+            <cardaction menu="Remove 1 Power" shortcut="ctrl+shift+3" execute="removePower"/>
+            <cardaction menu="Clear all Power" execute="clearPower"/>
             <cardaction menu="Discard Card" shortcut="del" execute="discard"/>
             <cardaction menu="Archive Card" shortcut="ins" execute="archive"/>
     </table>
-    <player summary="H: {#Hand} Æ: C: {#Chains}">
+    <player summary="H: {#Hand} Æ: {#Æmber} C: {#Chains}">
         <counter name="Æmber" value="0" icon="symbols/aember.png" />
         <counter name="Chains" value="0" icon="symbols/discard.png" />
         <hand name="Hand" visibility="me" ordered="False" icon="symbols/hand.png">

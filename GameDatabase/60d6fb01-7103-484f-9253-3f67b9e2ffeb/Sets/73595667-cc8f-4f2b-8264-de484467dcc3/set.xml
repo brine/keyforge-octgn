@@ -10,6 +10,7 @@
 	<markers>
 		<marker id="6f12fd99-6f04-4483-9786-44ff654c8a25" name="Æmber Counter"/>
 		<marker id="bbc64689-67f3-4378-b2f0-d22a3829459c" name="Damage Counter"/>
+		<marker id="51729c8c-fa02-40d8-bf46-e16de8f6ec14" name="+1 Power Counter"/>
 	</markers>
     <cards>
 		<card id="e6fb13af-e30d-409b-8f6c-b4bfb13aea61" name="Blue Key">
@@ -18,7 +19,7 @@
 			<property name="Traits" value="Blue" />
             <alternate name="Blue Key" type="full" >
                 <property name="Type" value="Key" />
-                <property name="Æmber" value="7" />
+                <property name="Æmber" value="6" />
                 <property name="Traits" value="Blue" />
             </alternate>
 		</card>
@@ -28,7 +29,7 @@
 			<property name="Traits" value="Yellow" />
             <alternate name="Yellow Key" type="full" >
                 <property name="Type" value="Key" />
-                <property name="Æmber" value="7" />
+                <property name="Æmber" value="6" />
                 <property name="Traits" value="Yellow" />
             </alternate>
 		</card>
@@ -38,7 +39,7 @@
 			<property name="Traits" value="Red" />
             <alternate name="Red Key" type="full" >
                 <property name="Type" value="Key" />
-                <property name="Æmber" value="7" />
+                <property name="Æmber" value="6" />
                 <property name="Traits" value="Red" />
             </alternate>
 		</card>

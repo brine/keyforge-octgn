@@ -31,7 +31,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Place 2[A] from the common supply on an enemy creature" />
+            <property name="Text" value="Play: Place 2[A] from the common supply on an enemy creature." />
             <property name="Number" value="3" />
         </card>
         <card name="Brothers in Battle" id="27a677fc-7662-4d05-b550-8a801cb5a39a">
@@ -42,7 +42,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Choose a creature. For the remainder of the turn, each friendly creature of that house can fight" />
+            <property name="Text" value="Play: Choose a creature. For the remainder of the turn, each friendly creature of that house can fight." />
             <property name="Number" value="4" />
         </card>
         <card name="Burn the Stockpile" id="6979c2ed-b42d-43ec-8794-c71a41667685">
@@ -53,7 +53,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: If your opponent has 7[A] or more, they lose [4]" />
+            <property name="Text" value="Play: If your opponent has 7[A] or more, they lose [4]." />
             <property name="Number" value="5" />
         </card>
 
@@ -65,7 +65,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Destroy each undamaged creature. Gain 3 chains" />
+            <property name="Text" value="Play: Destroy each undamaged creature. Gain 3 chains." />
             <property name="Number" value="7" />
         </card>
         <card name="Follow the Leader" id="b0a0b205-7556-4aa2-9c68-ef025ffa57f8">
@@ -98,10 +98,20 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: For the remainder of the turn, gain 1[A] each time an enemy creature is destroyed" />
+            <property name="Text" value="Play: For the remainder of the turn, gain 1[A] each time an enemy creature is destroyed." />
             <property name="Number" value="10" />
         </card>
-
+        <card name="Take That, Smartypants" id="13716c10-fa76-4a64-87f0-55e0a6b3f209">
+            <property name="Type" value="Action" />
+            <property name="House" value="Brobnar" />
+            <property name="Traits" value="" />
+            <property name="Rarity" value="Rare" />
+            <property name="Æmber" value="1" />
+            <property name="Power" value="" />
+            <property name="Armor" value="" />
+            <property name="Text" value="Play: Steal 2[A] if your opponent has 3 or more Logos cards in play." />
+            <property name="Number" value="11" />
+        </card>
         <card name="Punch" id="64133472-ab71-4f5a-9d52-d0e0687e64b9">
             <property name="Type" value="Action" />
             <property name="House" value="Brobnar" />
@@ -113,7 +123,17 @@
             <property name="Text" value="Play: Deal 3[D] to a creature." />
             <property name="Number" value="12" />
         </card>
-
+        <card name="Relentless Assault" id="8b4db640-8f19-4f00-bdd6-e748ca3b8eba">
+            <property name="Type" value="Action" />
+            <property name="House" value="Brobnar" />
+            <property name="Traits" value="" />
+            <property name="Rarity" value="Uncommon" />
+            <property name="Æmber" value="0" />
+            <property name="Power" value="" />
+            <property name="Armor" value="" />
+            <property name="Text" value="Play: Ready and fight with up to 3 different friendly creatures, one at a time." />
+            <property name="Number" value="13" />
+        </card>
 
 
         <card name="Tremor" id="547bffc9-ef55-4814-befa-baaff4cc6f3f">
@@ -124,7 +144,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Stun a creature and each of its neighbors" />
+            <property name="Text" value="Play: Stun a creature and each of its neighbors." />
             <property name="Number" value="16" />
         </card>
         <card name="Unguarded Camp" id="c8646e17-5b0d-4bec-8469-151fbc2eb3f4">
@@ -146,7 +166,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: For the remainder of the turn, gain 1[A] every time a friendly creature fights" />
+            <property name="Text" value="Play: For the remainder of the turn, gain 1[A] every time a friendly creature fights." />
             <property name="Number" value="18" />
         </card>
         <card name="Autocannon" id="e1bb44f4-a5e1-4575-bd77-eeb2e99073ff">
@@ -160,7 +180,17 @@
             <property name="Text" value="Deal 1[D] to each creature after it enters play." />
             <property name="Number" value="19" />
         </card>
-
+        <card name="Banner of Battle" id="3673479c-794a-4ea8-a599-aae740611f68">
+            <property name="Type" value="Artifact" />
+            <property name="House" value="Brobnar" />
+            <property name="Traits" value="Item" />
+            <property name="Rarity" value="" />
+            <property name="Æmber" value="0" />
+            <property name="Power" value="" />
+            <property name="Armor" value="" />
+            <property name="Text" value="Each friendly creature gets +1 power." />
+            <property name="Number" value="20" />
+        </card>
         <card name="Cannon" id="31749ab8-7e3f-4f08-8b41-4825f0725f64">
             <property name="Type" value="Artifact" />
             <property name="House" value="Brobnar" />
@@ -191,7 +221,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Your opponent's keys cost +1[A] for each friendly damaged Brobnar creature" />
+            <property name="Text" value="Your opponent's keys cost +1[A] for each friendly damaged Brobnar creature." />
             <property name="Number" value="23" />
         </card>
         <card name="Mighty Javelin" id="541ca04b-bc9c-4ebd-8874-98e738b64509">
@@ -202,7 +232,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Omni: Sacrifice Mighty Javelin. Deal 4[D] to a creature" />
+            <property name="Text" value="Omni: Sacrifice Mighty Javelin. Deal 4[D] to a creature." />
             <property name="Number" value="24" />
         </card>
         <card name="Pile of Skulls" id="3c78dd94-477a-4642-92e8-6ab808244c33">
@@ -213,7 +243,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Each time an enemy creature is destroyed during your turn, a friendly creature captures 1[A]" />
+            <property name="Text" value="Each time an enemy creature is destroyed during your turn, a friendly creature captures 1[A]." />
             <property name="Number" value="25" />
         </card>
         <card name="Screechbomb" id="1c1e1184-62b7-46bf-a908-55320b8d6c38">
@@ -247,7 +277,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="6" />
             <property name="Armor" value="" />
-            <property name="Text" value="Valdr deals +2[D] while attacking an enemy creature on the flank" />
+            <property name="Text" value="Valdr deals +2[D] while attacking an enemy creature on the flank." />
             <property name="Number" value="29" />
         </card>
         <card name="Bumpsy" id="e24aac59-125a-4f63-a069-cf5cfef3914f">
@@ -258,7 +288,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="5" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Your opponent loses 1[A]" />
+            <property name="Text" value="Play: Your opponent loses 1[A]." />
             <property name="Number" value="30" />
         </card>
         <card name="Earthshaker" id="62797f6f-5ef4-4072-b26d-82439a3a26d4">
@@ -291,7 +321,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="5" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: You may ready and fight with a neighboring creature" />
+            <property name="Text" value="Play: You may ready and fight with a neighboring creature." />
             <property name="Number" value="33" />
         </card>
         <card name="Grenade Snib" id="70b64045-6f13-47dd-8848-764791ddff8b">
@@ -302,7 +332,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="2" />
             <property name="Armor" value="" />
-            <property name="Text" value="Destroyed: Your opponent loses 2[A]" />
+            <property name="Text" value="Destroyed: Your opponent loses 2[A]." />
             <property name="Number" value="34" />
         </card>
         <card name="Headhunter" id="9c20d6ff-b7bf-46f2-b1b8-00dea8f0414e">
@@ -324,7 +354,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="6" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Deal 2[D] to each other undamaged creature" />
+            <property name="Text" value="Play: Deal 2[D] to each other undamaged creature." />
             <property name="Number" value="36" />
         </card>
         <card name="Kelifi Dragon" id="c5be2d63-c4cc-4899-be6c-55baa917e3d1">
@@ -335,7 +365,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="12" />
             <property name="Armor" value="" />
-            <property name="Text" value="Kefili Dragon cannot be played unless you have 7 or more A. Fight/Reap: Gain 1[A]. Deal 5[D] to a creature." />
+            <property name="Text" value="Kelifi Dragon cannot be played unless you have 7 or more [A].\nFight/Reap: Gain 1[A]. Deal 5[D] to a creature." />
             <property name="Number" value="37" />
         </card>
         <card name="King of the Crag" id="d0055ef8-5c87-4bed-9f3e-afe1aee04f0d">
@@ -346,7 +376,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="7" />
             <property name="Armor" value="" />
-            <property name="Text" value="Each enemy Brobnar creature gets -2 power" />
+            <property name="Text" value="Each enemy Brobnar creature gets -2 power." />
             <property name="Number" value="38" />
         </card>
         <card name="Krump" id="680f4bee-5ad2-4467-85f0-6f3d1291ba6a">
@@ -357,7 +387,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="6" />
             <property name="Armor" value="" />
-            <property name="Text" value="After an enemy creature is destroyed fighting Krump, its controller loses 1[A]" />
+            <property name="Text" value="After an enemy creature is destroyed fighting Krump, its controller loses 1[A]." />
             <property name="Number" value="39" />
         </card>
         <card name="Lomir Flamefist" id="896554ea-ca0f-4a44-9b72-ce6e7b066665">
@@ -368,7 +398,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="5" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: If your opponent has 7[A] or more, they lose 2[A]" />
+            <property name="Text" value="Play: If your opponent has 7[A] or more, they lose 2[A]." />
             <property name="Number" value="40" />
         </card>
         <card name="Looter Goblin" id="10c2b88d-924d-419f-a851-f2d6174b911e">
@@ -382,7 +412,17 @@
             <property name="Text" value="Elusive&#xd;&#xa;Reap: For the remainder of the turn, gain 1[A] each time an enemy creature is destroyed." />
             <property name="Number" value="41" />
         </card>
-
+        <card name="Mugwump" id="4ff2f628-081b-479b-9945-f18d8b63758f">
+            <property name="Type" value="Creature" />
+            <property name="House" value="Brobnar" />
+            <property name="Traits" value="Giant" />
+            <property name="Rarity" value="Rare" />
+            <property name="Æmber" value="0" />
+            <property name="Power" value="6" />
+            <property name="Armor" value="" />
+            <property name="Text" value="After an enemy creature is destroyed fighting Mugwump, fully heal Mugwump and give it a +1 power counter." />
+            <property name="Number" value="42" />
+        </card>
         <card name="Pingle Who Annoys" id="35b0dfda-8bf6-4cd8-809b-90c7238e5706">
             <property name="Type" value="Creature" />
             <property name="House" value="Brobnar" />
@@ -394,7 +434,17 @@
             <property name="Text" value="Elusive&#xd;&#xa;Deal 1[D] to each enemy creature after it enters play." />
             <property name="Number" value="43" />
         </card>
-
+        <card name="Rock-Hurling Giant" id="a37e938d-b298-46d8-b490-c8750ffb7d80">
+            <property name="Type" value="Creature" />
+            <property name="House" value="Brobnar" />
+            <property name="Traits" value="Giant" />
+            <property name="Rarity" value="Rare" />
+            <property name="Æmber" value="0" />
+            <property name="Power" value="6" />
+            <property name="Armor" value="" />
+            <property name="Text" value="During your turn, each time you discard a Brobnar card from your hand, you may deal 4[D] to a creature." />
+            <property name="Number" value="44" />
+        </card>
 
         <card name="Smaaash" id="0f6b402b-3027-45df-9e5c-e3ff62fa5a37">
             <property name="Type" value="Creature" />
@@ -437,7 +487,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="3" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Return each other Brobnar creature to your hand" />
+            <property name="Text" value="Play: Return each other friendly Brobnar creature to your hand." />
             <property name="Number" value="49" />
         </card>
         <card name="Blood of Titans" id="3b609375-a664-434b-9c5d-45f96a2fd3c0">
@@ -451,7 +501,17 @@
             <property name="Text" value="This creature gets +5 power." />
             <property name="Number" value="50" />
         </card>
-
+        <card name="Phoenix Heart" id="c19a76a7-111d-4783-8067-fcb83e3309a8">
+            <property name="Type" value="Upgrade" />
+            <property name="House" value="Brobnar" />
+            <property name="Traits" value="" />
+            <property name="Rarity" value="Rare" />
+            <property name="Æmber" value="0" />
+            <property name="Power" value="" />
+            <property name="Armor" value="" />
+            <property name="Text" value="This creature gains, &quot;Destroyed: Return this creature to it's owner's hand and deal 3[D] to each creature in play.&quot;" />
+            <property name="Number" value="51" />
+        </card>
         <card name="Yo Mama Mastery" id="ee95f33a-91bc-4279-afd1-0f57f780a1db">
             <property name="Type" value="Upgrade" />
             <property name="House" value="Brobnar" />
@@ -460,7 +520,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="This creature gains Taunt. Play: Fully heal this creature" />
+            <property name="Text" value="This creature gains taunt.\nPlay: Fully heal this creature." />
             <property name="Number" value="52" />
         </card>
         <card name="A Fair Game" id="de52bc01-002a-4504-a72b-9c8109dc0b5b">
@@ -482,7 +542,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Choose a house. Return each creature of that house from your discard pile to your hand. Gain 1 chain" />
+            <property name="Text" value="Play: Choose a house. Return each creature of that house from your discard pile to your hand. Gain 1 chain." />
             <property name="Number" value="54" />
         </card>
         <card name="Control the Weak" id="9ee419cc-86fe-40af-9388-8077a797dee9">
@@ -538,7 +598,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Deal 3[D] to a creature. If it is not destroyed, its owner discards a card from their hand" />
+            <property name="Text" value="Play: Deal 3[D] to a creature. If it is not destroyed, its owner discards a card from their hand." />
             <property name="Number" value="60" />
         </card>
         <card name="Guilty Hearts" id="182025fd-e0a3-4da6-85ef-8e8ee8fbc7b2">
@@ -563,7 +623,17 @@
             <property name="Text" value="Play: Destroy a creature that is not on a flank. (The flank is either end of a player's battleline.)" />
             <property name="Number" value="62" />
         </card>
-
+        <card name="Hecatomb" id="70c7fa65-7ee7-41f7-9c0e-052fc61973b5">
+            <property name="Type" value="Action" />
+            <property name="House" value="Dis" />
+            <property name="Traits" value="" />
+            <property name="Rarity" value="Rare" />
+            <property name="Æmber" value="1" />
+            <property name="Power" value="" />
+            <property name="Armor" value="" />
+            <property name="Text" value="Play: Destroy each Dis creature. Each player gains 1[A] for each creature which was destroyed in this way." />
+            <property name="Number" value="63" />
+        </card>
         <card name="Tendrils of Pain" id="b559e7c2-76db-42d0-970e-a2a65be55304">
             <property name="Type" value="Action" />
             <property name="House" value="Dis" />
@@ -572,7 +642,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Deal 1[D] to each creature. Deal an additional 3[D] to each creature if your opponent forged a key on their previous turn" />
+            <property name="Text" value="Play: Deal 1[D] to each creature. Deal an additional 3[D] to each creature if your opponent forged a key on their previous turn." />
             <property name="Number" value="64" />
         </card>
         <card name="Hysteria" id="ae6784bb-d13e-498e-9395-109051aae389">
@@ -583,7 +653,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Return each creature to its owner's hand" />
+            <property name="Text" value="Play: Return each creature to its owner's hand." />
             <property name="Number" value="65" />
         </card>
         <card name="Key Hammer" id="b77d4dd3-43ba-4abd-a1a8-ee6806a336b4">
@@ -594,7 +664,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: If your opponent forged a key on their previous turn, unforge it. Your opponent gains 6[A]" />
+            <property name="Text" value="Play: If your opponent forged a key on their previous turn, unforge it. Your opponent gains 6[A]." />
             <property name="Number" value="66" />
         </card>
         <card name="Mind Barb" id="b9b52435-033a-4c88-ac4f-fd360af7f250">
@@ -630,7 +700,17 @@
             <property name="Text" value="Play: Use an artifact controlled by any player as if it were yours. Destroy that artifact." />
             <property name="Number" value="69" />
         </card>
-
+        <card name="Red Hot Armor" id="8ae3e96a-d5d0-4b9c-ac48-9574ef3d8ca3">
+            <property name="Type" value="Action" />
+            <property name="House" value="Dis" />
+            <property name="Traits" value="" />
+            <property name="Rarity" value="Rare" />
+            <property name="Æmber" value="1" />
+            <property name="Power" value="" />
+            <property name="Armor" value="" />
+            <property name="Text" value="Play: Each enemy creature with armor loses all of its armor until the end of the turn and is dealt 1[D] for each point of armor it lost this way." />
+            <property name="Number" value="70" />
+        </card>
         <card name="Three Fates" id="1a513664-5c8c-4978-9302-1dcf19dc11b4">
             <property name="Type" value="Action" />
             <property name="House" value="Dis" />
@@ -650,7 +730,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="When a creature would enter a discard pile from play, it is purged instead" />
+            <property name="Text" value="When a creature would enter a discard pile from play, it is purged instead." />
             <property name="Number" value="72" />
         </card>
         <card name="Dominator Bauble" id="0bcb13ef-c478-4059-b549-bf197d9e30eb">
@@ -686,7 +766,17 @@
             <property name="Text" value="Action: Keys cost +3[A] during your opponent's next turn." />
             <property name="Number" value="75" />
         </card>
-
+        <card name="Library of the Damned" id="bd44a420-988d-4116-8168-0c2125f08507">
+            <property name="Type" value="Artifact" />
+            <property name="House" value="Dis" />
+            <property name="Traits" value="Location" />
+            <property name="Rarity" value="Uncommon" />
+            <property name="Æmber" value="0" />
+            <property name="Power" value="" />
+            <property name="Armor" value="" />
+            <property name="Text" value="Action: Archive a card." />
+            <property name="Number" value="76" />
+        </card>
 
         <card name="Sacrificial Altar" id="231300a6-20a1-4792-8637-0f238b9810ea">
             <property name="Type" value="Artifact" />
@@ -731,7 +821,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="2" />
             <property name="Armor" value="" />
-            <property name="Text" value="Destroyed: Gain 2[A]" />
+            <property name="Text" value="Destroyed: Gain 2[A]." />
             <property name="Number" value="83" />
         </card>
         <card name="Eater of the Dead" id="32e3b831-d5b6-4812-8239-cecf98bf21dc">
@@ -742,7 +832,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="4" />
             <property name="Armor" value="" />
-            <property name="Text" value="Fight/Reap: Purge a creature from a discard pile. If you do, put a +1 power counter on Eater of the Dead" />
+            <property name="Text" value="Fight/Reap: Purge a creature from a discard pile. If you do, put a +1 power counter on Eater of the Dead." />
             <property name="Number" value="84" />
         </card>
         <card name="Ember Imp" id="5f7f330d-f415-468e-a72d-a37361ad00bd">
@@ -753,7 +843,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="2" />
             <property name="Armor" value="" />
-            <property name="Text" value="Your opponent may not play more than 2 cards each turn" />
+            <property name="Text" value="Your opponent may not play more than 2 cards each turn." />
             <property name="Number" value="85" />
         </card>
         <card name="Gabos Longarms" id="da1f23e5-a41c-4dd9-9118-27576df4d9ad">
@@ -764,7 +854,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="5" />
             <property name="Armor" value="" />
-            <property name="Text" value="Before Fight: Choose a creature. Gabos Longarms deals damage to that creature rather than the one it is fighting" />
+            <property name="Text" value="Before Fight: Choose a creature. Gabos Longarms deals damage to that creature rather than the one it is fighting." />
             <property name="Number" value="86" />
         </card>
 
@@ -800,7 +890,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="5" />
             <property name="Armor" value="" />
-            <property name="Text" value="Action: Steal 1[A]" />
+            <property name="Text" value="Action: Steal 1[A]." />
             <property name="Number" value="92" />
         </card>
         <card name="Pitlord" id="a6ceb3e2-20d4-435a-9167-e6a2bc090e84">
@@ -811,7 +901,7 @@
             <property name="Æmber" value="2" />
             <property name="Power" value="9" />
             <property name="Armor" value="" />
-            <property name="Text" value="Taunt&#xd;&#xa;While Pitlord is in play, you must choose Dis as your active house" />
+            <property name="Text" value="Taunt&#xd;&#xa;While Pitlord is in play, you must choose Dis as your active house." />
             <property name="Number" value="93" />
         </card>
         <card name="Restringuntus" id="1e75c0d3-aa5b-4674-8bc2-81fec468a635">
@@ -822,7 +912,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="1" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Choose a house. Your opponent cannot choose that house as their active house until Restringuntus leaves play" />
+            <property name="Text" value="Play: Choose a house. Your opponent cannot choose that house as their active house until Restringuntus leaves play." />
             <property name="Number" value="94" />
         </card>
         <card name="Shaffles" id="b2abaa73-60d0-4150-91e7-4bea90048426">
@@ -833,7 +923,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="2" />
             <property name="Armor" value="" />
-            <property name="Text" value="At the end of your turn, your opponent loses 1[A]" />
+            <property name="Text" value="At the end of your turn, your opponent loses 1[A]." />
             <property name="Number" value="95" />
         </card>
         <card name="Shooler" id="1a965cc1-c54d-4d6f-a557-031965cd3a7a">
@@ -855,7 +945,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="4" />
             <property name="Armor" value="" />
-            <property name="Text" value="Fight/Reap: Return an artifact or flank creature to its owner's hand" />
+            <property name="Text" value="Fight/Reap: Return an artifact or flank creature to its owner's hand." />
             <property name="Number" value="97" />
         </card>
         <card name="Stealer of Souls" id="2216bd49-45e4-4c5b-9d06-d64e642ce985">
@@ -866,7 +956,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="6" />
             <property name="Armor" value="" />
-            <property name="Text" value="After an enemy creature is destroyed while fighting Stealer of Souls, purge that creature and gain 1[A]" />
+            <property name="Text" value="After an enemy creature is destroyed while fighting Stealer of Souls, purge that creature and gain 1[A]." />
             <property name="Number" value="98" />
         </card>
         <card name="Succubus" id="7f648c8d-129a-4c0d-b809-b4565abcefcd">
@@ -877,10 +967,20 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="3" />
             <property name="Armor" value="" />
-            <property name="Text" value="During their &quot;draw cards&quot; step, your opponent refils their hand to 1 less card" />
+            <property name="Text" value="During their &quot;draw cards&quot; step, your opponent refils their hand to 1 less card." />
             <property name="Number" value="99" />
         </card>
-
+        <card name="Tentacus" id="cb79afd7-8765-41f8-b3ec-a30c7fd52fce">
+            <property name="Type" value="Creature" />
+            <property name="House" value="Dis" />
+            <property name="Traits" value="Demon" />
+            <property name="Rarity" value="Uncommon" />
+            <property name="Æmber" value="0" />
+            <property name="Power" value="5" />
+            <property name="Armor" value="" />
+            <property name="Text" value="You opponent must pay you 1[A] in order to use an artifact." />
+            <property name="Number" value="100" />
+        </card>
         <card name="The Terror" id="ea255e6a-6134-4890-b36b-8cb8835895cb">
             <property name="Type" value="Creature" />
             <property name="House" value="Dis" />
@@ -903,7 +1003,17 @@
             <property name="Text" value="Reap: Your opponent discards a random card from their hand." />
             <property name="Number" value="102" />
         </card>
-
+        <card name="Tolas" id="ca1c40fb-62de-4c50-bcb1-192cc2978597">
+            <property name="Type" value="Creature" />
+            <property name="House" value="Dis" />
+            <property name="Traits" value="Imp" />
+            <property name="Rarity" value="Rare" />
+            <property name="Æmber" value="0" />
+            <property name="Power" value="1" />
+            <property name="Armor" value="" />
+            <property name="Text" value="Elusive&#xd;&#xa;Each time a creature is destroyed, its opponent gains 1[A]." />
+            <property name="Number" value="103" />
+        </card>
         <card name="Truebaru" id="a08e4087-76eb-45f7-a4a5-88ce81b76dc5">
             <property name="Type" value="Creature" />
             <property name="House" value="Dis" />
@@ -912,7 +1022,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="7" />
             <property name="Armor" value="" />
-            <property name="Text" value="Taunt&#xd;&#xa;You must lose 3[A] in order to play Truebaru.\nDestroyed: Gain 5[A]" />
+            <property name="Text" value="Taunt&#xd;&#xa;You must lose 3[A] in order to play Truebaru.\nDestroyed: Gain 5[A]." />
             <property name="Number" value="104" />
         </card>
         <card name="Collar of Subordination" id="648f7c20-a00b-4e77-82fc-342da22c2044">
@@ -934,7 +1044,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="This creature gets +2 Power and gains 'Hazardous 2'" />
+            <property name="Text" value="This creature gets +2 power and gains hazardous 2." />
             <property name="Number" value="106" />
         </card>
         <card name="Bouncing Deathquark" id="45a5ff30-a591-4ffc-81a9-3676b21118ae">
@@ -967,7 +1077,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Each player loses half their [A] (rounded down the loss). Gain 1 chain." />
+            <property name="Text" value="Play: Each player loses half their [A] (rounding down the loss). Gain 1 chain." />
             <property name="Number" value="109" />
         </card>
         <card name="Foggify" id="0c433ca6-62b8-435d-9760-c68201986f5a">
@@ -978,7 +1088,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Your opponent cannot use creatures to fight on their next turn" />
+            <property name="Text" value="Play: Your opponent cannot use creatures to fight on their next turn." />
             <property name="Number" value="110" />
         </card>
 
@@ -1002,7 +1112,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Archive a card" />
+            <property name="Text" value="Play: Archive a card." />
             <property name="Number" value="114" />
         </card>
         <card name="Library Access" id="a3976a3b-a384-4c00-a7e9-c43c78432612">
@@ -1013,7 +1123,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: For the remainder of the turn, each time you play another card, draw a card" />
+            <property name="Text" value="Play: For the remainder of the turn, each time you play another card, draw a card." />
             <property name="Number" value="115" />
         </card>
         <card name="Neuro Syphon" id="87ab39c6-eb4a-45ff-bdae-da24bb32fc4b">
@@ -1024,7 +1134,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: If your opponent has more A than you, steal 1[A] and draw a card." />
+            <property name="Text" value="Play: If your opponent has more [A] than you, steal 1[A] and draw a card.." />
             <property name="Number" value="116" />
         </card>
         <card name="Phase Shift" id="a041ac15-8444-4975-a5a4-e1276f8ec2eb">
@@ -1035,7 +1145,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: You may play one non-Logos card this turn" />
+            <property name="Text" value="Play: You may play one non-Logos card this turn." />
             <property name="Number" value="117" />
         </card>
         <card name="Positron Bolt" id="1e6e59c7-e95e-488f-96d6-2348fac6175b">
@@ -1058,7 +1168,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Use an opponent's artifact as if it were yours" />
+            <property name="Text" value="Play: Use an opponent's artifact as if it were yours." />
             <property name="Number" value="120" />
         </card>
         <card name="Reverse Time" id="a01f0cca-a59c-4eec-849a-cea68f3f1731">
@@ -1080,7 +1190,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Your opponent cannot play actions on their next turn" />
+            <property name="Text" value="Play: Your opponent cannot play actions on their next turn." />
             <property name="Number" value="122" />
         </card>
         <card name="Sloppy Labwork" id="5908cfd1-eee0-476e-9f74-0caa0a6169bb">
@@ -1091,7 +1201,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Archive a card. Discard a card" />
+            <property name="Text" value="Play: Archive a card. Discard a card." />
             <property name="Number" value="123" />
         </card>
         <card name="Twin Bolt Emission" id="83674733-6ced-4387-8e9b-69a74f67c81d">
@@ -1102,7 +1212,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Deal 2[D] to a creature, and deal 2[D] to a different creature" />
+            <property name="Text" value="Play: Deal 2[D] to a creature, and deal 2[D] to a different creature." />
             <property name="Number" value="124" />
         </card>
         <card name="Wild Wormhole" id="80853518-3bb8-4867-848c-0656dc287233">
@@ -1113,7 +1223,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Play the top card of your deck" />
+            <property name="Text" value="Play: Play the top card of your deck." />
             <property name="Number" value="125" />
         </card>
         <card name="Anomaly Exploiter" id="0ca37f36-bd7f-4467-9b02-045946a9f8a2">
@@ -1124,7 +1234,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Action: Destroy a damaged creature" />
+            <property name="Text" value="Action: Destroy a damaged creature." />
             <property name="Number" value="126" />
         </card>
 
@@ -1136,7 +1246,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Action: Discard the top card of each player's deck. For each of those cards, destroy a creature or artifact of that card's house, if able. If 2 cards are not destroyed as a result of this, destroy Crazy Killing Machine" />
+            <property name="Text" value="Action: Discard the top card of each player's deck. For each of those cards, destroy a creature or artifact of that card's house, if able. If 2 cards are not destroyed as a result of this, destroy Crazy Killing Machine." />
             <property name="Number" value="128" />
         </card>
         <card name="Library of Babble" id="70177023-edd6-4743-a095-32b8db60eb8f">
@@ -1147,7 +1257,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Action: Draw a card" />
+            <property name="Text" value="Action: Draw a card." />
             <property name="Number" value="129" />
         </card>
         <card name="Mobius Scroll" id="38354822-6095-458a-9131-4c11858fd350">
@@ -1181,7 +1291,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Action: Choose a creature. For the remainder of the turn, that creature is considered a flank creature and gains &quot;Reap: Draw a card&quot;" />
+            <property name="Text" value="Action: Choose a creature. For the remainder of the turn, that creature is considered a flank creature and gains, &quot;Reap: Draw a card.&quot;" />
             <property name="Number" value="133" />
         </card>
         <card name="Strange Gizmo" id="7310e0b0-b9d4-4982-aade-44c1410bb4e1">
@@ -1192,7 +1302,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="After you forge a key, destroy each creature and artifact" />
+            <property name="Text" value="After you forge a key, destroy each creature and artifact." />
             <property name="Number" value="134" />
         </card>
         <card name="The Howling Pit" id="294ea485-5e34-45ce-a8c5-b8b0f2548d93">
@@ -1203,7 +1313,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="During their &quot;draw cards&quot; step, each player refills their hand to 1 additional card" />
+            <property name="Text" value="During their &quot;draw cards&quot; step, each player refills their hand to 1 additional card." />
             <property name="Number" value="135" />
         </card>
         <card name="Batdrone" id="345d70c6-d908-4605-b02a-e6a43aa1835b">
@@ -1236,7 +1346,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="3" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Capture 1[A].\nDestroyed: Put Dextre on top of your deck" />
+            <property name="Text" value="Play: Capture 1[A].\nDestroyed: Put Dextre on top of your deck." />
             <property name="Number" value="138" />
         </card>
         <card name="Doc Bookton" id="ec0cc908-c494-470d-aa56-4eeb6fcde602">
@@ -1247,7 +1357,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="5" />
             <property name="Armor" value="" />
-            <property name="Text" value="Reap: Draw a card" />
+            <property name="Text" value="Reap: Draw a card." />
             <property name="Number" value="139" />
         </card>
         <card name="Dr Escotera" id="aa8fa668-edac-4133-a428-954191adf669">
@@ -1258,7 +1368,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="4" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Gain 1[A] for each forged key your opponent has" />
+            <property name="Text" value="Play: Gain 1[A] for each forged key your opponent has." />
             <property name="Number" value="140" />
         </card>
         <card name="Dysania" id="e33eabcf-98ff-4057-bb90-d3a319b05ba9">
@@ -1269,7 +1379,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="4" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Your opponent discards each of their archived cards. You gain 1[A] for each card discarded in this way" />
+            <property name="Text" value="Play: Your opponent discards each of their archived cards. You gain 1[A] for each card discarded in this way." />
             <property name="Number" value="141" />
         </card>
         <card name="Ganymede Archivist" id="b33f47c8-5cf5-4938-8a4d-03babc478aa9">
@@ -1280,7 +1390,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="3" />
             <property name="Armor" value="" />
-            <property name="Text" value="Reap: Archive a card" />
+            <property name="Text" value="Reap: Archive a card." />
             <property name="Number" value="142" />
         </card>
         <card name="Harland Mindlock" id="a214ef4c-c6c7-4e61-aca5-c615bbd24c48">
@@ -1291,10 +1401,10 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="1" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Take control of a flank creature until Harland Mindlock leaves play" />
+            <property name="Text" value="Play: Take control of a flank creature until Harland Mindlock leaves play." />
             <property name="Number" value="143" />
         </card>
-        <card name="Quixo the 'Adventurer" id="d2552ef0-cbca-4b4b-aefc-9526fe6e4c6e">
+        <card name="Quixo the &quot;Adventurer&quot;" id="d2552ef0-cbca-4b4b-aefc-9526fe6e4c6e">
             <property name="Type" value="Creature" />
             <property name="House" value="Logos" />
             <property name="Traits" value="Human, Scientist" />
@@ -1302,7 +1412,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="3" />
             <property name="Armor" value="" />
-            <property name="Text" value="Skirmish&#xd;&#xa;Fight: Draw a card" />
+            <property name="Text" value="Skirmish&#xd;&#xa;Fight: Draw a card." />
             <property name="Number" value="144" />
         </card>
         <card name="Mother" id="918e6ba5-daa5-4418-ad2d-3f355cd73c3a">
@@ -1346,10 +1456,20 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="2" />
             <property name="Armor" value="" />
-            <property name="Text" value="Elusive&#xd;&#xa;Fight/Reap: Heal 3 damage from a Mars creature or stun a Mars creature" />
+            <property name="Text" value="Elusive&#xd;&#xa;Fight/Reap: Heal 3 damage from a Mars creature or stun a Mars creature." />
             <property name="Number" value="148" />
         </card>
-
+        <card name="Psychic Bug" id="6f9c95f4-840b-4099-b9da-b66449c50e15">
+            <property name="Type" value="Creature" />
+            <property name="House" value="Logos" />
+            <property name="Traits" value="Cyborg, Insect" />
+            <property name="Rarity" value="Rare" />
+            <property name="Æmber" value="1" />
+            <property name="Power" value="2" />
+            <property name="Armor" value="" />
+            <property name="Text" value="Play/Reap: Look at your opponent's hand." />
+            <property name="Number" value="149" />
+        </card>
         <card name="Replicator" id="295e00f6-d051-4a0a-8d39-cb5298d5db92">
             <property name="Type" value="Creature" />
             <property name="House" value="Logos" />
@@ -1358,7 +1478,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="2" />
             <property name="Armor" value="" />
-            <property name="Text" value="Reap: Trigger the Reap effect of another creature in play as if you control that creature" />
+            <property name="Text" value="Reap: Trigger the reap effect of another creature in play as if you control that creature. (That creature does not exhaust.)" />
             <property name="Number" value="150" />
         </card>
         <card name="Research Smoko" id="2484ee9d-ffa0-4dda-a7d6-93e7955b8061">
@@ -1369,7 +1489,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="2" />
             <property name="Armor" value="" />
-            <property name="Text" value="Destroyed: Archive the top card of your deck" />
+            <property name="Text" value="Destroyed: Archive the top card of your deck." />
             <property name="Number" value="151" />
         </card>
         <card name="Skippy Timehog" id="8d3bddfc-0601-40de-beb5-343ca187ea94">
@@ -1391,7 +1511,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="2" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Draw 2 cards. Action: Shuffle Timetraveller into your deck" />
+            <property name="Text" value="Play: Draw 2 cards\n Action: Shuffle Timetraveller into your deck." />
             <property name="Number" value="153" />
         </card>
         <card name="Titan Mechanic" id="aaaba457-fd5e-4c5e-91fb-ea4849cb1bee">
@@ -1402,7 +1522,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="6" />
             <property name="Armor" value="" />
-            <property name="Text" value="While Titan Mechanic is on a flank, each key costs -1[A]" />
+            <property name="Text" value="While Titan Mechanic is on a flank, each key costs -1[A]." />
             <property name="Number" value="154" />
         </card>
         <card name="Vespilion Theorist" id="69a08d35-e57f-4b8a-bcf2-ca388aad8ee5">
@@ -1435,7 +1555,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="This creature belongs to all houses.\nPlay: Stun and exhaust this creature" />
+            <property name="Text" value="This creature belongs to all houses.\nPlay: Stun and exhaust this creature." />
             <property name="Number" value="157" />
         </card>
         <card name="Rocket Boots" id="43a990c5-901d-463e-8941-e81e7ea82da1">
@@ -1446,7 +1566,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="This creature gains &quot;Fight/Reap: If this was the first time this creature was used this turn, ready it&quot;" />
+            <property name="Text" value="This creature gains, &quot;Fight/Reap: If this was the first time this creature was used this turn, ready it.&quot;" />
             <property name="Number" value="158" />
         </card>
 
@@ -1483,7 +1603,17 @@
             <property name="Text" value="Play: Choose a house. Reveal your opponent's hand. Discard each creature of that house revealed this way." />
             <property name="Number" value="162" />
         </card>
-
+        <card name="EMP Blast" id="d4134065-d0df-42da-b443-475f824294fc">
+            <property name="Type" value="Action" />
+            <property name="House" value="Mars" />
+            <property name="Traits" value="" />
+            <property name="Rarity" value="Uncommon" />
+            <property name="Æmber" value="1" />
+            <property name="Power" value="" />
+            <property name="Armor" value="" />
+            <property name="Text" value="Play: Each Mars creature and each Robot creature is stunned. Each artifact is destroyed." />
+            <property name="Number" value="163" />
+        </card>
         <card name="Hypnotic Command" id="fcd6150b-bc9f-44da-8275-3ac35fed8a7b">
             <property name="Type" value="Action" />
             <property name="House" value="Mars" />
@@ -1492,7 +1622,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: For each friendly Mars creature, choose an enemy creature to capture 1[A] from their own side" />
+            <property name="Text" value="Play: For each friendly Mars creature, choose an enemy creature to capture 1[A] from their own side." />
             <property name="Number" value="164" />
         </card>
         <card name="Irradiated Amber" id="5b66a3d9-b1fe-4be4-990a-feedbfbf70ec">
@@ -1503,7 +1633,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: If your opponent has 6[A] or more, deal 3 damage to each enemy creature" />
+            <property name="Text" value="Play: If your opponent has 6[A] or more, deal 3[D] to each enemy creature." />
             <property name="Number" value="165" />
         </card>
         <card name="Key Abduction" id="0437dac6-d4b5-41cb-a649-d78468149476">
@@ -1527,7 +1657,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Put up to 3 damaged enemy creatures into your archives. If any of these creatures leave your archives, they are put into their owner's hand instead" />
+            <property name="Text" value="Play: Put up to 3 damaged enemy creatures into your archives. If any of these creatures leave your archives, they are put into their owner's hand instead." />
             <property name="Number" value="169" />
         </card>
 
@@ -1542,7 +1672,17 @@
             <property name="Text" value="Play: For each friendly ready Mars creature, deal 2[D] to a creature." />
             <property name="Number" value="171" />
         </card>
-
+        <card name="Orbital Bombardment" id="be18c5fb-f776-4ef7-a30a-fcc6ac9d8018">
+            <property name="Type" value="Action" />
+            <property name="House" value="Mars" />
+            <property name="Traits" value="" />
+            <property name="Rarity" value="Uncommon" />
+            <property name="Æmber" value="1" />
+            <property name="Power" value="" />
+            <property name="Armor" value="" />
+            <property name="Text" value="Play: Reveal any number of Mars cards from your hand. For each card revealed in this way, deal 2[D] to a creature." />
+            <property name="Number" value="172" />
+        </card>
         <card name="Phosphorus Stars" id="e564299c-4d3e-4aad-adbb-a35c24b3ad41">
             <property name="Type" value="Action" />
             <property name="House" value="Mars" />
@@ -1573,7 +1713,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Put an enemy creature into your archives for each key your opponent has forged. If any of these creatures leave your archives, they are put into their owner's hand instead" />
+            <property name="Text" value="Play: Put an enemy creature into your archives for each key your opponent has forged. If any of these creatures leave your archives, they are put into their owner's hand instead." />
             <property name="Number" value="175" />
         </card>
 
@@ -1585,7 +1725,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: The next creature or artifact you play this turn enters play ready" />
+            <property name="Text" value="Play: The next creature or artifact you play this turn enters play ready." />
             <property name="Number" value="177" />
         </card>
         <card name="Squawker" id="4ca10cf9-7a91-46a0-8e44-d8e3125f8e4d">
@@ -1596,11 +1736,21 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Ready a Mars creature or stun a non-Mars creature" />
+            <property name="Text" value="Play: Ready a Mars creature or stun a non-Mars creature." />
             <property name="Number" value="178" />
         </card>
-
-        <card name="Combat Pheremoned" id="6963fb40-b6b4-4e8b-b42b-6a246b2f9331">
+        <card name="Total Recall" id="09abff99-d1fb-4299-bc22-2d0a3caed131">
+            <property name="Type" value="Action" />
+            <property name="House" value="Mars" />
+            <property name="Traits" value="" />
+            <property name="Rarity" value="Rare" />
+            <property name="Æmber" value="1" />
+            <property name="Power" value="" />
+            <property name="Armor" value="" />
+            <property name="Text" value="Play: For each friendly ready creature, gain 1[A]. Return each friendly creature to your hand." />
+            <property name="Number" value="179" />
+        </card>
+        <card name="Combat Pheremones" id="6963fb40-b6b4-4e8b-b42b-6a246b2f9331">
             <property name="Type" value="Artifact" />
             <property name="House" value="Mars" />
             <property name="Traits" value="Item" />
@@ -1611,7 +1761,17 @@
             <property name="Text" value="Omni: Sacrifice Combat Pheromones. You may use up to 2 other Mars cards this turn." />
             <property name="Number" value="180" />
         </card>
-
+        <card name="Commpod" id="22fecb1d-8d0d-4929-8370-f85d2c9d209f">
+            <property name="Type" value="Artifact" />
+            <property name="House" value="Mars" />
+            <property name="Traits" value="Item" />
+            <property name="Rarity" value="Rare" />
+            <property name="Æmber" value="0" />
+            <property name="Power" value="" />
+            <property name="Armor" value="" />
+            <property name="Text" value="Action: Reveal any number of Mars cards from your hand. For each card revealed in this way, you may ready one creature." />
+            <property name="Number" value="181" />
+        </card>
         <card name="Crystal Hive" id="bf33b739-d07c-417e-81fb-0ac380b249ab">
             <property name="Type" value="Artifact" />
             <property name="House" value="Mars" />
@@ -1620,7 +1780,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Action: For the remainder of the turn, gain 1[A] each time a creature reaps" />
+            <property name="Text" value="Action: For the remainder of the turn, gain 1[A] each time a creature reaps." />
             <property name="Number" value="182" />
         </card>
 
@@ -1632,7 +1792,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Action: Discard a creature from your hand. If you do, gain 1[A]" />
+            <property name="Text" value="Action: Discard a creature from your hand. If you do, gain 1[A]." />
             <property name="Number" value="184" />
         </card>
         <card name="Invasion Portal" id="27add674-a17b-4937-a3dc-d22bc5ff3aeb">
@@ -1643,10 +1803,20 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Action: Discard cards from the top of your deck until you discard a Mars creature or run out of cards.If you discard a Mars creature in this way, put it into your hand" />
+            <property name="Text" value="Action: Discard cards from the top of your deck until you discard a Mars creature or run out of cards.If you discard a Mars creature in this way, put it into your hand." />
             <property name="Number" value="185" />
         </card>
-
+        <card name="Incubation Chamber" id="c4459cbe-569f-44ff-af95-55ca5229072b">
+            <property name="Type" value="Artifact" />
+            <property name="House" value="Mars" />
+            <property name="Traits" value="Location" />
+            <property name="Rarity" value="Rare" />
+            <property name="Æmber" value="0" />
+            <property name="Power" value="" />
+            <property name="Armor" value="" />
+            <property name="Text" value="Omni: Reveal a Mars creature from your hand. If you do, archive it." />
+            <property name="Number" value="186" />
+        </card>
         <card name="Mothergun" id="8b49244a-84c0-4b5c-b559-2f21e1ce22e7">
             <property name="Type" value="Artifact" />
             <property name="House" value="Mars" />
@@ -1655,11 +1825,21 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Action: Reveal any number of Mars cards from your hand. Deal damage to a creature equal to the number of cards revealed this way" />
+            <property name="Text" value="Action: Reveal any number of Mars cards from your hand. Deal damage to a creature equal to the number of cards revealed this way." />
             <property name="Number" value="187" />
         </card>
 
-
+        <card name="Swap Widget" id="fadd773d-8c3f-46f2-8241-53be26064727">
+            <property name="Type" value="Artifact" />
+            <property name="House" value="Mars" />
+            <property name="Traits" value="Item" />
+            <property name="Rarity" value="Rare" />
+            <property name="Æmber" value="0" />
+            <property name="Power" value="" />
+            <property name="Armor" value="" />
+            <property name="Text" value="Action: Return a friendly ready Mars creature to your hand. If you do, put a Mars creature with a different name from your hand into play, then ready it." />
+            <property name="Number" value="189" />
+        </card>
         <card name="Blypyp" id="09cd526f-f130-4614-bddf-de8b5580add9">
             <property name="Type" value="Creature" />
             <property name="House" value="Mars" />
@@ -1668,10 +1848,20 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="2" />
             <property name="Armor" value="" />
-            <property name="Text" value="Reap: The next Mars creature you play this turn enters play ready" />
+            <property name="Text" value="Reap: The next Mars creature you play this turn enters play ready." />
             <property name="Number" value="190" />
         </card>
-
+        <card name="Chuff Ape" id="62bc0e04-21eb-48f3-8f9b-684130619b7e">
+            <property name="Type" value="Creature" />
+            <property name="House" value="Mars" />
+            <property name="Traits" value="Beast" />
+            <property name="Rarity" value="Rare" />
+            <property name="Æmber" value="0" />
+            <property name="Power" value="11" />
+            <property name="Armor" value="" />
+            <property name="Text" value="Taunt&#xd;&#xa;Chuff Ape enters play stunned.\nFight/Reap: You may sacrifice another friendly creature. If you do, fully heal Chuff Ape." />
+            <property name="Number" value="191" />
+        </card>
         <card name="Ether Spider" id="b29c74dd-bf96-4208-a5da-f2fe4642ec9d">
             <property name="Type" value="Creature" />
             <property name="House" value="Mars" />
@@ -1680,7 +1870,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="7" />
             <property name="Armor" value="" />
-            <property name="Text" value="Ether Spider deals no damage when fighting.\nEach [A] which would be added to your opponent's pool is captured by Ether Spider instead" />
+            <property name="Text" value="Ether Spider deals no damage when fighting.\nEach [A] which would be added to your opponent's pool is captured by Ether Spider instead." />
             <property name="Number" value="192" />
         </card>
         <card name="Grabber Jammer" id="a6bc9aaf-3e32-4653-9dfe-7b5622b6de4f">
@@ -1702,10 +1892,10 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="10" />
             <property name="Armor" value="" />
-            <property name="Text" value="You cannot play creatures.\nAfter an enemy creature is destroyed fighting Grommid, your opponent loses 1[Æ]." />
+            <property name="Text" value="You cannot play creatures.\nAfter an enemy creature is destroyed fighting Grommid, your opponent loses 1[A]." />
             <property name="Number" value="194" />
         </card>
-        <card name="&quot;John Smyth&quot;" id="fa5ee49d-e375-4cb5-8322-50a373b220a0">
+        <card name="John Smyth" id="fa5ee49d-e375-4cb5-8322-50a373b220a0">
             <property name="Type" value="Creature" />
             <property name="House" value="Mars" />
             <property name="Traits" value="Agent, Martian" />
@@ -1713,7 +1903,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="2" />
             <property name="Armor" value="" />
-            <property name="Text" value="Elusive&#xd;&#xa;Fight/Reap: Ready a non-Agent Mars creature" />
+            <property name="Text" value="Elusive&#xd;&#xa;Fight/Reap: Ready a non-Agent Mars creature." />
             <property name="Number" value="195" />
         </card>
         <card name="Mindwarper" id="8646da53-c6a8-4565-80df-6d69005ec0b6">
@@ -1724,7 +1914,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="2" />
             <property name="Armor" value="" />
-            <property name="Text" value="Elusive&#xd;&#xa;Action: Choose an enemy creature. It captures 1[A] from its own side" />
+            <property name="Text" value="Elusive&#xd;&#xa;Action: Choose an enemy creature. It captures 1[A] from its own side." />
             <property name="Number" value="196" />
         </card>
         <card name="Phylyx the Disintegrator" id="7e63c75a-8924-4f8a-95d1-fb1caa0194c9">
@@ -1735,7 +1925,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="1" />
             <property name="Armor" value="" />
-            <property name="Text" value="Elusive&#xd;&#xa;Action: Your opponent loses 1[A] for each other friendly Mars creature" />
+            <property name="Text" value="Elusive&#xd;&#xa;Action: Your opponent loses 1[A] for each other friendly Mars creature." />
             <property name="Number" value="197" />
         </card>
 
@@ -1747,7 +1937,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="6" />
             <property name="Armor" value="" />
-            <property name="Text" value="After you play another Mars creature, fully heal Tunk" />
+            <property name="Text" value="After you play another Mars creature, fully heal Tunk." />
             <property name="Number" value="199" />
         </card>
         <card name="Uliq Megamouth" id="01482fea-e9f7-4bf2-a09e-46d966e6b74c">
@@ -1780,7 +1970,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="3" />
             <property name="Armor" value="" />
-            <property name="Text" value="Reap: You may archive a friendly creature or artifact from play" />
+            <property name="Text" value="Reap: You may archive a friendly creature or artifact from play." />
             <property name="Number" value="202" />
         </card>
         <card name="Yxili Maurauder" id="f85f3d22-fd91-45d5-b9a0-cbf7a1b5fd22">
@@ -1791,7 +1981,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="2" />
             <property name="Armor" value="" />
-            <property name="Text" value="Yxili Maurauder gets +1 power for each [A] on it.\nPlay: Capture 1[A] for each ready Mars creature" />
+            <property name="Text" value="Yxili Maurauder gets +1 power for each [A] on it.\nPlay: Capture 1[A] for each ready Mars creature." />
             <property name="Number" value="203" />
         </card>
         <card name="Yxilo Bolter" id="7a193277-f2ef-48d8-9143-a16659c62a05">
@@ -1813,7 +2003,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="9" />
             <property name="Armor" value="1" />
-            <property name="Text" value="Taunt.&#xd;&#xa;Yxilx Dominator enters play stunned." />
+            <property name="Text" value="Taunt&#xd;&#xa;Yxilx Dominator enters play stunned." />
             <property name="Number" value="205" />
         </card>
         <card name="Zorg" id="82fb88e2-ebcf-49b7-85da-143ea17de40a">
@@ -1824,7 +2014,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="7" />
             <property name="Armor" value="" />
-            <property name="Text" value="Zorg enters play stunned.\nBefore Fight: Stun the creature Zorg fights, and each of that creature's neighbors" />
+            <property name="Text" value="Zorg enters play stunned.\nBefore Fight: Stun the creature Zorg fights, and each of that creature's neighbors." />
             <property name="Number" value="206" />
         </card>
         <card name="Zyzzix the Many" id="957aeb93-f502-46e3-9797-e5810d846376">
@@ -1835,7 +2025,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="3" />
             <property name="Armor" value="" />
-            <property name="Text" value="Fight/Reap: You may reveal a creature from your hand. If you do, archive it, and Zyzzix the Many gets 3 power tokens" />
+            <property name="Text" value="Fight/Reap: You may reveal a creature from your hand. If you do, archive it, and Zyzzix the Many gets 3 power tokens." />
             <property name="Number" value="207" />
         </card>
         <card name="Biomatrix Backup" id="1f22e016-1a4c-4625-a1be-1e55a29be6a7">
@@ -1846,7 +2036,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="This creature gains 'Destroyed: You may put this creature into its owner's archives'" />
+            <property name="Text" value="This creature gains, &quot;Destroyed: You may put this creature into its owner's archives.&quot;" />
             <property name="Number" value="208" />
         </card>
         <card name="Brain Stem Antenna" id="69f385fc-600e-4186-a92f-b1b807a81f8f">
@@ -1857,7 +2047,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="This creature gains &quot;After you play a Mars creature, ready this creature and for the remainder of the turn it belongs to house Mars&quot;" />
+            <property name="Text" value="This creature gains, &quot;After you play a Mars creature, ready this creature and for the remainder of the turn it belongs to house Mars.&quot;" />
             <property name="Number" value="209" />
         </card>
         <card name="Jammer Pack" id="25077814-7f8b-411c-8f4d-fc35836bb08c">
@@ -1868,7 +2058,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="This creature gains 'Your opponent's keys cost +2[A]'" />
+            <property name="Text" value="This creature gains, &quot;Your opponent's keys cost +2[A].&quot;" />
             <property name="Number" value="210" />
         </card>
         <card name="Red Planet Ray Gun" id="e97b5717-c881-4db5-b221-c0c0f5146e9b">
@@ -1879,7 +2069,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="This creature gains &quot;Reap: Choose a creature. Deal 1[D] to that creature for each Mars creature in play&quot;" />
+            <property name="Text" value="This creature gains, &quot;Reap: Choose a creature. Deal 1[D] to that creature for each Mars creature in play.&quot;" />
             <property name="Number" value="211" />
         </card>
         <card name="Begone" id="2f8ca98f-289e-4f15-9c69-d153166c246f">
@@ -1912,7 +2102,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: For the remainder of your turn, each creature gains &quot;Play: Deal 2[D] to an enemy creature&quot;" />
+            <property name="Text" value="Play: For the remainder of your turn, each creature gains, &quot;Play: Deal 2[D] to an enemy creature.&quot;" />
             <property name="Number" value="214" />
         </card>
         <card name="Cleansing Wave" id="c611960c-d4f8-4192-aa22-3db956dd5a3d">
@@ -1923,7 +2113,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Heal 1 damage from each creature. Gain 1[A] for each creature healed in this way" />
+            <property name="Text" value="Play: Heal 1 damage from each creature. Gain 1[A] for each creature healed in this way." />
             <property name="Number" value="215" />
         </card>
 
@@ -1936,7 +2126,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: For each creature your opponent controls in excess of you, gain 1[A]" />
+            <property name="Text" value="Play: For each creature your opponent controls in excess of you, gain 1[A]." />
             <property name="Number" value="218" />
         </card>
         <card name="Honorable Claim" id="5747c38f-01bd-4d18-a145-0184f73853be">
@@ -1947,7 +2137,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Each friendly Knight creature captures 1[A]" />
+            <property name="Text" value="Play: Each friendly Knight creature captures 1[A]." />
             <property name="Number" value="219" />
         </card>
         <card name="Inspiration" id="496d1e64-7b06-4e49-ba97-2bc7f2c9f6db">
@@ -1958,7 +2148,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Ready and use a friendly creature" />
+            <property name="Text" value="Play: Ready and use a friendly creature." />
             <property name="Number" value="220" />
         </card>
         <card name="Mighty Lance" id="cac8c655-aeb8-419b-acba-91016ac9c4e4">
@@ -1969,7 +2159,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Deal 3[D] to a creatuer and 3[D] to a neighbor of that creature." />
+            <property name="Text" value="Play: Deal 3[D] to a creature and 3[D] to a neighbor of that creature." />
             <property name="Number" value="221" />
         </card>
         <card name="Oath of Poverty" id="5cc0801c-f849-4fda-8cc0-2139ede86b08">
@@ -2002,7 +2192,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Stun each enemy creature not on a flank" />
+            <property name="Text" value="Play: Stun each enemy creature not on a flank." />
             <property name="Number" value="224" />
         </card>
         <card name="Shield of Justice" id="2b54df16-29b5-4033-ab86-6e373a2bdd3a">
@@ -2013,7 +2203,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: For the remainder of the turn, each friendly creature cannot be dealt damage" />
+            <property name="Text" value="Play: For the remainder of the turn, each friendly creature cannot be dealt damage." />
             <property name="Number" value="225" />
         </card>
         <card name="Take Hostages" id="0081e1c5-de2e-46b9-ae40-4dcfd7791b2d">
@@ -2035,7 +2225,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Choose a friendly creature to capture 2[A]" />
+            <property name="Text" value="Play: Choose a friendly creature to capture 2[A]." />
             <property name="Number" value="227" />
         </card>
 
@@ -2070,7 +2260,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Omni: Sacrifice Gorm of Omm.Destroy an artifact" />
+            <property name="Text" value="Omni: Sacrifice Gorm of Omm. Destroy an artifact." />
             <property name="Number" value="232" />
         </card>
         <card name="Hallowed Blaster" id="9ffadfce-d67e-487e-a97e-3543021e3e8c">
@@ -2092,7 +2282,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Omni: Sacrifice Potion of Invulnerability. For the remainder of the turn, each friendly creature cannot be dealt damage" />
+            <property name="Text" value="Omni: Sacrifice Potion of Invulnerability. For the remainder of the turn, each friendly creature cannot be dealt damage." />
             <property name="Number" value="234" />
         </card>
         <card name="Round Table" id="7e10b302-d728-46fa-a8b3-55af395d7373">
@@ -2103,7 +2293,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Each of your Knights gets +1 Power and gains Taunt" />
+            <property name="Text" value="Each of your Knights gets +1 power and gains taunt." />
             <property name="Number" value="235" />
         </card>
         <card name="Sigil of Brotherhood" id="eaa7d67a-c39d-4b79-ac9a-c3475d983583">
@@ -2117,7 +2307,17 @@
             <property name="Text" value="Omni: Sacrifice Sigil of Brotherhoold. For the remainder of the turn, you may use Sanctum creatures." />
             <property name="Number" value="236" />
         </card>
-
+        <card name="Whispering Reliquary" id="fcc016c2-8736-4f01-af31-45467993fbc0">
+            <property name="Type" value="Artifact" />
+            <property name="House" value="Sanctum" />
+            <property name="Traits" value="Item" />
+            <property name="Rarity" value="Uncommon" />
+            <property name="Æmber" value="0" />
+            <property name="Power" value="" />
+            <property name="Armor" value="" />
+            <property name="Text" value="Action: Return an artifact to its owner's hand." />
+            <property name="Number" value="237" />
+        </card>
         <card name="Bulwark" id="2096aaf3-552a-4881-9851-7f31e3b9d743">
             <property name="Type" value="Creature" />
             <property name="House" value="Sanctum" />
@@ -2126,7 +2326,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="4" />
             <property name="Armor" value="2" />
-            <property name="Text" value="Each of Bulwark's neighbors gains +2 Armor" />
+            <property name="Text" value="Each of Bulwark's neighbors gains +2 armor." />
             <property name="Number" value="238" />
         </card>
         <card name="Champion Anaphiel" id="179fff12-a604-4e87-9384-4f5eab483a97">
@@ -2148,7 +2348,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="6" />
             <property name="Armor" value="2" />
-            <property name="Text" value="Fight: Capture 1[A]" />
+            <property name="Text" value="Fight: Capture 1[A]." />
             <property name="Number" value="240" />
         </card>
         <card name="Commander Remiel" id="54e78427-423a-40d0-a4b3-7ae273897b3e">
@@ -2159,7 +2359,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="3" />
             <property name="Armor" value="" />
-            <property name="Text" value="Reap: Use a friendly non-Sanctum creature" />
+            <property name="Text" value="Reap: Use a friendly non-Sanctum creature." />
             <property name="Number" value="241" />
         </card>
         <card name="Duma the Martyr" id="886aa89a-3e89-4d2c-af49-12ff70b480d3">
@@ -2181,7 +2381,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="6" />
             <property name="Armor" value="1" />
-            <property name="Text" value="After an enemy creature is destroyed fighting Francus, Francus captures 1[A]" />
+            <property name="Text" value="After an enemy creature is destroyed fighting Francus, Francus captures 1[A]." />
             <property name="Number" value="243" />
         </card>
         <card name="Grey Monk" id="654e72af-3b09-4a6d-a3ec-d1ba79e72ec7">
@@ -2192,7 +2392,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="3" />
             <property name="Armor" value="" />
-            <property name="Text" value="Each friendly creature gets +1 armor. Reap: Heal 2 damage from a creature." />
+            <property name="Text" value="Each friendly creature gets +1 armor.\nReap: Heal 2 damage from a creature." />
             <property name="Number" value="244" />
         </card>
 
@@ -2204,7 +2404,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="5" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Return each Horseman from your discard pile to your hand" />
+            <property name="Text" value="Play: Return each Horseman from your discard pile to your hand." />
             <property name="Number" value="246" />
         </card>
         <card name="Horseman of Famine" id="b46a762b-efff-4b70-ad95-9508150ac6d1">
@@ -2215,7 +2415,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="5" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play/Fight/Reap: Destroy the least powerful creature" />
+            <property name="Text" value="Play/Fight/Reap: Destroy the least powerful creature." />
             <property name="Number" value="247" />
         </card>
         <card name="Horseman of Pestilence" id="ad30f48a-4a6d-44f4-b12e-6d4bd2301df2">
@@ -2226,7 +2426,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="5" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play/Fight/Reap: Deal 1[D] to each non-Horseman creature" />
+            <property name="Text" value="Play/Fight/Reap: Deal 1[D] to each non-Horseman creature." />
             <property name="Number" value="248" />
         </card>
         <card name="Horseman of War" id="4f0bec53-61e7-497b-859f-60ced385ab14">
@@ -2249,7 +2449,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="5" />
             <property name="Armor" value="2" />
-            <property name="Text" value="Play: Stun a creature. Action: Return Lady Maxena to her owner's hand" />
+            <property name="Text" value="Play: Stun a creature.\nAction: Return Lady Maxena to her owner's hand." />
             <property name="Number" value="251" />
         </card>
 
@@ -2265,17 +2465,7 @@
             <property name="Text" value="Reap: Fully heal a creature. If you do, that creature cannot be dealt damage for the remainder of the turn." />
             <property name="Number" value="254" />
         </card>
-        <card name="Raiding Knight" id="2dcd53e9-d15c-40a4-aa8f-ed8adb6c8169">
-            <property name="Type" value="Creature" />
-            <property name="House" value="Sanctum" />
-            <property name="Traits" value="Human, Knight" />
-            <property name="Rarity" value="Common" />
-            <property name="Æmber" value="0" />
-            <property name="Power" value="4" />
-            <property name="Armor" value="2" />
-            <property name="Text" value="Play: Capture 1[A]." />
-            <property name="Number" value="255" />
-        </card>
+
         <card name="Sanctum Guardian" id="b8829e77-d18f-4b1c-a693-6225c270d0dc">
             <property name="Type" value="Creature" />
             <property name="House" value="Sanctum" />
@@ -2284,7 +2474,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="6" />
             <property name="Armor" value="1" />
-            <property name="Text" value="Taunt&#xd;&#xa;Fight/Reap: Swap Sanctum Guardian with another friendly creature in your battleline" />
+            <property name="Text" value="Taunt&#xd;&#xa;Fight/Reap: Swap Sanctum Guardian with another friendly creature in your battleline." />
             <property name="Number" value="256" />
         </card>
         <card name="Sequis" id="96568ee4-5918-4dc6-b9f2-9a635cc09c32">
@@ -2306,7 +2496,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="4" />
             <property name="Armor" value="1" />
-            <property name="Text" value="Play: You may ready and fight with a neighboring creature" />
+            <property name="Text" value="Play: You may ready and fight with a neighboring creature." />
             <property name="Number" value="258" />
         </card>
         <card name="Staunch Knight" id="131aff32-6ffd-4a11-99cc-b8f980477c15">
@@ -2317,7 +2507,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="4" />
             <property name="Armor" value="2" />
-            <property name="Text" value="Staunch Knight gets +2 power while on a flank" />
+            <property name="Text" value="Staunch Knight gets +2 power while on a flank." />
             <property name="Number" value="259" />
         </card>
         <card name="Gatekeeper" id="b23c3eda-690c-46ae-b210-c7131c378c5d">
@@ -2328,7 +2518,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="5" />
             <property name="Armor" value="1" />
-            <property name="Text" value="Play: If your opponent has 7 or more [A], capture all but 5 of it" />
+            <property name="Text" value="Play: If your opponent has 7 or more [A], capture all but 5 of it." />
             <property name="Number" value="260" />
         </card>
         <card name="The Vaultkeeper" id="215961e9-e855-4b69-945b-cbe5041d0d20">
@@ -2339,11 +2529,21 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="4" />
             <property name="Armor" value="1" />
-            <property name="Text" value="Your [A] cannot be stolen" />
+            <property name="Text" value="Your [A] cannot be stolen." />
             <property name="Number" value="261" />
         </card>
 
-
+        <card name="Armageddon Cloak" id="3a500dec-ce28-40ef-8104-29f990f95080">
+            <property name="Type" value="Upgrade" />
+            <property name="House" value="Sanctum" />
+            <property name="Traits" value="" />
+            <property name="Rarity" value="Rare" />
+            <property name="Æmber" value="1" />
+            <property name="Power" value="" />
+            <property name="Armor" value="" />
+            <property name="Text" value="This creature gains hazardous 2 and &quot;Destroyed: Fully heal this creature and destroy Armageddon Cloak instead.&quot;" />
+            <property name="Number" value="263" />
+        </card>
 
         <card name="Protect the Weak" id="7b5fb869-cd70-4363-89e6-eba8cc5e02b3">
             <property name="Type" value="Upgrade" />
@@ -2353,7 +2553,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="This creature gains +1 Armor and gains Taunt" />
+            <property name="Text" value="This creature gains +1 armor and gains taunt." />
             <property name="Number" value="265" />
         </card>
         <card name="Shoulder Armor" id="c1293ac1-290d-4f43-8221-7081ef7e65b2">
@@ -2397,7 +2597,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Destroy a damaged creature. If you do, steal 1[A]" />
+            <property name="Text" value="Play: Destroy a damaged creature. If you do, steal 1[A]." />
             <property name="Number" value="269" />
         </card>
         <card name="Ghostly Hand" id="264822f7-5a68-4095-be34-14fea4e779c8">
@@ -2419,7 +2619,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Archive a card" />
+            <property name="Text" value="Play: Archive a card." />
             <property name="Number" value="271" />
         </card>
         <card name="Imperial Traitor" id="2ad13f33-8f29-4ed3-8552-3ea87647452d">
@@ -2519,7 +2719,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Deal 2[D] to a creature. If this damage destroys that creature, steal 1[A]" />
+            <property name="Text" value="Play: Deal 2[D] to a creature. If this damage destroys that creature, steal 1[A]." />
             <property name="Number" value="281" />
         </card>
         <card name="Routine Job" id="8bb5e70a-7e84-4804-9d3c-875644e1f1b3">
@@ -2555,7 +2755,17 @@
             <property name="Text" value="Play: If you have not played any cards this turn, gain 3[A]. For the remainder of this turn, you cannot play cards." />
             <property name="Number" value="284" />
         </card>
-
+        <card name="Customs Office" id="8fa1554e-a6cc-46e7-99c1-2e7a923adec8">
+            <property name="Type" value="Artifact" />
+            <property name="House" value="Shadows" />
+            <property name="Traits" value="Location" />
+            <property name="Rarity" value="Rare" />
+            <property name="Æmber" value="0" />
+            <property name="Power" value="" />
+            <property name="Armor" value="" />
+            <property name="Text" value="You opponent must pay you 1[A] in order to play an artifact." />
+            <property name="Number" value="285" />
+        </card>
         <card name="Evasion Sigil" id="a9b31b75-19fa-4886-a032-177a96dc5040">
             <property name="Type" value="Artifact" />
             <property name="House" value="Shadows" />
@@ -2575,7 +2785,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Omni: Sacrifice Longfused Mines. Deal 3[D] to each enemy creature not on a flank" />
+            <property name="Text" value="Omni: Sacrifice Longfused Mines. Deal 3[D] to each enemy creature not on a flank." />
             <property name="Number" value="287" />
         </card>
         <card name="Masterplan" id="1d499bfd-e724-4a25-9ba5-5da6f2e72285">
@@ -2630,7 +2840,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Omni: Sacrifice Special Delivery. Deal ?[D] to a flank creature. If this damage destroys that creature, purge it." />
+            <property name="Text" value="Omni: Sacrifice Special Delivery. Deal 3[D] to a flank creature. If this damage destroys that creature, purge it." />
             <property name="Number" value="292" />
         </card>
         <card name="Speed Sigil" id="7450c5f2-07f3-4b93-9e0a-d692545efad8">
@@ -2641,7 +2851,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="The first creature played each turn enters play ready" />
+            <property name="Text" value="The first creature played each turn enters play ready." />
             <property name="Number" value="293" />
         </card>
         <card name="Subtle Maul" id="f7a0a18c-122f-4e0b-adde-2383e2d1b17f">
@@ -2652,7 +2862,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Action: Your opponent discards a random card from their hand" />
+            <property name="Text" value="Action: Your opponent discards a random card from their hand." />
             <property name="Number" value="294" />
         </card>
         <card name="The Sting" id="3f798e26-0cbe-49b8-b61c-764fb42b927e">
@@ -2663,7 +2873,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Skip your Key Step.\nYou get all [A] spent by your opponent when forging keys.\nAction: Sacrifice The Sting" />
+            <property name="Text" value="Skip your Key Step.\nYou get all [A] spent by your opponent when forging keys.\nAction: Sacrifice The Sting." />
             <property name="Number" value="295" />
         </card>
         <card name="Bad Penny" id="0328118f-01cf-4766-a4dd-0eeb31e4166f">
@@ -2698,7 +2908,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="3" />
             <property name="Armor" value="" />
-            <property name="Text" value="Elusive&#xd;&#xa;Reap: Return an Urchin from play or your discard to your hand" />
+            <property name="Text" value="Elusive&#xd;&#xa;Reap: Return an Urchin from play or your discard to your hand." />
             <property name="Number" value="300" />
         </card>
         <card name="Macis Asp" id="2e5dfa44-0903-4965-bcdb-87c709c46095">
@@ -2720,7 +2930,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="3" />
             <property name="Armor" value="" />
-            <property name="Text" value="Elusive&#xd;&#xa;You may use Mack the Knife as if it belonged to the active house.\nAction: Deal 1[D] to a creature. If this damage destroys that creature, gain 1[A]" />
+            <property name="Text" value="Elusive&#xd;&#xa;You may use Mack the Knife as if it belonged to the active house.\nAction: Deal 1[D] to a creature. If this damage destroys that creature, gain 1[A]." />
             <property name="Number" value="302" />
         </card>
         <card name="Magda the Rat" id="5e36ff16-b84a-4311-ad47-dff568440752">
@@ -2731,7 +2941,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="4" />
             <property name="Armor" value="" />
-            <property name="Text" value="Elusive&#xd;&#xa;Play: Steal 2[A]. Leaves Play: Your opponent steals 2[A]." />
+            <property name="Text" value="Elusive&#xd;&#xa;Play: Steal 2[A].\nLeaves Play: Your opponent steals 2[A]." />
             <property name="Number" value="303" />
         </card>
         <card name="Mooncurser" id="1258d411-8db1-447e-bd3f-d198d5357059">
@@ -2753,7 +2963,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="3" />
             <property name="Armor" value="" />
-            <property name="Text" value="Elusive&#xd;&#xa;Reap: Use an opponent's artifact as if it were yours" />
+            <property name="Text" value="Elusive&#xd;&#xa;Reap: Use an opponent's artifact as if it were yours." />
             <property name="Number" value="305" />
         </card>
         <card name="Noddy the Thief" id="3a1a35bb-9d66-4838-8c73-1c392b90b667">
@@ -2798,7 +3008,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="9" />
             <property name="Armor" value="" />
-            <property name="Text" value="Shadow Self deals no damage when fighting. Damage dealt to non-Specter neighbors is dealt to Shadow Self instead." />
+            <property name="Text" value="Shadow Self deals no damage when fighting.\nDamage dealt to non-Specter neighbors is dealt to Shadow Self instead." />
             <property name="Number" value="310" />
         </card>
         <card name="Silvertooth" id="34e6d4d4-2ff4-4e91-b05b-7a0c3687aebc">
@@ -2842,7 +3052,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="2" />
             <property name="Armor" value="" />
-            <property name="Text" value="Skirmish&#xd;&#xa;Fight: Steal 1[A]" />
+            <property name="Text" value="Skirmish&#xd;&#xa;Fight: Steal 1[A]." />
             <property name="Number" value="314" />
         </card>
         <card name="Urchin" id="e9aaf42a-cb6f-414e-9e67-d78fffdd28b8">
@@ -2864,7 +3074,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="This creature gains 'Reap: Steal 1[A]'" />
+            <property name="Text" value="This creature gains, &quot;Reap: Steal 1[A].&quot;" />
             <property name="Number" value="316" />
         </card>
         <card name="Ring of Invisibility" id="58a6cc8b-747f-4f31-98d7-2eb15d0fda0e">
@@ -2875,7 +3085,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="This creature gains Elusive and Skirmish" />
+            <property name="Text" value="This creature gains elusive and skirmish." />
             <property name="Number" value="317" />
         </card>
         <card name="Silent Dagger" id="2603ac02-0d11-4af6-a072-7442ec33f5c1">
@@ -2886,7 +3096,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="This creature gains&quot;Reap: Deal 4[D] to a flank creature&quot;" />
+            <property name="Text" value="This creature gains, &quot;Reap: Deal 4[D] to a flank creature.&quot;" />
             <property name="Number" value="318" />
         </card>
         <card name="Cooperative Hunting" id="bb93da7a-1952-4920-9cb1-59fe59ef044c">
@@ -2930,7 +3140,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Your opponent cannot use creatures to fight on their next turn" />
+            <property name="Text" value="Play: Your opponent cannot use creatures to fight on their next turn." />
             <property name="Number" value="322" />
         </card>
         <card name="Full Moon" id="f89984f1-823a-4f0f-9041-54aef26f9102">
@@ -2941,7 +3151,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: For the remainder of the turn, gain 1[A] each time you play a creature" />
+            <property name="Text" value="Play: For the remainder of the turn, gain 1[A] each time you play a creature." />
             <property name="Number" value="323" />
         </card>
         <card name="Grasping Vines" id="f1b2445c-9a36-4892-827b-13d1b9a45679">
@@ -2952,7 +3162,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Return up to 3 artifacts to their owners' hand" />
+            <property name="Text" value="Play: Return up to 3 artifacts to their owners' hands." />
             <property name="Number" value="324" />
         </card>
         <card name="Key Charge" id="5b22764d-a2a1-4157-8850-06ec09ab024d">
@@ -2966,7 +3176,17 @@
             <property name="Text" value="Play: Lose 1[A]. If you do, you may forge a key at current cost." />
             <property name="Number" value="325" />
         </card>
-
+        <card name="Lifeweb" id="2c87847a-bc58-4b15-b07e-a518c03e2cdf">
+            <property name="Type" value="Action" />
+            <property name="House" value="Untamed" />
+            <property name="Traits" value="" />
+            <property name="Rarity" value="Uncommon" />
+            <property name="Æmber" value="1" />
+            <property name="Power" value="" />
+            <property name="Armor" value="" />
+            <property name="Text" value="Play: If your opponent played 3 or more creatures on their previous turn, steal 2[A]." />
+            <property name="Number" value="326" />
+        </card>
         <card name="Lost in the Woods" id="1ea740e0-417b-4909-a1b1-3b58ae9150c2">
             <property name="Type" value="Action" />
             <property name="House" value="Untamed" />
@@ -2975,11 +3195,21 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Choose 2 friendly and 2 enemy creatures. Shuffle each chosen creature into its owner's deck" />
+            <property name="Text" value="Play: Choose 2 friendly and 2 enemy creatures. Shuffle each chosen creature into its owner's deck." />
             <property name="Number" value="327" />
         </card>
 
-
+        <card name="Nature's Call" id="5a724799-5a9a-48c6-928f-15d244054ffb">
+            <property name="Type" value="Action" />
+            <property name="House" value="Untamed" />
+            <property name="Traits" value="" />
+            <property name="Rarity" value="Uncommon" />
+            <property name="Æmber" value="1" />
+            <property name="Power" value="" />
+            <property name="Armor" value="" />
+            <property name="Text" value="Play: Return up to 3 creatures to their owner's hand." />
+            <property name="Number" value="329" />
+        </card>
         <card name="Nocturnal Maneuver" id="ce487a4a-d0d7-4246-9b41-69c465d98d8d">
             <property name="Type" value="Action" />
             <property name="House" value="Untamed" />
@@ -2991,7 +3221,17 @@
             <property name="Text" value="Play: Exhaust up to 3 creatures." />
             <property name="Number" value="330" />
         </card>
-
+        <card name="Perilous Wild" id="6b57dca9-ad05-4b20-9ecb-2cb5208bebd3">
+            <property name="Type" value="Action" />
+            <property name="House" value="Untamed" />
+            <property name="Traits" value="" />
+            <property name="Rarity" value="Rare" />
+            <property name="Æmber" value="1" />
+            <property name="Power" value="" />
+            <property name="Armor" value="" />
+            <property name="Text" value="Play: Destroy each Elusive creature." />
+            <property name="Number" value="331" />
+        </card>
         <card name="Regrowth" id="776d9cf3-5be9-4328-8136-cf2a043b55c8">
             <property name="Type" value="Action" />
             <property name="House" value="Untamed" />
@@ -3000,7 +3240,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Return a creature from your discard pile to your hand" />
+            <property name="Text" value="Play: Return a creature from your discard pile to your hand." />
             <property name="Number" value="332" />
         </card>
         <card name="Save the Pack" id="b156a963-7c47-485b-bc0f-70db09bdc9b7">
@@ -3011,10 +3251,20 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Destroy each damaged creature. Gain 1 chain" />
+            <property name="Text" value="Play: Destroy each damaged creature. Gain 1 chain." />
             <property name="Number" value="333" />
         </card>
-
+        <card name="Scout" id="7b58c75e-536a-4ebc-9e11-1c4acef3996e">
+            <property name="Type" value="Action" />
+            <property name="House" value="Untamed" />
+            <property name="Traits" value="" />
+            <property name="Rarity" value="Rare" />
+            <property name="Æmber" value="1" />
+            <property name="Power" value="" />
+            <property name="Armor" value="" />
+            <property name="Text" value="Play: For the remainder of the turn, up to 2 friendly creatures gain Skirmish. Then, fight with those creatures one at a time." />
+            <property name="Number" value="334" />
+        </card>
         <card name="Stampede" id="fa270516-e2ee-4200-8ed8-3151fbcecf65">
             <property name="Type" value="Action" />
             <property name="House" value="Untamed" />
@@ -3023,10 +3273,20 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: If you used 3 or more creatures this turn, steal 2[A]" />
+            <property name="Text" value="Play: If you used 3 or more creatures this turn, steal 2[A]." />
             <property name="Number" value="335" />
         </card>
-
+        <card name="The Common Cold" id="c47b0930-a6cb-4037-8b1d-7c2292922798">
+            <property name="Type" value="Action" />
+            <property name="House" value="Untamed" />
+            <property name="Traits" value="" />
+            <property name="Rarity" value="Rare" />
+            <property name="Æmber" value="1" />
+            <property name="Power" value="" />
+            <property name="Armor" value="" />
+            <property name="Text" value="Play: Deal 1[D] to each creature. You may destroy all Mars creatures." />
+            <property name="Number" value="336" />
+        </card>
         <card name="Troop Call" id="46406d46-39ad-4fed-b4ba-b467a44b7725">
             <property name="Type" value="Action" />
             <property name="House" value="Untamed" />
@@ -3035,7 +3295,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Return each friendly Niffle creature from your discard pile and from play to your hand" />
+            <property name="Text" value="Play: Return each friendly Niffle creature from your discard pile and from play to your hand." />
             <property name="Number" value="337" />
         </card>
         <card name="Vigor" id="369c2b9e-ffa4-4928-b2fd-f94b4c80893a">
@@ -3046,7 +3306,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Heal up to 3 damage from a creature. If you healed 3 damage, gain 1[A]" />
+            <property name="Text" value="Play: Heal up to 3 damage from a creature. If you healed 3 damage, gain 1[A]." />
             <property name="Number" value="338" />
         </card>
         <card name="Word of Returning" id="539e946c-9903-47ed-9c16-096345109b06">
@@ -3057,7 +3317,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Deal 1D to each enemy creature for each A on it. Return all A on those creatures to your pool." />
+            <property name="Text" value="Play: Deal 1[D] to each enemy creature for each [A] on it. Return all [A] on those creatures to your pool." />
             <property name="Number" value="339" />
         </card>
         <card name="Bear Flute" id="239e367b-3b7f-4656-b22b-babd4f874709">
@@ -3079,7 +3339,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Omni: Sacrifice Nepenthe Seed. Return a card from your discard pile to your hand" />
+            <property name="Text" value="Omni: Sacrifice Nepenthe Seed. Return a card from your discard pile to your hand." />
             <property name="Number" value="341" />
         </card>
         <card name="Ritual of Balance" id="2d1b872b-9dcb-49c1-9606-3e0ac6e610e5">
@@ -3090,7 +3350,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="Action: If your opponent has 6[A] or more, steal 1[A]" />
+            <property name="Text" value="Action: If your opponent has 6[A] or more, steal 1[A]." />
             <property name="Number" value="342" />
         </card>
 
@@ -3103,7 +3363,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="5" />
             <property name="Armor" value="" />
-            <property name="Text" value="Assault:2" />
+            <property name="Text" value="Assault 2" />
             <property name="Number" value="345" />
         </card>
         <card name="Bigtwig" id="9966418b-ba5f-4e58-a2ce-268175ce3e54">
@@ -3114,7 +3374,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="7" />
             <property name="Armor" value="" />
-            <property name="Text" value="Bigtwig can only fight stunned creatures.\nReap: Stun and exhaust a creature" />
+            <property name="Text" value="Bigtwig can only fight stunned creatures.\nReap: Stun and exhaust a creature." />
             <property name="Number" value="346" />
         </card>
         <card name="Witch of the Wilds" id="29719bbc-ab1c-43ab-be4a-cffd1c818d64">
@@ -3125,11 +3385,21 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="4" />
             <property name="Armor" value="" />
-            <property name="Text" value="During each turn in which Untamed is not your active house, you may play one untamed card." />
+            <property name="Text" value="During each turn in which Untamed is not your active house, you may play one Untamed card." />
             <property name="Number" value="347" />
         </card>
 
-
+        <card name="Chota Hazri" id="67942517-7508-4e07-89a2-a0f6f9605308">
+            <property name="Type" value="Creature" />
+            <property name="House" value="Untamed" />
+            <property name="Traits" value="Human, Witch" />
+            <property name="Rarity" value="Uncommon" />
+            <property name="Æmber" value="0" />
+            <property name="Power" value="3" />
+            <property name="Armor" value="" />
+            <property name="Text" value="Play: Lose 1[A]. If you do, you may forge a key at current cost." />
+            <property name="Number" value="349" />
+        </card>
         <card name="Dew Faerie" id="a881c8b6-1da7-4533-b24e-2085771b41fe">
             <property name="Type" value="Creature" />
             <property name="House" value="Untamed" />
@@ -3138,7 +3408,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="2" />
             <property name="Armor" value="" />
-            <property name="Text" value="Elusive&#xd;&#xa;Reap: Gain 1[A]" />
+            <property name="Text" value="Elusive&#xd;&#xa;Reap: Gain 1[A]." />
             <property name="Number" value="350" />
         </card>
 
@@ -3150,7 +3420,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="4" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Gain 2[A] if you control more creatures than your opponent" />
+            <property name="Text" value="Play: Gain 2[A] if you control more creatures than your opponent." />
             <property name="Number" value="352" />
         </card>
         <card name="Fuzzy Gruen" id="0eea55f4-dcdd-4bfd-87ba-cd58e22cf3e9">
@@ -3161,7 +3431,7 @@
             <property name="Æmber" value="2" />
             <property name="Power" value="5" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Your opponent gains 1[A]" />
+            <property name="Text" value="Play: Your opponent gains 1[A]." />
             <property name="Number" value="353" />
         </card>
 
@@ -3173,7 +3443,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="4" />
             <property name="Armor" value="" />
-            <property name="Text" value="Each friendly flank creature gains Skirmish" />
+            <property name="Text" value="Each friendly flank creature gains skirmish." />
             <property name="Number" value="355" />
         </card>
         <card name="Inka the Spider" id="e45df45f-0d60-47a1-9b8c-2054108bf751">
@@ -3184,7 +3454,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="1" />
             <property name="Armor" value="" />
-            <property name="Text" value="Poison&#xd;&#xa;Play/Reap: Stun a creature" />
+            <property name="Text" value="Poison&#xd;&#xa;Play/Reap: Stun a creature." />
             <property name="Number" value="356" />
         </card>
 
@@ -3199,7 +3469,17 @@
             <property name="Text" value="Skirmish" />
             <property name="Number" value="358" />
         </card>
-
+        <card name="Lupo the Scarred" id="d03bf863-dca0-4c69-850b-13487f0b9217">
+            <property name="Type" value="Creature" />
+            <property name="House" value="Untamed" />
+            <property name="Traits" value="Beast" />
+            <property name="Rarity" value="Rare" />
+            <property name="Æmber" value="0" />
+            <property name="Power" value="6" />
+            <property name="Armor" value="" />
+            <property name="Text" value="Skirmish&#xd;&#xa;Play: Deal 2[D] to an enemy creature." />
+            <property name="Number" value="359" />
+        </card>
         <card name="Mighty Tiger" id="3b73855a-e138-458e-9b73-a5fad21dfb13">
             <property name="Type" value="Creature" />
             <property name="House" value="Untamed" />
@@ -3208,7 +3488,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="4" />
             <property name="Armor" value="" />
-            <property name="Text" value="Play: Deal 4D to an enemy creature" />
+            <property name="Text" value="Play: Deal 4[D] to an enemy creature." />
             <property name="Number" value="360" />
         </card>
         <card name="Murmook" id="0aaffc1d-5b58-4a2e-9f94-58cae984362a">
@@ -3219,7 +3499,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="3" />
             <property name="Armor" value="" />
-            <property name="Text" value="Your opponent's keys cost +1[A]" />
+            <property name="Text" value="Your opponent's keys cost +1[A]." />
             <property name="Number" value="361" />
         </card>
         <card name="Mushroom Man" id="9fdd688e-5400-4bb2-b491-a246529f41de">
@@ -3230,7 +3510,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="2" />
             <property name="Armor" value="" />
-            <property name="Text" value="Mushroom Man gets +3 power for each unforged key you have" />
+            <property name="Text" value="Mushroom Man gets +3 power for each unforged key you have." />
             <property name="Number" value="362" />
         </card>
         <card name="Niffle Ape" id="f82e82aa-563f-4fc1-acdf-e94e5be8f052">
@@ -3241,7 +3521,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="3" />
             <property name="Armor" value="" />
-            <property name="Text" value="While Niffle Ape is attacking, ignore Taunt and Elusive" />
+            <property name="Text" value="While Niffle Ape is attacking, ignore taunt and elusive." />
             <property name="Number" value="363" />
         </card>
         <card name="Niffle Queen" id="b42e8fb7-0846-49b0-aadd-8679330f2423">
@@ -3275,7 +3555,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="2" />
             <property name="Armor" value="" />
-            <property name="Text" value="Each time you play another creature, gain 1[A]" />
+            <property name="Text" value="Each time you play another creature, gain 1[A]." />
             <property name="Number" value="367" />
         </card>
         <card name="Witch of the Eye" id="6af2cde4-ff15-4e18-9726-64e5fa2f9035">
@@ -3297,7 +3577,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="This creature gains Assault: 2" />
+            <property name="Text" value="This creature gains assault 2." />
             <property name="Number" value="369" />
         </card>
         <card name="Way of the Wolf" id="146bae0e-c210-4a0d-bd7a-82d0cbc468ae">
@@ -3308,7 +3588,7 @@
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="This creature gains Skirmish" />
+            <property name="Text" value="This creature gains skirmish." />
             <property name="Number" value="370" />
         </card>
     </cards>

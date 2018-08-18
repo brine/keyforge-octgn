@@ -1,7 +1,9 @@
-﻿AttackerColor = "#FF0000"
-DefenderColor = "#00FF00"
+﻿StunColor = "#ffff00"
+
 DamageMarker = ("Damage", "bbc64689-67f3-4378-b2f0-d22a3829459c")
 AemberMarker = ("Æmber", "6f12fd99-6f04-4483-9786-44ff654c8a25")
+PowerMarker = ("Power", "51729c8c-fa02-40d8-bf46-e16de8f6ec14")
+
 Houses = ["Mars", "Dis", "Brobnar", "Sanctum", "Untamed", "Shadows", "Logos"]
 
 BlueKeyToken = "e6fb13af-e30d-409b-8f6c-b4bfb13aea61"
@@ -123,26 +125,47 @@ def reap(card, x = 0, y = 0):
     mute()
     if card.orientation == Rot0:
         card.orientation = Rot90
-        me.Æmber += 1
-        notify("{}'s {} reaps.".format(me, card))
+        if card.highlight == StunColor:
+            card.highlight = None
+            notify("{} removes stun from {} (from Action.)".format(me, card))
+        else:
+            me.Æmber += 1
+            notify("{}'s {} reaps.".format(me, card))
 
 def action(card, x = 0, y = 0):
     mute()
     if card.orientation == Rot0:
         card.orientation = Rot90
-        notify("{}'s {} uses its action.".format(me, card))
+        if card.highlight == StunColor:
+            card.highlight = None
+            notify("{} removes stun from {} (from Action.)".format(me, card))
+        else:
+            notify("{}'s {} uses its action.".format(me, card))
 
 def fight(card, x = 0, y = 0):
     mute()
     if card.orientation == Rot0:
         card.orientation = Rot90
-        targets = [c for c in table if c.targetedBy == me]
-        if len(targets) == 1:
-            target = targets[0]
-            card.arrow(target)
-            notify("{}'s {} fights {}'s {}.".format(card.controller, card, target.controller, target))
+        if card.highlight == StunColor:
+            card.highlight = None
+            notify("{} removes stun from {} (from Action.)".format(me, card))
         else:
-            notify("{}'s {} fights.".format(card.controller, card))
+            targets = [c for c in table if c.targetedBy == me]
+            if len(targets) == 1:
+                target = targets[0]
+                card.arrow(target)
+                notify("{}'s {} fights {}'s {}.".format(card.controller, card, target.controller, target))
+            else:
+                notify("{}'s {} fights.".format(card.controller, card))
+
+def stun(card, x = 0, y = 0):
+    mute()
+    if card.highlight == StunColor:
+        card.highlight = None
+        notify("{} removes stun from {}.".format(me, card))
+    else:
+        card.highlight = StunColor
+        notify("{} stuns {}.".format(me, card))
 
 def addAember(card, x = 0, y = 0):
     mute()
@@ -158,6 +181,21 @@ def clearAember(card, x = 0, y = 0):
     mute()
     card.markers[AemberMarker] = 0
     notify("{} removes all Æmber from {}.".format(me, card))
+    
+def addPower(card, x = 0, y = 0):
+    mute()
+    card.markers[PowerMarker] += 1
+    notify("{} adds 1 Power token on {}.".format(me, card))
+    
+def removePower(card, x = 0, y = 0):
+    mute()
+    card.markers[PowerMarker] -= 1
+    notify("{} removes 1 Power token from {}.".format(me, card))
+
+def clearPower(card, x = 0, y = 0):
+    mute()
+    card.markers[PowerMarker] = 0
+    notify("{} removes all Power token from {}.".format(me, card))
     
 def addDamage(card, x = 0, y = 0):
     mute()
