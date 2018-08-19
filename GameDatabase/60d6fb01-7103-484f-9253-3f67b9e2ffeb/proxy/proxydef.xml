@@ -64,8 +64,13 @@
             <text color="#FFFFFF" size="12"/>
             <border color="#000000" size="1"/>
         </block>
+        <block type="text" id="artifact_traits">
+            <location x="34" y="250" />
+            <text color="#000000" size="14"/>
+            <wordwrap width="325" height="24" align="center" shrinktofit="True"/>
+        </block>
         <block type="text" id="attach_type">
-            <location x="164" y="64" />
+            <location x="171" y="64" />
             <text color="#FFFFFF" size="12"/>
             <border color="#000000" size="1"/>
         </block>
@@ -82,14 +87,29 @@
             <wordwrap width="40" height="40" align="center" valign="center" />
         </block>
         <block type="text" id="action_text">
-            <location x="34" y="278" />
-            <text color="#000000" size="18"/>
-            <wordwrap width="325" height="249" valign="center" shrinktofit="True"/>
+            <location x="34" y="300" />
+            <text color="#000000" size="20"/>
+            <wordwrap width="320" height="225" valign="center" shrinktofit="True"/>
+        </block>
+        <block type="text" id="artifact_text">
+            <location x="34" y="280" />
+            <text color="#000000" size="20"/>
+            <wordwrap width="320" height="245" valign="center" shrinktofit="True"/>
+        </block>
+        <block type="text" id="action_traits">
+            <location x="34" y="280" />
+            <text color="#000000" size="14"/>
+            <wordwrap width="325" height="24" align="center" shrinktofit="True"/>
         </block>
         <block type="text" id="attach_text">
-            <location x="34" y="106" />
-            <text color="#000000" size="18"/>
-            <wordwrap width="325" height="208" valign="center" shrinktofit="True"/>
+            <location x="44" y="110" />
+            <text color="#000000" size="20"/>
+            <wordwrap width="315" height="205" valign="center" shrinktofit="True"/>
+        </block>
+        <block type="text" id="attach_traits">
+            <location x="44" y="90" />
+            <text color="#000000" size="14"/>
+            <wordwrap width="310" height="35" align="center" shrinktofit="True"/>
         </block>
     </blocks>
     
@@ -123,6 +143,9 @@
             <link block="action_type">
                 <property name="Type"/>
             </link>
+            <link block="action_traits">
+                <property name="Traits"/>
+            </link>
         </textblocks>
     </template>
     
@@ -149,8 +172,11 @@
             <link block="artifact_name">
                 <property name="Name"/>
             </link>
-            <link block="action_text">
+            <link block="artifact_text">
                 <property name="Text"/>
+            </link>
+            <link block="artifact_traits">
+                <property name="Traits"/>
             </link>
             <link block="artifact_type">
                 <property name="Type"/>
@@ -184,6 +210,9 @@
             <link block="attach_text">
                 <property name="Text"/>
             </link>
+            <link block="attach_traits">
+                <property name="Traits"/>
+            </link>
             <link block="attach_type">
                 <property name="Type"/>
             </link>
@@ -213,6 +242,9 @@
         <textblocks>
             <link block="action_text">
                 <property name="Text"/>
+            </link>
+            <link block="action_traits">
+                <property name="Traits"/>
             </link>
             <link block="creature_type">
                 <property name="Type"/>
