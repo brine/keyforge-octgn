@@ -93,6 +93,9 @@
             <groupaction menu="View Archives" default="True" execute="viewGroup"/>
             <groupaction menu="Move Archives to Hand" execute="drawArchives"/>
         </group>
+        <group name="Purge" visibility="all" icon="symbols/discard.png" shortcut="ctrl+P" >
+            <groupaction menu="View Purge" default="True" execute="viewGroup"/>
+        </group>
     </player>
     <deck>
         <section name="Cards" group="Deck"/>

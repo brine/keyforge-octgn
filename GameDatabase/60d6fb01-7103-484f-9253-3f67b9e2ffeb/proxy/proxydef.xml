@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <templates>    
     <blocks>
+		<block type="overlay" id="dummy" src="proxy/images/dummy.png"><location x="0" y="0" /></block>
 		<block type="overlay" id="mars_action" src="proxy/images/marsaction.png"><location x="0" y="0" /></block>
 		<block type="overlay" id="mars_attach" src="proxy/images/marsattach.png"><location x="0" y="0" /></block>
 		<block type="overlay" id="mars_creature" src="proxy/images/marscreature.png"><location x="0" y="0" /></block>
@@ -29,6 +30,7 @@
 		<block type="overlay" id="brobnar_attach" src="proxy/images/brobnarattach.png"><location x="0" y="0" /></block>
 		<block type="overlay" id="brobnar_creature" src="proxy/images/brobnarcreature.png"><location x="0" y="0" /></block>
 		<block type="overlay" id="brobnar_artifact" src="proxy/images/brobnarartifact.png"><location x="0" y="0" /></block>
+		<block type="overlay" id="aember" src="proxy/images/aember.png"><location x="20" y="90" /></block>
         
         
         <block type="text" id="action_name">
@@ -75,10 +77,10 @@
             <border color="#000000" size="1"/>
         </block>
         <block type="text" id="creature_power">
-            <location x="34" y="227" />
+            <location x="30" y="225" />
             <text color="#FFFFFF" size="40"/>
             <border color="#000000" size="2"/>
-            <wordwrap width="40" height="40" align="center" valign="center" />
+            <wordwrap width="45" height="45" align="center" valign="center" shrinktofit="True" />
         </block>
         <block type="text" id="creature_shield">
             <location x="323" y="225" />
@@ -102,14 +104,20 @@
             <wordwrap width="325" height="24" align="center" shrinktofit="True"/>
         </block>
         <block type="text" id="attach_text">
-            <location x="44" y="110" />
+            <location x="50" y="115" />
             <text color="#000000" size="20"/>
-            <wordwrap width="315" height="205" valign="center" shrinktofit="True"/>
+            <wordwrap width="309" height="200" valign="near" shrinktofit="True"/>
         </block>
         <block type="text" id="attach_traits">
             <location x="44" y="90" />
             <text color="#000000" size="14"/>
             <wordwrap width="310" height="35" align="center" shrinktofit="True"/>
+        </block>
+        <block type="text" id="aember_value">
+            <location x="25" y="95" />
+            <text color="#FFFFFF" size="24"/>
+            <border color="#000000" size="2"/>
+            <wordwrap width="30" height="30" valign="center" align="center" shrinktofit="True" />
         </block>
     </blocks>
     
@@ -130,10 +138,22 @@
 					<case value="Untamed"><link block="untamed_action" /></case>
 					<case value="Shadows"><link block="shadows_action" /></case>
 				</switch>
-			</conditional>   
+			</conditional>
+            <conditional>
+                <switch property="Æmber">
+                    <case value="#NULL#" break="True">
+                        <link block="dummy" /></case>
+                    <default>
+                        <link block="aember" />
+                    </default>
+                </switch>
+            </conditional>
         </overlayblocks>
         
-        <textblocks>            
+        <textblocks>      
+            <link block="aember_value">
+                <property name="Æmber"/>
+            </link>      
             <link block="action_name">
                 <property name="Name"/>
             </link>
@@ -166,9 +186,21 @@
 					<case value="Shadows"><link block="shadows_artifact" /></case>
 				</switch>
 			</conditional>   
+            <conditional>
+                <switch property="Æmber">
+                    <case value="#NULL#" break="True">
+                        <link block="dummy" /></case>
+                    <default>
+                        <link block="aember" />
+                    </default>
+                </switch>
+            </conditional>
         </overlayblocks>
         
         <textblocks>            
+            <link block="aember_value">
+                <property name="Æmber"/>
+            </link>
             <link block="artifact_name">
                 <property name="Name"/>
             </link>
@@ -201,9 +233,21 @@
 					<case value="Shadows"><link block="shadows_attach" /></case>
 				</switch>
 			</conditional>   
+            <conditional>
+                <switch property="Æmber">
+                    <case value="#NULL#" break="True">
+                        <link block="dummy" /></case>
+                    <default>
+                        <link block="aember" />
+                    </default>
+                </switch>
+            </conditional>
         </overlayblocks>
         
-        <textblocks>            
+        <textblocks>
+            <link block="aember_value">
+                <property name="Æmber"/>
+            </link>
             <link block="artifact_name">
                 <property name="Name"/>
             </link>
@@ -236,10 +280,22 @@
 					<case value="Untamed"><link block="untamed_creature" /></case>
 					<case value="Shadows"><link block="shadows_creature" /></case>
 				</switch>
-			</conditional>   
+			</conditional>
+            <conditional>
+                <switch property="Æmber">
+                    <case value="#NULL#" break="True">
+                        <link block="dummy" /></case>
+                    <default>
+                        <link block="aember" />
+                    </default>
+                </switch>
+            </conditional>
         </overlayblocks>
         
         <textblocks>
+            <link block="aember_value">
+                <property name="Æmber"/>
+            </link>
             <link block="action_text">
                 <property name="Text"/>
             </link>
