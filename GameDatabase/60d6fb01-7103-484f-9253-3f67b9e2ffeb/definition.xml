@@ -72,8 +72,8 @@
             <cardaction menu="Archive Card" shortcut="ins" execute="archive"/>
     </table>
     <player summary="H: {#Hand} Æ: {#Æmber} C: {#Chains}">
-        <counter name="Æmber" value="0" icon="symbols/aember.png" />
-        <counter name="Chains" value="0" icon="symbols/discard.png" />
+        <counter name="Æmber" default="0" icon="symbols/aember.png" />
+        <counter name="Chains" default="0" icon="symbols/discard.png" />
         <hand name="Hand" visibility="me" ordered="False" icon="symbols/hand.png">
             <groupaction menu="Random Discard" execute="randomDiscard"/>
             <groupaction menu="Mulligan Hand" execute="mulligan"/>
