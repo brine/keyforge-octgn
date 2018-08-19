@@ -11,7 +11,7 @@
         setsurl="http://octgngames.com/keyforge/"
         gameurl="http://octgngames.com/keyforge/"
         authors="brine"
-        iconurl="http://s29.postimg.org/qsmlsels5/Boite_de_base.png">
+        iconurl="https://raw.githubusercontent.com/brine/keyforge-octgn/master/GameDatabase/60d6fb01-7103-484f-9253-3f67b9e2ffeb/symbols/gameicon.jpg">
     <scripts>
         <script src="scripts/actions.py"/>
         <script src="scripts/changelog.py"/>
