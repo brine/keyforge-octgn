@@ -46,7 +46,6 @@ def initializeGame():
 
 def generateDeck(group, x = 0, y = 0):
     mute()
-    initDeckStats()
     if len(me.Deck) > 0:
         confirm("Cannot generate a deck: You already have cards loaded.  Reset the game in order to generate a new deck.")
         return
