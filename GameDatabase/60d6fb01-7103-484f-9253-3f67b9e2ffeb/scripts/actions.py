@@ -34,9 +34,7 @@ def initializeGame():
     v3 = int(v3) * 100
     v4 = int(v4)
     currentVersion = v1 + v2 + v3 + v4  ## An integer interpretation of the version number, for comparisons later
-    confirm("{}".format(currentVersion))
     lastVersion = getSetting("lastVersion", convertToString(currentVersion - 1))  ## -1 is for players experiencing the system for the first time
-    confirm("{}".format(lastVersion))
     lastVersion = int(lastVersion)
     for log in sorted(changelog):  ## Sort the dictionary numerically
         if lastVersion < log:  ## Trigger a changelog for each update they haven't seen yet.
