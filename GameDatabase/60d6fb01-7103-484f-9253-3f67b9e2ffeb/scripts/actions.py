@@ -12,16 +12,31 @@ RedKeyToken = "c13977a0-55d7-4d58-8c00-045794821556"
 
 diesides = 6
 
+deckStats = {}
+
 def initializeGame():
     mute()
-    #### LOAD UPDATES
+    global deckStats
+    for deck in deckData:
+        for card in list(set(deck)):
+            if card not in cardData: continue ## skip if we don't have the card in the DB yet
+            for x in deck:
+                if x not in cardData: continue ## skip if we don't have the card in the DB yet
+                if card not in deckStats:
+                    deckStats[card] = {}
+                if x not in deckStats[card]:
+                    deckStats[card][x] = 0
+                deckStats[card][x] += 1
+    #### LOAD CHANGELOG
     v1, v2, v3, v4 = gameVersion.split('.')  ## split apart the game's version number
     v1 = int(v1) * 1000000
     v2 = int(v2) * 10000
     v3 = int(v3) * 100
     v4 = int(v4)
     currentVersion = v1 + v2 + v3 + v4  ## An integer interpretation of the version number, for comparisons later
+    confirm("{}".format(currentVersion))
     lastVersion = getSetting("lastVersion", convertToString(currentVersion - 1))  ## -1 is for players experiencing the system for the first time
+    confirm("{}".format(lastVersion))
     lastVersion = int(lastVersion)
     for log in sorted(changelog):  ## Sort the dictionary numerically
         if lastVersion < log:  ## Trigger a changelog for each update they haven't seen yet.
@@ -30,27 +45,36 @@ def initializeGame():
             confirm("What's new in {} ({}):\n-{}".format(stringVersion, date, updates))
     setSetting("lastVersion", convertToString(currentVersion))  ## Store's the current version to a setting
 
+
 def generateDeck(group, x = 0, y = 0):
     mute()
+    initDeckStats()
+    if len(me.Deck) > 0:
+        confirm("Cannot generate a deck: You already have cards loaded.  Reset the game in order to generate a new deck.")
+        return
     houseList = list(Houses)
-    selectedHouses = []
-    rnds = list(rndArray(1,100, 36))
+    freqTable = {}
     for x in range(3):
-        house = randomItem(houseList, True)
-        selectedHouses.append(house)
-        rares = queryCard({"House": house, "Rarity": "Rare"})
-        uncommons = queryCard({"House": house, "Rarity": "Uncommon"})
-        commons = queryCard({"House": house, "Rarity": "Common"})
-        for x in range(12):
-            i = rnds.pop(0)
-            if i < 10:
-                me.Deck.create(randomItem(rares), 1)
-            elif i < 35:
-                me.Deck.create(randomItem(uncommons), 1)
+        rndHouse = randomItem(houseList, True)
+        freqTable[rndHouse] = []
+    for x in cardData:
+        house, rarity, guid = cardData[x]
+        if house in freqTable:
+            if rarity == "Common":
+                freqTable[house] += 4*[x]
+            elif rarity == "Uncommon":
+                freqTable[house] += 2*[x]
             else:
-                me.Deck.create(randomItem(commons), 1)
-    notify("{} generated a new Deck ({} {} {}).".format(me, selectedHouses[0], selectedHouses[1], selectedHouses[2]))
-                
+                freqTable[house] += [x]
+    for house in freqTable:
+        for x in range(12):
+            cardId = randomItem(freqTable[house], True)
+            me.Deck.create(cardData[cardId][2], 1)
+            for y in deckStats[cardId]:
+                freqTable[house] += deckStats[cardId][y] * [y]
+    notify("{} generated a new Deck ({}).".format(me, ", ".join(freqTable.keys())))
+        
+            
 
 def randomItem(list, pop = False):
     i = rnd(1, len(list))

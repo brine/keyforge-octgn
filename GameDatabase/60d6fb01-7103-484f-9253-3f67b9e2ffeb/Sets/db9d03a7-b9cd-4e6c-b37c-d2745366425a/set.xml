@@ -135,7 +135,17 @@
             <property name="Number" value="13" />
         </card>
 
-
+        <card name="Sound the Horns" id="476c57b6-222d-400a-b112-638414697e6c">
+            <property name="Type" value="Action" />
+            <property name="House" value="Brobnar" />
+            <property name="Traits" value="" />
+            <property name="Rarity" value="Uncommon" />
+            <property name="Æmber" value="1" />
+            <property name="Power" value="" />
+            <property name="Armor" value="" />
+            <property name="Text" value="Play: Discard cards from the top of your deck until you either discard a Brobnar creature or run out of cards. If you discarded a Brobnar creature this way, put it into your hand." />
+            <property name="Number" value="15" />
+        </card>
         <card name="Tremor" id="547bffc9-ef55-4814-befa-baaff4cc6f3f">
             <property name="Type" value="Action" />
             <property name="House" value="Brobnar" />
@@ -268,7 +278,17 @@
             <property name="Text" value="Action: Gain 1[A] for each enemy creature that was destroyed in a fight this turn." />
             <property name="Number" value="27" />
         </card>
-
+        <card name="Bilgum Avalanche" id="ce1d53a4-1742-407b-8117-8e7870ac666b">
+            <property name="Type" value="Creature" />
+            <property name="House" value="Brobnar" />
+            <property name="Traits" value="Giant" />
+            <property name="Rarity" value="Rare" />
+            <property name="Æmber" value="0" />
+            <property name="Power" value="5" />
+            <property name="Armor" value="" />
+            <property name="Text" value="After you forge a key, deal 2[D] to each enemy creature." />
+            <property name="Number" value="28" />
+        </card>
         <card name="Valdr" id="732ea771-a3b3-487d-b71e-e881fa322897">
             <property name="Type" value="Creature" />
             <property name="House" value="Brobnar" />
@@ -879,7 +899,17 @@
             <property name="Text" value="Play/Fight/Reap: Heal up to 2 damage from a creature. Deal that amount of damage to another creature." />
             <property name="Number" value="88" />
         </card>
-
+        <card name="Master of 1" id="4033979e-473d-4b5a-b6b0-1f63203c1279">
+            <property name="Type" value="Creature" />
+            <property name="House" value="Dis" />
+            <property name="Traits" value="Demon" />
+            <property name="Rarity" value="Rare" />
+            <property name="Æmber" value="0" />
+            <property name="Power" value="4" />
+            <property name="Armor" value="" />
+            <property name="Text" value="Reap: You may destroy a creature with 1 power." />
+            <property name="Number" value="89" />
+        </card>
 
         <card name="Master of 3" id="d2e0026d-98f5-4ae1-92dd-31a4eb8abc33">
             <property name="Type" value="Creature" />
@@ -1101,7 +1131,17 @@
             <property name="Text" value="Play: Your opponent cannot use creatures to fight on their next turn." />
             <property name="Number" value="110" />
         </card>
-
+        <card name="Help From Future Self" id="be1d5970-190f-4ae6-9971-f3b2924f4f87">
+            <property name="Type" value="Action" />
+            <property name="House" value="Logos" />
+            <property name="Traits" value="" />
+            <property name="Rarity" value="Special" />
+            <property name="Æmber" value="1" />
+            <property name="Power" value="" />
+            <property name="Armor" value="" />
+            <property name="Text" value="Play: Search your deck and discard pile for a Timetraveller, reveal it, and put it into your hand. Shuffle your discard pile into your deck." />
+            <property name="Number" value="111" />
+        </card>
         <card name="Interdimensional Graft" id="aed40822-441d-4601-97b1-a9a74eb5cb19">
             <property name="Type" value="Action" />
             <property name="House" value="Logos" />
@@ -2146,7 +2186,17 @@
             <property name="Text" value="Play: Heal 1 damage from each creature. Gain 1[A] for each creature healed in this way." />
             <property name="Number" value="215" />
         </card>
-
+        <card name="Clear Mind" id="44721af1-42fc-45fe-b1d3-4ad637df8d02">
+            <property name="Type" value="Action" />
+            <property name="House" value="Sanctum" />
+            <property name="Traits" value="" />
+            <property name="Rarity" value="Rare" />
+            <property name="Æmber" value="1" />
+            <property name="Power" value="" />
+            <property name="Armor" value="" />
+            <property name="Text" value="Play: Unstun each friendly creature." />
+            <property name="Number" value="216" />
+        </card>
 
         <card name="Glorious Few" id="72cd2e3e-df41-4115-8687-3cecaa58df9d">
             <property name="Type" value="Action" />

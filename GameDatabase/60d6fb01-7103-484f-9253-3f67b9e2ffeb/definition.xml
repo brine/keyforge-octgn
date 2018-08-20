@@ -3,7 +3,7 @@
         name="Keyforge"
         id="60d6fb01-7103-484f-9253-3f67b9e2ffeb"
         octgnVersion="3.1.0.0"
-        version="0.0.1.3"
+        version="1.0.0.4"
         scriptVersion="3.1.0.2"
         markersize="16"
         tags="OCTGN, Keyforge"
@@ -15,8 +15,11 @@
     <scripts>
         <script src="scripts/actions.py"/>
         <script src="scripts/changelog.py"/>
+        <script src="scripts/deckdata.py"/>
+        <script src="scripts/carddata.py"/>
     </scripts>
     <events>
+        <event name="OnTableLoaded" action="initializeGame" />
     </events>
     <symbols>
         <symbol name="Brobnar" id="brobnar" src="symbols/brobnar.png" />
