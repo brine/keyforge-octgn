@@ -143,6 +143,10 @@
                 <switch property="Æmber">
                     <case value="#NULL#" break="True">
                         <link block="dummy" /></case>
+                    <case value="" break="True">
+                        <link block="dummy" /></case>
+                    <case value="0" break="True">
+                        <link block="dummy" /></case>
                     <default>
                         <link block="aember" />
                     </default>
@@ -189,6 +193,10 @@
             <conditional>
                 <switch property="Æmber">
                     <case value="#NULL#" break="True">
+                        <link block="dummy" /></case>
+                    <case value="" break="True">
+                        <link block="dummy" /></case>
+                    <case value="0" break="True">
                         <link block="dummy" /></case>
                     <default>
                         <link block="aember" />
@@ -237,6 +245,10 @@
                 <switch property="Æmber">
                     <case value="#NULL#" break="True">
                         <link block="dummy" /></case>
+                    <case value="" break="True">
+                        <link block="dummy" /></case>
+                    <case value="0" break="True">
+                        <link block="dummy" /></case>
                     <default>
                         <link block="aember" />
                     </default>
@@ -284,6 +296,10 @@
             <conditional>
                 <switch property="Æmber">
                     <case value="#NULL#" break="True">
+                        <link block="dummy" /></case>
+                    <case value="" break="True">
+                        <link block="dummy" /></case>
+                    <case value="0" break="True">
                         <link block="dummy" /></case>
                     <default>
                         <link block="aember" />

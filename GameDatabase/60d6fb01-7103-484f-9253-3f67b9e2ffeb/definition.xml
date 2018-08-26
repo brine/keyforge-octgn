@@ -3,7 +3,7 @@
         name="Keyforge"
         id="60d6fb01-7103-484f-9253-3f67b9e2ffeb"
         octgnVersion="3.1.0.0"
-        version="1.0.0.5"
+        version="1.0.0.7"
         scriptVersion="3.1.0.2"
         markersize="16"
         tags="OCTGN, Keyforge"
@@ -44,17 +44,18 @@
         <property name="House" type="String"/>
         <property name="Rarity" type="String"/>
         <property name="Æmber" type="Integer"/>
-        <property name="Power" type="Integer"/>
+        <property name="Power" type="String"/>
         <property name="Armor" type="String"/>
         <property name="Text" type="String"/>
         <property name="Number" type="Integer"/>
     </card>
     <table name="Table" visibility="undefined" ordered="False" width="960" height="540" background="background/background.jpg" backgroundStyle="uniformToFill" >
-            <groupaction menu="Create Keys" execute="createKeys"/>
+            <groupaction menu="Choose Active House" shortcut="ctrl+H" execute="chooseHouse"/>
             <groupaction menu="Roll Die" shortcut="ctrl+R" execute="rollDie"/>
             <groupaction menu="Change Die" shortcut="ctrl+shift+R" execute="setDie"/>
             <groupaction menu="Ready All Cards" shortcut="ctrl+Q" execute="readyCards"/>
             <groupaction menu="Generate Deck" execute="generateDeck"/>
+            <groupaction menu="Create Keys" execute="createKeys"/>
             <cardaction menu="Ready/Exhaust Card" default="True" execute="readyExhaust"/>
             <cardaction menu="Reap" shortcut="ctrl+R" execute="reap"/>
             <cardaction menu="Fight" shortcut="ctrl+F" execute="fight"/>
@@ -75,6 +76,7 @@
             <cardaction menu="Archive Card" shortcut="ins" execute="archive"/>
     </table>
     <player summary="H: {#Hand} Æ: {#Æmber} C: {#Chains}">
+        <globalvariable name="houses" value="[]" />
         <counter name="Æmber" default="0" icon="symbols/aember.png" />
         <counter name="Chains" default="0" icon="symbols/discard.png" />
         <hand name="Hand" visibility="me" ordered="False" icon="symbols/hand.png">

@@ -1,10 +1,11 @@
 cardData = {
+
 1: ("Brobnar", "Common", "0a407ea5-25c2-487e-a97f-23c93a27cc29"),
 2: ("Brobnar", "Rare", "9e9f70dc-242b-4c14-b070-20a7ae09b5c8"),
 3: ("Brobnar", "Uncommon", "e7495e8c-f4e2-40b3-9fd4-1ace1d54bd17"),
 4: ("Brobnar", "Rare", "27a677fc-7662-4d05-b550-8a801cb5a39a"),
 5: ("Brobnar", "Uncommon", "6979c2ed-b42d-43ec-8794-c71a41667685"),
-
+6: ("Brobnar", "Rare", "3a5e7186-1b87-4d6a-bb89-155ea65a701e"),
 7: ("Brobnar", "Common", "a2978e28-f9bc-4d61-a3b0-1e8b3b318cc3"),
 8: ("Brobnar", "Uncommon", "b0a0b205-7556-4aa2-9c68-ef025ffa57f8"),
 9: ("Brobnar", "Rare", "fb0cfaa9-56e1-4a06-8797-e57d5eb97ad9"),
@@ -12,13 +13,13 @@ cardData = {
 11: ("Brobnar", "Rare", "13716c10-fa76-4a64-87f0-55e0a6b3f209"),
 12: ("Brobnar", "Common", "64133472-ab71-4f5a-9d52-d0e0687e64b9"),
 13: ("Brobnar", "Uncommon", "8b4db640-8f19-4f00-bdd6-e748ca3b8eba"),
-
+14: ("Brobnar", "Uncommon", "074e2166-bf79-4b9c-a1c0-cd58b8299370"),
 15: ("Brobnar", "Uncommon", "476c57b6-222d-400a-b112-638414697e6c"),
 16: ("Brobnar", "Common", "547bffc9-ef55-4814-befa-baaff4cc6f3f"),
 17: ("Brobnar", "Uncommon", "c8646e17-5b0d-4bec-8469-151fbc2eb3f4"),
 18: ("Brobnar", "Common", "67253eb8-8f3b-45d4-947c-5012a9488bb3"),
 19: ("Brobnar", "Rare", "e1bb44f4-a5e1-4575-bd77-eeb2e99073ff"),
-20: ("Brobnar", "", "3673479c-794a-4ea8-a599-aae740611f68"),
+20: ("Brobnar", "Rare", "3673479c-794a-4ea8-a599-aae740611f68"),
 21: ("Brobnar", "Uncommon", "31749ab8-7e3f-4f08-8b41-4825f0725f64"),
 22: ("Brobnar", "Common", "4c6b73f2-b52b-40f5-8b9b-3444e8b97e9b"),
 23: ("Brobnar", "Rare", "3571dbc8-19e2-4f10-bbe7-0164cfab1b1b"),
@@ -54,7 +55,7 @@ cardData = {
 53: ("Dis", "Rare", "de52bc01-002a-4504-a72b-9c8109dc0b5b"),
 54: ("Dis", "Common", "6c13378f-1008-4702-a814-3116a12a1f40"),
 55: ("Dis", "Common", "9ee419cc-86fe-40af-9388-8077a797dee9"),
-
+56: ("Dis", "Rare", "03f12a4f-ac67-4ea5-b7bc-26e4def17ea4"),
 57: ("Dis", "Rare", "23950a10-c888-46eb-a3a8-2fbff540383e"),
 58: ("Dis", "Common", "a5cbad1a-dc00-42de-ad8b-214569df9278"),
 59: ("Dis", "Common", "37b36881-3461-4c9b-a96c-2e04653bc016"),
@@ -77,8 +78,8 @@ cardData = {
 76: ("Dis", "Uncommon", "bd44a420-988d-4116-8168-0c2125f08507"),
 77: ("Dis", "Uncommon", "7a619bc8-f461-42f9-955d-de6b89df6c14"),
 78: ("Dis", "Rare", "231300a6-20a1-4792-8637-0f238b9810ea"),
-
-
+79: ("Dis", "Rare", "83175dc8-b654-43e8-b4d2-772a0ae5d214"),
+80: ("Dis", "Rare", "136c5b5c-62d0-461c-8def-2d6af8dee041"),
 81: ("Dis", "Common", "9e1ce9b3-fe08-44a1-98fc-98fb91d77ef9"),
 82: ("Dis", "Uncommon", "3cda3a2f-877e-4ccd-aca8-c274af7783e7"),
 83: ("Dis", "Common", "11e45f35-d410-4599-8ce6-a52ec1277a37"),
@@ -88,8 +89,8 @@ cardData = {
 
 88: ("Dis", "Uncommon", "c97bb6a2-0803-47b8-a7f7-01b41c67e728"),
 89: ("Dis", "Rare", "4033979e-473d-4b5a-b6b0-1f63203c1279"),
-
-91: ("Dis", "Uncommon", "d2e0026d-98f5-4ae1-92dd-31a4eb8abc33"),
+90: ("Dis", "Special", "c384301f-0c34-48b6-b71f-8e26443789c8"),
+91: ("Dis", "Special", "d2e0026d-98f5-4ae1-92dd-31a4eb8abc33"),
 92: ("Dis", "Common", "2150376a-b347-4935-8698-672988e5c14f"),
 93: ("Dis", "Rare", "a6ceb3e2-20d4-435a-9167-e6a2bc090e84"),
 94: ("Dis", "Rare", "1e75c0d3-aa5b-4674-8bc2-81fec468a635"),
@@ -111,7 +112,7 @@ cardData = {
 110: ("Logos", "Common", "0c433ca6-62b8-435d-9760-c68201986f5a"),
 111: ("Logos", "Special", "be1d5970-190f-4ae6-9971-f3b2924f4f87"),
 112: ("Logos", "Uncommon", "aed40822-441d-4601-97b1-a9a74eb5cb19"),
-
+113: ("Logos", "Rare", "2f4603bc-7cbc-47a7-b10c-fc4a7c18b195"),
 114: ("Logos", "Common", "677ce184-dff7-48e9-aa5f-d60f4e3299d7"),
 115: ("Logos", "Common", "a3976a3b-a384-4c00-a7e9-c43c78432612"),
 116: ("Logos", "Uncommon", "87ab39c6-eb4a-45ff-bdae-da24bb32fc4b"),
@@ -125,7 +126,7 @@ cardData = {
 124: ("Logos", "Common", "83674733-6ced-4387-8e9b-69a74f67c81d"),
 125: ("Logos", "Common", "80853518-3bb8-4867-848c-0656dc287233"),
 126: ("Logos", "Uncommon", "0ca37f36-bd7f-4467-9b02-045946a9f8a2"),
-
+127: ("Logos", "Rare", "52cad87c-9160-471d-ae48-dfffe5f7137a"),
 128: ("Logos", "Rare", "da06a608-b354-482c-aa33-cc212bab4280"),
 129: ("Logos", "Common", "70177023-edd6-4743-a095-32b8db60eb8f"),
 130: ("Logos", "Rare", "38354822-6095-458a-9131-4c11858fd350"),
@@ -165,10 +166,10 @@ cardData = {
 164: ("Mars", "Rare", "fcd6150b-bc9f-44da-8275-3ac35fed8a7b"),
 165: ("Mars", "Rare", "5b66a3d9-b1fe-4be4-990a-feedbfbf70ec"),
 166: ("Mars", "Uncommon", "0437dac6-d4b5-41cb-a649-d78468149476"),
-
-
+167: ("Mars", "Rare", "5fe2b5ae-0e6d-4a35-a656-6731f8b52fe6"),
+168: ("Mars", "Rare", "2ee7ab4b-0061-43ae-9225-19a7bb4651a6"),
 169: ("Mars", "Rare", "3bdda41b-5c0b-4e54-9ee2-f31a9e337f4b"),
-
+170: ("Mars", "Rare", "bf3e37fc-a79c-4859-9c8f-ab768ccf1535"),
 171: ("Mars", "Uncommon", "7555a801-2487-4e7a-b1d3-1c68a400c777"),
 172: ("Mars", "Uncommon", "be18c5fb-f776-4ef7-a30a-fcc6ac9d8018"),
 173: ("Mars", "Common", "e564299c-4d3e-4aad-adbb-a35c24b3ad41"),
@@ -215,7 +216,7 @@ cardData = {
 214: ("Sanctum", "Rare", "280beaa6-0580-4654-a8b7-1857736eadbb"),
 215: ("Sanctum", "Common", "c611960c-d4f8-4192-aa22-3db956dd5a3d"),
 216: ("Sanctum", "Rare", "44721af1-42fc-45fe-b1d3-4ad637df8d02"),
-
+217: ("Sanctum", "Uncommon", "81c545d7-25c8-47c1-abfc-db6acf6f01f7"),
 218: ("Sanctum", "Uncommon", "72cd2e3e-df41-4115-8687-3cecaa58df9d"),
 219: ("Sanctum", "Rare", "5747c38f-01bd-4d18-a145-0184f73853be"),
 220: ("Sanctum", "Common", "496d1e64-7b06-4e49-ba97-2bc7f2c9f6db"),
@@ -244,13 +245,13 @@ cardData = {
 243: ("Sanctum", "Uncommon", "4a7fa150-e2fc-4746-9160-b38ce8661751"),
 244: ("Sanctum", "Uncommon", "654e72af-3b09-4a6d-a3ec-d1ba79e72ec7"),
 245: ("Sanctum", "Rare", "7b3f89b1-ceab-414f-b3d2-d19e92f1c5ff"),
-246: ("Sanctum", "Rare", "a6222984-ae26-4556-b78c-b26d6b9f583b"),
-247: ("Sanctum", "Rare", "b46a762b-efff-4b70-ad95-9508150ac6d1"),
+246: ("Sanctum", "Special", "a6222984-ae26-4556-b78c-b26d6b9f583b"),
+247: ("Sanctum", "Special", "b46a762b-efff-4b70-ad95-9508150ac6d1"),
 248: ("Sanctum", "Rare", "ad30f48a-4a6d-44f4-b12e-6d4bd2301df2"),
-249: ("Sanctum", "Rare", "4f0bec53-61e7-497b-859f-60ced385ab14"),
-
+249: ("Sanctum", "Special", "4f0bec53-61e7-497b-859f-60ced385ab14"),
+250: ("Sanctum", "Rare", "981e119d-0bbf-4692-8006-fc39020bcb6c"),
 251: ("Sanctum", "Uncommon", "5c6124d9-35ca-4594-b88a-6e24e1f66501"),
-
+252: ("Sanctum", "Rare", "bb3af559-d2f7-4fd4-a732-666384359e41"),
 253: ("Sanctum", "Rare", "e39adb93-258e-4169-a349-f37b0b814fda"),
 254: ("Sanctum", "Common", "7166b61c-96b0-4023-90c2-d3ef823197fc"),
 255: ("Sanctum", "Common", "2dcd53e9-d15c-40a4-aa8f-ed8adb6c8169"),
@@ -260,9 +261,9 @@ cardData = {
 259: ("Sanctum", "Common", "131aff32-6ffd-4a11-99cc-b8f980477c15"),
 260: ("Sanctum", "Uncommon", "b23c3eda-690c-46ae-b210-c7131c378c5d"),
 261: ("Sanctum", "Rare", "215961e9-e855-4b69-945b-cbe5041d0d20"),
-
+262: ("Sanctum", "Rare", "bf3f9607-753b-4adc-8548-4d67807a5376"),
 263: ("Sanctum", "Rare", "3a500dec-ce28-40ef-8104-29f990f95080"),
-
+264: ("Sanctum", "Rare", "e30f31ef-7175-4463-8b33-bdbc2c852e79"),
 265: ("Sanctum", "Common", "7b5fb869-cd70-4363-89e6-eba8cc5e02b3"),
 266: ("Sanctum", "Uncommon", "c1293ac1-290d-4f43-8221-7081ef7e65b2"),
 267: ("Shadows", "Common", "134603ae-a56a-4b5e-ad04-5b468f5182fe"),
@@ -295,7 +296,7 @@ cardData = {
 294: ("Shadows", "Uncommon", "f7a0a18c-122f-4e0b-adde-2383e2d1b17f"),
 295: ("Shadows", "Rare", "3f798e26-0cbe-49b8-b61c-764fb42b927e"),
 296: ("Shadows", "Common", "0328118f-01cf-4766-a4dd-0eeb31e4166f"),
-
+297: ("Shadows", "Rare", "16101243-e4ac-49fc-ba01-53c3577eba09"),
 298: ("Shadows", "Uncommon", "34282fd2-d711-41a4-9ef1-b0893b4fffe2"),
 299: ("Shadows", "Rare", "fdab93fb-c041-4c3d-8f64-4520f11ed50d"),
 300: ("Shadows", "Rare", "094fc4ad-4a48-4f5f-bde6-1cdc8061dd56"),
@@ -307,7 +308,7 @@ cardData = {
 306: ("Shadows", "Common", "3a1a35bb-9d66-4838-8c73-1c392b90b667"),
 307: ("Shadows", "Uncommon", "d1c6259c-876b-4907-abda-1b6d702c294d"),
 308: ("Shadows", "Common", "5a5352cc-9cef-44be-b252-5fbe0c513f86"),
-
+309: ("Shadows", "Rare", "8ea9e8ca-16ca-48f1-85ce-c5e02f300b48"),
 310: ("Shadows", "Common", "71547302-63fa-438b-ae37-9a51b4481f69"),
 311: ("Shadows", "Common", "34e6d4d4-2ff4-4e91-b05b-7a0c3687aebc"),
 312: ("Shadows", "Rare", "43b83dfd-c2b2-4873-a83b-6e1e048fa0f8"),
@@ -342,7 +343,7 @@ cardData = {
 341: ("Untamed", "Uncommon", "95c64e32-9955-4745-b081-3ffe97fbb4a2"),
 342: ("Untamed", "Uncommon", "2d1b872b-9dcb-49c1-9606-3e0ac6e610e5"),
 343: ("Untamed", "Rare", "28ef1bf9-ed24-43f4-8e2b-cacbec908a3f"),
-
+344: ("Untamed", "Rare", "ee3c4ced-ab22-478d-a5f8-78b767cd0621"),
 345: ("Untamed", "Common", "aab6fb8c-ad95-4e00-8926-2dac818769cb"),
 346: ("Untamed", "Uncommon", "9966418b-ba5f-4e58-a2ce-268175ce3e54"),
 347: ("Untamed", "Rare", "29719bbc-ab1c-43ab-be4a-cffd1c818d64"),
@@ -364,10 +365,9 @@ cardData = {
 363: ("Untamed", "Common", "f82e82aa-563f-4fc1-acdf-e94e5be8f052"),
 364: ("Untamed", "Uncommon", "b42e8fb7-0846-49b0-aadd-8679330f2423"),
 365: ("Untamed", "Rare", "839a7751-4eb4-48e5-b730-e900c9e754eb"),
-
+366: ("Untamed", "Rare", "3d0e0ac2-a57b-47ac-a603-c59100fdce7d"),
 367: ("Untamed", "Common", "6dba9338-d6c2-4cd9-90a1-51e0b103c9d1"),
 368: ("Untamed", "Common", "6af2cde4-ff15-4e18-9726-64e5fa2f9035"),
 369: ("Untamed", "Uncommon", "d943e897-9e30-4229-9f19-eedbfdb53dea"),
 370: ("Untamed", "Uncommon", "146bae0e-c210-4a0d-bd7a-82d0cbc468ae")
-
 }

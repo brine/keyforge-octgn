@@ -16,17 +16,7 @@ deckStats = {}
 
 def initializeGame():
     mute()
-    global deckStats
-    for deck in deckData:
-        for card in list(set(deck)):
-            if card not in cardData: continue ## skip if we don't have the card in the DB yet
-            for x in deck:
-                if x not in cardData: continue ## skip if we don't have the card in the DB yet
-                if card not in deckStats:
-                    deckStats[card] = {}
-                if x not in deckStats[card]:
-                    deckStats[card][x] = 0
-                deckStats[card][x] += 1
+    initializeDeckStats()
     #### LOAD CHANGELOG
     v1, v2, v3, v4 = gameVersion.split('.')  ## split apart the game's version number
     v1 = int(v1) * 1000000
@@ -43,35 +33,96 @@ def initializeGame():
             confirm("What's new in {} ({}):\n-{}".format(stringVersion, date, updates))
     setSetting("lastVersion", convertToString(currentVersion))  ## Store's the current version to a setting
 
+def initializeDeckStats():
+    mute()
+    global deckStats
+    if deckStats != {}: return
+    for deck in deckData:
+        for card in list(set(deck[2])):
+            if card not in cardData: continue ## skip if we don't have the card in the DB yet
+            for x in deck[2]:
+                if x not in cardData: continue ## skip if we don't have the card in the DB yet
+                if card not in deckStats:
+                    deckStats[card] = {}
+                if x not in deckStats[card]:
+                    deckStats[card][x] = 0
+                deckStats[card][x] += 1
 
 def generateDeck(group, x = 0, y = 0):
     mute()
     if len(me.Deck) > 0:
         confirm("Cannot generate a deck: You already have cards loaded.  Reset the game in order to generate a new deck.")
         return
-    houseList = list(Houses)
-    freqTable = {}
-    for x in range(3):
-        rndHouse = randomItem(houseList, True)
-        freqTable[rndHouse] = []
-    for x in cardData:
-        house, rarity, guid = cardData[x]
-        if house in freqTable:
-            if rarity == "Common":
-                freqTable[house] += 4*[x]
-            elif rarity == "Uncommon":
-                freqTable[house] += 2*[x]
-            else:
-                freqTable[house] += [x]
-    for house in freqTable:
-        for x in range(12):
-            cardId = randomItem(freqTable[house], True)
-            me.Deck.create(cardData[cardId][2], 1)
-            for y in deckStats[cardId]:
-                freqTable[house] += deckStats[cardId][y] * [y]
-    notify("{} generated a new Deck ({}).".format(me, ", ".join(freqTable.keys())))
-        
-            
+    choice = askChoice("What type of deck do you want to load?", ["A randomly generated deck", "A pre-existing deck"])
+    if choice == 0: return
+    if choice == 1:
+        initializeDeckStats()
+        houseList = list(Houses)
+        freqTable = {}
+        for x in range(3):
+            rndHouse = randomItem(houseList, True)
+            freqTable[rndHouse] = []
+        for x in cardData:
+            house, rarity, guid = cardData[x]
+            if house in freqTable:
+                if rarity == "Common":
+                    freqTable[house] += 3*[x]
+                elif rarity == "Uncommon":
+                    freqTable[house] += 2*[x]
+                elif rarity == "Rare":
+                    freqTable[house] += [x]
+        for activeHouse in freqTable:
+            for x in range(12):
+                cardId = randomItem(freqTable[activeHouse], True)
+                me.Deck.create(cardData[cardId][2], 1)
+                if cardId not in deckStats: continue
+                for y in deckStats[cardId]:
+                    house, rarity, guid = cardData[y]
+                    if house in freqTable:
+                        freqTable[house] += deckStats[cardId][y] * [y]
+        notify("{} generated a new Deck ({}).".format(me, ", ".join(freqTable.keys())))
+        me.setGlobalVariable("houses", str(freqTable.keys()))
+    if choice == 2:
+        deck = None
+        while deck == None:
+            deck = randomItem(deckData, True)
+            for card in deck[2]:
+                if card not in cardData:
+                    deck = None
+        for card in deck[2]:
+            me.Deck.create(cardData[card][2], 1)
+        notify('{} loaded deck "{}" ({})'.format(me, deck[0], ", ".join(deck[1])))
+        me.setGlobalVariable("houses", str(deck[1]))
+
+
+def layoutCards():
+    mute()
+    x = 0
+    y = 0
+    for c in me.Deck:
+        c.moveToTable(x*58, y*63)
+        x += 1
+        if x == 12:
+            x = 0
+            y += 1
+    printDecklist()
+
+def printDecklist():
+    mute()
+    decklist = {}
+    for c in table:
+        if c.House not in decklist:
+            decklist[c.House] = []
+        decklist[c.House].append((c.Name, c.Rarity))
+    for x in decklist:
+        notify("~~{} (C:{} U:{} R:{} S:{})".format(x,
+                                                sum(1 for r in decklist[x] if r[1] == "Common"),
+                                                sum(1 for r in decklist[x] if r[1] == "Uncommon"),
+                                                sum(1 for r in decklist[x] if r[1] == "Rare"),
+                                                sum(1 for r in decklist[x] if r[1] == "Special")))
+        decklist[x].sort(key=lambda x: x[0])
+        for d in decklist[x]:
+            notify("{} - {}".format(d[0], d[1][0]))
 
 def randomItem(list, pop = False):
     i = rnd(1, len(list))
@@ -82,9 +133,13 @@ def randomItem(list, pop = False):
 
 def chooseHouse(group, x = 0, y = 0):
     mute()
-    num = askChoice("Choose a House:", Houses)
+    myHouses = eval(me.getGlobalVariable("houses"))
+    if len(myHouses) == 0:
+        whisper("Cannot choose a house: You need to load a deck first.")
+        return
+    num = askChoice("Choose a House:", myHouses)
     if num == 0: return
-    notify("{} chooses House {}.".format(Houses[num - 1]))
+    notify("{} chooses House {}.".format(me, myHouses[num - 1]))
 
 def setDie(group, x = 0, y = 0):
     mute()
