@@ -937,7 +937,17 @@
             <property name="Text" value="Before Fight: Choose a creature. Gabos Longarms deals damage to that creature rather than the one it is fighting." />
             <property name="Number" value="86" />
         </card>
-
+        <card name="Overlord Greking" id="e51c282f-d8b8-4934-ac6a-83c905017da6">
+            <property name="Type" value="Creature" />
+            <property name="House" value="Dis" />
+            <property name="Traits" value="Demon" />
+            <property name="Rarity" value="Rare" />
+            <property name="Æmber" value="0" />
+            <property name="Power" value="7" />
+            <property name="Armor" value="" />
+            <property name="Text" value="After a creature is destroyed fighting Overlord Greking, put that creature into play under your control." />
+            <property name="Number" value="87" />
+        </card>
         <card name="Guardian Demon" id="c97bb6a2-0803-47b8-a7f7-01b41c67e728">
             <property name="Type" value="Creature" />
             <property name="House" value="Dis" />
@@ -1098,7 +1108,7 @@
             <property name="Traits" value="Demon" />
             <property name="Rarity" value="Common" />
             <property name="Æmber" value="0" />
-            <property name="Power" value="4" />
+            <property name="Power" value="3" />
             <property name="Armor" value="" />
             <property name="Text" value="Reap: Your opponent discards a random card from their hand." />
             <property name="Number" value="102" />
@@ -1716,10 +1726,20 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
-            <property name="Text" value="This creature gains, &quot;Fight/Reap: If this was the first time this creature was used this turn, ready it.&quot;" />
+            <property name="Text" value="This creature gains &quot;Fight/Reap: If this was the first time this creature was used this turn, ready it.&quot;" />
             <property name="Number" value="158" />
         </card>
-
+        <card name="Transposition Sandals" id="4271bcaa-17af-4239-a73f-1bb2c7332dcc">
+            <property name="Type" value="Upgrade" />
+            <property name="House" value="Logos" />
+            <property name="Traits" value="" />
+            <property name="Rarity" value="Rare" />
+            <property name="Æmber" value="1" />
+            <property name="Power" value="" />
+            <property name="Armor" value="" />
+            <property name="Text" value="This creature gains &quot;Action: Swap this creature with another friendly creature in the battleline. You may use that creature this turn.&quot;" />
+            <property name="Number" value="159" />
+        </card>
         <card name="Ammonia Clouds" id="b57e96d3-e773-48d5-8ca5-69ece81ce4c6">
             <property name="Type" value="Action" />
             <property name="House" value="Mars" />
@@ -1896,7 +1916,17 @@
             <property name="Text" value="Play: Put an enemy creature into your archives for each key your opponent has forged. If any of these creatures leave your archives, they are put into their owner's hand instead." />
             <property name="Number" value="175" />
         </card>
-
+        <card name="Shatter Storm" id="4200bbab-48e4-43b4-b438-80d5f28e5a8e">
+            <property name="Type" value="Action" />
+            <property name="House" value="Mars" />
+            <property name="Traits" value="" />
+            <property name="Rarity" value="Rare" />
+            <property name="Æmber" value="0" />
+            <property name="Power" value="" />
+            <property name="Armor" value="" />
+            <property name="Text" value="Play: Lose all your [A]. Then, your opponent loses triple the amount of [A] you lost in this way" />
+            <property name="Number" value="176" />
+        </card>
         <card name="Soft Landing" id="1fff2fea-bf37-4553-a66d-d177c795c051">
             <property name="Type" value="Action" />
             <property name="House" value="Mars" />
@@ -1963,7 +1993,17 @@
             <property name="Text" value="Action: For the remainder of the turn, gain 1[A] each time a creature reaps." />
             <property name="Number" value="182" />
         </card>
-
+        <card name="Custom Virus" id="e5984648-c6d7-4a3c-91a6-5b698360c540">
+            <property name="Type" value="Artifact" />
+            <property name="House" value="Mars" />
+            <property name="Traits" value="Weapon" />
+            <property name="Rarity" value="Rare" />
+            <property name="Æmber" value="1" />
+            <property name="Power" value="" />
+            <property name="Armor" value="" />
+            <property name="Text" value="Omni: Sacrifice Custom Virus. Purge a creature from your hand. Destroy each creature that shares a trait with the purged creature." />
+            <property name="Number" value="183" />
+        </card>
         <card name="Feeding Pit" id="416928c8-dc07-45bd-aa93-30bdf8162b3b">
             <property name="Type" value="Artifact" />
             <property name="House" value="Mars" />
@@ -2008,7 +2048,17 @@
             <property name="Text" value="Action: Reveal any number of Mars cards from your hand. Deal damage to a creature equal to the number of cards revealed this way." />
             <property name="Number" value="187" />
         </card>
-
+        <card name="Sniffer" id="19ddbe05-e4c5-43f9-bfd5-69a80e38c356">
+            <property name="Type" value="Artifact" />
+            <property name="House" value="Mars" />
+            <property name="Traits" value="Ally" />
+            <property name="Rarity" value="Rare" />
+            <property name="Æmber" value="1" />
+            <property name="Power" value="" />
+            <property name="Armor" value="" />
+            <property name="Text" value="Action: For the remainder of the turn, each creature loses elusive." />
+            <property name="Number" value="188" />
+        </card>
         <card name="Swap Widget" id="fadd773d-8c3f-46f2-8241-53be26064727">
             <property name="Type" value="Artifact" />
             <property name="House" value="Mars" />
@@ -2116,7 +2166,7 @@
             <property name="Rarity" value="Common" />
             <property name="Æmber" value="0" />
             <property name="Power" value="6" />
-            <property name="Armor" value="" />
+            <property name="Armor" value="1" />
             <property name="Text" value="After you play another Mars creature, fully heal Tunk." />
             <property name="Number" value="199" />
         </card>
@@ -2205,7 +2255,7 @@
             <property name="Æmber" value="0" />
             <property name="Power" value="3" />
             <property name="Armor" value="" />
-            <property name="Text" value="Fight/Reap: You may reveal a creature from your hand. If you do, archive it, and Zyzzix the Many gets three +1 power counters" />
+            <property name="Text" value="Fight/Reap: You may reveal a creature from your hand. If you do, archive it, and Zyzzix the Many gets three +1 power counters." />
             <property name="Number" value="207" />
         </card>
         <card name="Biomatrix Backup" id="1f22e016-1a4c-4625-a1be-1e55a29be6a7">
@@ -2268,7 +2318,7 @@
             <property name="House" value="Sanctum" />
             <property name="Traits" value="" />
             <property name="Rarity" value="Common" />
-            <property name="Æmber" value="0" />
+            <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
             <property name="Text" value="Play: Choose a house. Stun each creature of that house." />
@@ -2455,7 +2505,7 @@
             <property name="Type" value="Artifact" />
             <property name="House" value="Sanctum" />
             <property name="Traits" value="Quest" />
-            <property name="Rarity" value="Uncommon" />
+            <property name="Rarity" value="Rare" />
             <property name="Æmber" value="0" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
@@ -2873,7 +2923,7 @@
             <property name="Type" value="Action" />
             <property name="House" value="Shadows" />
             <property name="Traits" value="" />
-            <property name="Rarity" value="Uncommon" />
+            <property name="Rarity" value="Rare" />
             <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
@@ -3127,7 +3177,7 @@
             <property name="House" value="Shadows" />
             <property name="Traits" value="Item" />
             <property name="Rarity" value="Uncommon" />
-            <property name="Æmber" value="0" />
+            <property name="Æmber" value="1" />
             <property name="Power" value="" />
             <property name="Armor" value="" />
             <property name="Text" value="Omni: Sacrifice Special Delivery. Deal 3[D] to a flank creature. If this damage destroys that creature, purge it." />
@@ -3368,7 +3418,7 @@
             <property name="Type" value="Creature" />
             <property name="House" value="Shadows" />
             <property name="Traits" value="Elf, Thief" />
-            <property name="Rarity" value="Uncommon" />
+            <property name="Rarity" value="Common" />
             <property name="Æmber" value="0" />
             <property name="Power" value="2" />
             <property name="Armor" value="" />
