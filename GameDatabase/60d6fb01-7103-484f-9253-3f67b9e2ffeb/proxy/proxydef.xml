@@ -123,7 +123,7 @@
     
         
     <!-- Action -->
-    <template src="proxy/images/blank.png">
+    <template src="proxy/images/blank.png" default="True">
         <matches>
             <match name="Type" value="Action"/>
         </matches>
@@ -328,7 +328,7 @@
                 <property name="Power"/>
             </link>
             <link block="creature_shield">
-                <property name="Shield"/>
+                <property name="Armor"/>
             </link>
         </textblocks>
     </template>

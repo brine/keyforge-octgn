@@ -1,4 +1,8 @@
-﻿StunColor = "#ffff00"
+﻿import clr
+clr.AddReference('System.Web.Extensions')
+from System.Web.Script.Serialization import JavaScriptSerializer
+
+StunColor = "#ffff00"
 
 DamageMarker = ("Damage", "bbc64689-67f3-4378-b2f0-d22a3829459c")
 AemberMarker = ("Æmber", "6f12fd99-6f04-4483-9786-44ff654c8a25")
@@ -16,7 +20,6 @@ deckStats = {}
 
 def initializeGame():
     mute()
-    initializeDeckStats()
     #### LOAD CHANGELOG
     v1, v2, v3, v4 = gameVersion.split('.')  ## split apart the game's version number
     v1 = int(v1) * 1000000
@@ -33,103 +36,39 @@ def initializeGame():
             confirm("What's new in {} ({}):\n-{}".format(stringVersion, date, updates))
     setSetting("lastVersion", convertToString(currentVersion))  ## Store's the current version to a setting
 
-def initializeDeckStats():
-    mute()
-    global deckStats
-    if deckStats != {}: return
-    for deck in deckData:
-        for card in list(set(deck[2])):
-            if card not in cardData: continue ## skip if we don't have the card in the DB yet
-            for x in deck[2]:
-                if x not in cardData: continue ## skip if we don't have the card in the DB yet
-                if card not in deckStats:
-                    deckStats[card] = {}
-                if x not in deckStats[card]:
-                    deckStats[card][x] = 0
-                deckStats[card][x] += 1
-
-def generateDeck(group, x = 0, y = 0):
+def loadDeck(group, x = 0, y = 0):
     mute()
     if len(me.Deck) > 0:
         confirm("Cannot generate a deck: You already have cards loaded.  Reset the game in order to generate a new deck.")
         return
-    choice = askChoice("What type of deck do you want to load?", ["A randomly generated deck", "A pre-existing deck"])
+    choice = askChoice("What type of deck do you want to load?", ["A random deck", "A registered deck"])
+    
     if choice == 0: return
     if choice == 1:
-        initializeDeckStats()
-        houseList = list(Houses)
-        freqTable = {}
-        for x in range(3):
-            rndHouse = randomItem(houseList, True)
-            freqTable[rndHouse] = []
-        for x in cardData:
-            house, rarity, guid = cardData[x]
-            if house in freqTable:
-                if rarity == "Common":
-                    freqTable[house] += 3*[x]
-                elif rarity == "Uncommon":
-                    freqTable[house] += 2*[x]
-                elif rarity == "Rare":
-                    freqTable[house] += [x]
-        for activeHouse in freqTable:
-            for x in range(12):
-                cardId = randomItem(freqTable[activeHouse], True)
-                me.Deck.create(cardData[cardId][2], 1)
-                if cardId not in deckStats: continue
-                for y in deckStats[cardId]:
-                    house, rarity, guid = cardData[y]
-                    if house in freqTable:
-                        freqTable[house] += deckStats[cardId][y] * [y]
-        notify("{} generated a new Deck ({}).".format(me, ", ".join(freqTable.keys())))
-        me.setGlobalVariable("houses", str(freqTable.keys()))
-    if choice == 2:
-        deck = None
-        while deck == None:
-            deck = randomItem(deckData, True)
-            for card in deck[2]:
-                if card not in cardData:
-                    deck = None
-        for card in deck[2]:
-            me.Deck.create(cardData[card][2], 1)
-        notify('{} loaded deck "{}" ({})'.format(me, deck[0], ", ".join(deck[1])))
-        me.setGlobalVariable("houses", str(deck[1]))
-
-
-def layoutCards():
-    mute()
-    x = 0
-    y = 0
-    for c in me.Deck:
-        c.moveToTable(x*58, y*63)
-        x += 1
-        if x == 12:
-            x = 0
-            y += 1
-    printDecklist()
-
-def printDecklist():
-    mute()
-    decklist = {}
-    for c in table:
-        if c.House not in decklist:
-            decklist[c.House] = []
-        decklist[c.House].append((c.Name, c.Rarity))
-    for x in decklist:
-        notify("~~{} (C:{} U:{} R:{} S:{})".format(x,
-                                                sum(1 for r in decklist[x] if r[1] == "Common"),
-                                                sum(1 for r in decklist[x] if r[1] == "Uncommon"),
-                                                sum(1 for r in decklist[x] if r[1] == "Rare"),
-                                                sum(1 for r in decklist[x] if r[1] == "Special")))
-        decklist[x].sort(key=lambda x: x[0])
-        for d in decklist[x]:
-            notify("{} - {}".format(d[0], d[1][0]))
-
-def randomItem(list, pop = False):
-    i = rnd(1, len(list))
-    if pop:
-        return list.pop(i - 1)
-    else:
-        return list[i - 1]
+        i = rnd(1, 224320)
+        data, code = webRead("https://www.keyforgegame.com/api/decks/?page={}&page_size=1".format(i))
+        if code != 200:
+            whisper("Error retrieving online deck data, please try again.")
+            return
+        deck = JavaScriptSerializer().DeserializeObject(data)["data"][0]
+    elif choice == 2:
+        url = askString("Please enter the URL of the deck you wish to load.", "")
+        if not "deck-details/" in url:
+            whisper("Error: Invalid URL.")
+            return
+        guid = url.split("deck-details/")[1]
+        data, code = webRead("https://www.keyforgegame.com/api/decks/{}/".format(guid))
+        if code != 200:
+            whisper("Error retrieving online deck data, please try again.")
+            return
+        deck = JavaScriptSerializer().DeserializeObject(data)["data"]
+    for id in deck["cards"]:
+        notify("{}".format(id))
+        card = me.Deck.create(id, 1)
+        notify("{}".format(card))
+    houses = deck["_links"]["houses"]
+    notify('{} loaded deck "{}" ({})'.format(me, deck["name"], ", ".join(houses)))
+    me.setGlobalVariable("houses", str(houses))
 
 def chooseHouse(group, x = 0, y = 0):
     mute()

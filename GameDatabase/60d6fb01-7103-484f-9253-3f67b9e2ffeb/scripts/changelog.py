@@ -9,5 +9,11 @@ changelog = {
         "Use the 'Generate Deck' table action to load a new deck.",
         "It uses a primitive algorithm to build a deck based on known existing decks.",
         "Expect the algorithm to be refined further in the future."
+        ]),
+    1000100: ("1.0.1.0", "3 December 2018", [
+        "Re-work of the card database with new card GUIDs, all cards now available.",
+        "All known mavericks are now included.",
+        "Removed the deck generator algorithm.",
+        "You can now load a registered deck via URL, or load a random deck from a gigantic deck pool"
         ])
 }
