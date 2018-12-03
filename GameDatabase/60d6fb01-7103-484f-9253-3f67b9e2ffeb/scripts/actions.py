@@ -63,9 +63,7 @@ def loadDeck(group, x = 0, y = 0):
             return
         deck = JavaScriptSerializer().DeserializeObject(data)["data"]
     for id in deck["cards"]:
-        notify("{}".format(id))
         card = me.Deck.create(id, 1)
-        notify("{}".format(card))
     houses = deck["_links"]["houses"]
     notify('{} loaded deck "{}" ({})'.format(me, deck["name"], ", ".join(houses)))
     me.setGlobalVariable("houses", str(houses))
