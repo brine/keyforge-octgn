@@ -48,6 +48,8 @@
         <property name="Armor" type="String"/>
         <property name="Text" type="String"/>
         <property name="Number" type="Integer"/>
+        <property name="Maverick" type="String"/>
+        <property name="Code" type="String"/>
     </card>
     <table name="Table" visibility="undefined" ordered="False" width="960" height="540" background="background/background.jpg" backgroundStyle="uniformToFill" >
             <groupaction menu="Choose Active House" shortcut="ctrl+H" execute="chooseHouse"/>
