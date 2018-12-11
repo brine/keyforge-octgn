@@ -54,7 +54,7 @@
             <groupaction menu="Choose Active House" shortcut="ctrl+H" execute="chooseHouse"/>
             <groupaction menu="Roll Die" shortcut="ctrl+R" execute="rollDie"/>
             <groupaction menu="Change Die" shortcut="ctrl+shift+R" execute="setDie"/>
-            <groupaction menu="Ready All Cards" shortcut="ctrl+Q" execute="readyCards"/>
+            <groupaction menu="Ready All Cards" shortcut="ctrl+Q" execute="readyAll"/>
             <groupaction menu="Load a New Deck" execute="loadDeck"/>
             <groupaction menu="Create Keys" execute="createKeys"/>
             <cardaction menu="Ready/Exhaust Card" default="True" execute="readyExhaust"/>
