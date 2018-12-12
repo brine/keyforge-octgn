@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 
 <set name="Markers"
-	 id="73595667-cc8f-4f2b-8264-de484467dcc3" 
-	 gameId="60d6fb01-7103-484f-9253-3f67b9e2ffeb" 
-	 gameVersion="1.0.0.0" 
+	 id="73595667-cc8f-4f2b-8264-de484467dcc3"
+	 gameId="60d6fb01-7103-484f-9253-3f67b9e2ffeb"
+	 gameVersion="1.0.0.0"
 	 version="1.0"
      hidden="true">
-	 
+
 	<markers>
 		<marker id="6f12fd99-6f04-4483-9786-44ff654c8a25" name="Æmber Counter"/>
 		<marker id="bbc64689-67f3-4378-b2f0-d22a3829459c" name="Damage Counter"/>

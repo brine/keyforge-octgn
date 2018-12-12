@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+<game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         name="Keyforge"
         id="60d6fb01-7103-484f-9253-3f67b9e2ffeb"
         octgnVersion="3.1.0.0"
-        version="1.0.1.0"
+        version="1.0.2.0"
         scriptVersion="3.1.0.2"
         markersize="16"
         tags="OCTGN, Keyforge"
         description="The Keyforge Game Package for OCTGN."
         setsurl="http://octgngames.com/keyforge/"
         gameurl="http://octgngames.com/keyforge/"
-        authors="brine"
+        authors="brine, seifertim"
         iconurl="https://raw.githubusercontent.com/brine/keyforge-octgn/master/GameDatabase/60d6fb01-7103-484f-9253-3f67b9e2ffeb/symbols/gameicon.jpg">
     <scripts>
         <script src="scripts/actions.py"/>
@@ -55,31 +55,31 @@
             <groupaction menu="Roll Die" shortcut="ctrl+R" execute="rollDie"/>
             <groupaction menu="Change Die" shortcut="ctrl+shift+R" execute="setDie"/>
             <groupaction menu="Ready All Cards" shortcut="ctrl+Q" execute="readyAll"/>
-            <groupaction menu="Load a New Deck" execute="loadDeck"/>
-            <groupaction menu="Create Keys" execute="createKeys"/>
-            <cardaction menu="Ready/Exhaust Card" default="True" execute="readyExhaust"/>
-            <cardaction menu="Reap" shortcut="ctrl+R" execute="reap"/>
-            <cardaction menu="Fight" shortcut="ctrl+F" execute="fight"/>
-            <cardaction menu="Action" shortcut="ctrl+A" execute="action"/>
-            <cardaction menu="Stun" shortcut="ctrl+V" execute="stun"/>
-            <cardaction menu="Reveal/Hide Card" shortcut="ctrl+F" execute="revealHide"/>
-            <cardaction menu="Forge Key" shortcut="ctrl+W" execute="forgeKey"/>
-            <cardaction menu="Add 1 Æmber" shortcut="ctrl+1" execute="addAember"/>
-            <cardaction menu="Remove 1 Æmber" shortcut="ctrl+shift+1" execute="removeAember"/>
-            <cardaction menu="Clear all Æmber" execute="clearAember"/>
-            <cardaction menu="Add 1 Damage" shortcut="ctrl+2" execute="addDamage"/>
-            <cardaction menu="Remove 1 Damage" shortcut="ctrl+shift+2" execute="removeDamage"/>
-            <cardaction menu="Clear all Damage" execute="clearDamage"/>
-            <cardaction menu="Add 1 Power" shortcut="ctrl+3" execute="addPower"/>
-            <cardaction menu="Remove 1 Power" shortcut="ctrl+shift+3" execute="removePower"/>
-            <cardaction menu="Clear all Power" execute="clearPower"/>
-            <cardaction menu="Discard Card" shortcut="del" execute="discard"/>
-            <cardaction menu="Archive Card" shortcut="ins" execute="archive"/>
+            <groupaction menu="Load a New Deck" execute="loadDeck" showIf="deckNotLoaded" />
+            <groupaction menu="Create Keys" execute="createKeys" showIf="keysNotCreated"/>
+            <cardaction menu="Ready/Exhaust Card" default="True" execute="readyExhaust" showIf="exhaustable"/>
+            <cardaction menu="Reap" shortcut="ctrl+R" execute="reap" showIf="isCreature"/>
+            <cardaction menu="Fight" shortcut="ctrl+F" execute="fight" showIf="isCreature"/>
+            <cardaction menu="Action" shortcut="ctrl+A" execute="action" showIf="exhaustable"/>
+            <cardaction menu="Stun" shortcut="ctrl+V" execute="stun" showIf="isCreature"/>
+            <cardaction menu="Reveal/Hide Card" shortcut="ctrl+F" execute="revealHide" showIf="isRealCard" />
+            <cardaction menu="Forge Key" shortcut="ctrl+W" execute="forgeKey" showIf="isKey"/>
+            <cardaction menu="Add 1 Æmber" shortcut="ctrl+1" execute="addAember" showIf="exhaustable"/>
+            <cardaction menu="Remove 1 Æmber" shortcut="ctrl+shift+1" execute="removeAember" showIf="exhaustable"/>
+            <cardaction menu="Clear all Æmber" execute="clearAember" showIf="exhaustable"/>
+            <cardaction menu="Add 1 Damage" shortcut="ctrl+2" execute="addDamage" showIf="isCreature"/>
+            <cardaction menu="Remove 1 Damage" shortcut="ctrl+shift+2" execute="removeDamage" showIf="isCreature"/>
+            <cardaction menu="Clear all Damage" execute="clearDamage" showIf="isCreature"/>
+            <cardaction menu="Add 1 Power" shortcut="ctrl+3" execute="addPower" showIf="isCreature"/>
+            <cardaction menu="Remove 1 Power" shortcut="ctrl+shift+3" execute="removePower" showIf="isCreature"/>
+            <cardaction menu="Clear all Power" execute="clearPower" showIf="isCreature"/>
+            <cardaction menu="Discard Card" shortcut="del" execute="discard" showIf="isRealCard"/>
+            <cardaction menu="Archive Card" shortcut="ins" execute="archive" showIf="isRealCard"/>
     </table>
     <player summary="H: {#Hand} Æ: {#Æmber} C: {#Chains}">
         <globalvariable name="houses" value="[]" />
         <counter name="Æmber" default="0" icon="symbols/aember.png" />
-        <counter name="Chains" default="0" icon="symbols/discard.png" />
+        <counter name="Chains" default="0" icon="symbols/chain.png" />
         <hand name="Hand" visibility="me" ordered="False" icon="symbols/hand.png">
             <groupaction menu="Random Discard" execute="randomDiscard"/>
             <groupaction menu="Mulligan Hand" execute="mulligan"/>
@@ -93,6 +93,7 @@
         </group>
         <group name="Discard Pile" visibility="all" icon="symbols/dead.png" shortcut="del">
             <groupaction menu="View Discard Pile" default="True" execute="viewGroup"/>
+            <groupaction menu="Shuffle Into Deck" execute="shuffleDiscardIntoDeck"/>
             <cardaction menu="Archive Card" shortcut="ins" execute="archive"/>
         </group>
         <group name="Archives" visibility="me" icon="symbols/hold.png" shortcut="ins" >

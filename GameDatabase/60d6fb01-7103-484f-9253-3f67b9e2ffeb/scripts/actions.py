@@ -35,6 +35,7 @@ def initializeGame():
             updates = '\n-'.join(text)
             confirm("What's new in {} ({}):\n-{}".format(stringVersion, date, updates))
     setSetting("lastVersion", convertToString(currentVersion))  ## Store's the current version to a setting
+    loadDeck(me.Deck)
 
 def loadDeck(group, x = 0, y = 0):
     mute()
@@ -42,10 +43,12 @@ def loadDeck(group, x = 0, y = 0):
         confirm("Cannot generate a deck: You already have cards loaded.  Reset the game in order to generate a new deck.")
         return
     choice = askChoice("What type of deck do you want to load?", ["A random deck", "A registered deck"])
-    
+
     if choice == 0: return
     if choice == 1:
-        i = rnd(1, 224320)
+        data, code = webRead("https://www.keyforgegame.com/api/decks/")
+        count = JavaScriptSerializer().DeserializeObject(data)["count"]
+        i = rnd(0, count)
         data, code = webRead("https://www.keyforgegame.com/api/decks/?page={}&page_size=1".format(i))
         if code != 200:
             whisper("Error retrieving online deck data, please try again.")
@@ -67,6 +70,8 @@ def loadDeck(group, x = 0, y = 0):
     houses = deck["_links"]["houses"]
     notify('{} loaded deck "{}" ({})'.format(me, deck["name"], ", ".join(houses)))
     me.setGlobalVariable("houses", str(houses))
+    me.Deck.shuffle()
+    createKeys(deck)
 
 def chooseHouse(group, x = 0, y = 0):
     mute()
@@ -74,9 +79,14 @@ def chooseHouse(group, x = 0, y = 0):
     if len(myHouses) == 0:
         whisper("Cannot choose a house: You need to load a deck first.")
         return
-    num = askChoice("Choose a House:", myHouses)
+    num = askChoice("Choose a House:", myHouses, customButtons = ["Other House"])
     if num == 0: return
-    notify("{} chooses House {}.".format(me, myHouses[num - 1]))
+    elif num == -1:
+        num = askChoice("Choose a House:", Houses)
+        if num == 0: return
+        notify("{} chooses House {}.".format(me, Houses[num - 1]))
+    else:
+        notify("{} chooses House {}.".format(me, myHouses[num - 1]))
 
 def setDie(group, x = 0, y = 0):
     mute()
@@ -102,6 +112,14 @@ def dieFunct(num):
         n = rnd(1, num)
         notify("{} rolls {} on a {}-sided die.".format(me, n, num))
 
+
+def keysNotCreated(group,x,y):
+    mute()
+    tableCards = [card.model for card in table if card.owner == me]
+    for title in queryCard({"Type": "Key"}):
+        if title in tableCards:
+            return False
+    return True
 
 def createKeys(group, x = 0, y = 0):
     mute()
@@ -184,7 +202,7 @@ def addAember(card, x = 0, y = 0):
     mute()
     card.markers[AemberMarker] += 1
     notify("{} adds 1 Æmber on {}.".format(me, card))
-    
+
 def removeAember(card, x = 0, y = 0):
     mute()
     card.markers[AemberMarker] -= 1
@@ -194,12 +212,12 @@ def clearAember(card, x = 0, y = 0):
     mute()
     card.markers[AemberMarker] = 0
     notify("{} removes all Æmber from {}.".format(me, card))
-    
+
 def addPower(card, x = 0, y = 0):
     mute()
     card.markers[PowerMarker] += 1
     notify("{} adds 1 Power token on {}.".format(me, card))
-    
+
 def removePower(card, x = 0, y = 0):
     mute()
     card.markers[PowerMarker] -= 1
@@ -209,17 +227,17 @@ def clearPower(card, x = 0, y = 0):
     mute()
     card.markers[PowerMarker] = 0
     notify("{} removes all Power token from {}.".format(me, card))
-    
+
 def addDamage(card, x = 0, y = 0):
     mute()
     card.markers[DamageMarker] += 1
     notify("{} adds 1 Damage on {}.".format(me, card))
-    
+
 def removeDamage(card, x = 0, y = 0):
     mute()
     card.markers[DamageMarker] -= 1
     notify("{} removes 1 Damage from {}.".format(me, card))
-    
+
 def clearDamage(card, x = 0, y = 0):
     mute()
     card.markers[DamageMarker] = 0
@@ -302,7 +320,7 @@ def mulligan(group, x = 0, y = 0):
     shuffle(me.Deck, silence = True)
     for card in me.Deck.top(newCount - 1):
         card.moveTo(card.owner.hand)
-        
+
 def randomDiscard(group, x = 0, y = 0):
     mute()
     card = group.random()
@@ -310,7 +328,7 @@ def randomDiscard(group, x = 0, y = 0):
         return
     card.moveTo(card.owner.piles["Discard Pile"])
     notify("{} randomly discards {} from {}.".format(me, card, group.name))
-    
+
 def drawArchives(group, x = 0, y = 0):
     mute()
     if len(group) == 0: return
@@ -326,3 +344,62 @@ def pluralize(num):
        return ""
    else:
        return "s"
+
+def shuffleDiscardIntoDeck(group, x = 0, y = 0):
+    mute()
+    if len(group) == 0: return
+    for card in group:
+        card.moveTo(card.owner.Deck)
+    card.owner.Deck.shuffle()
+    notify("{} shuffles their discard pile into their Deck.".format(me))
+
+def deckNotLoaded(group,x,y):
+    if len(me.Deck) > 0:
+        return False
+    return True
+
+#------------------
+# Card Type Checks
+#------------------
+
+def isKey(cards,x,y):
+    for c in cards:
+        if c.Type != 'Key':
+            return False
+    return True
+
+def isAction(cards,x,y):
+    for c in cards:
+        if c.Type != 'Action':
+            return False
+    return True
+
+def isArtifact(cards,x,y):
+    for c in cards:
+        if c.Type != 'Artifact':
+            return False
+    return True
+
+def isCreature(cards,x,y):
+    for c in cards:
+        if c.Type != 'Creature':
+            return False
+    return True
+
+def isUpgrade(cards,x,y):
+    for c in cards:
+        if c.Type != 'Upgrade':
+            return False
+    return True
+
+def isRealCard(cards,x,y):
+    for c in cards:
+        if c.Type != 'Artifact' and c.Type != "Creature" and c.Type != "Action" and c.Type != "Upgrade":
+            return False
+    return True
+
+def exhaustable(cards, x, y):
+    for c in cards:
+        if c.type != "Artifact" and c.type != "Creature":
+            return False
+    return True
