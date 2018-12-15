@@ -46,3 +46,5 @@ Temporary Items
 bin/
 obj/
 packages/
+GameDatabase/build.bat
+*.nupkg
