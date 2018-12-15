@@ -16,8 +16,6 @@ RedKeyToken = "c13977a0-55d7-4d58-8c00-045794821556"
 
 diesides = 6
 
-deckStats = {}
-
 def initializeGame():
     mute()
     #### LOAD CHANGELOG
@@ -39,7 +37,7 @@ def initializeGame():
 
 def loadDeck(group, x = 0, y = 0):
     mute()
-    if len(me.Deck) > 0:
+    if not deckNotLoaded(group):
         confirm("Cannot generate a deck: You already have cards loaded.  Reset the game in order to generate a new deck.")
         return
     choice = askChoice("What type of deck do you want to load?", ["A random deck", "A registered deck"])
@@ -56,6 +54,7 @@ def loadDeck(group, x = 0, y = 0):
         deck = JavaScriptSerializer().DeserializeObject(data)["data"][0]
     elif choice == 2:
         url = askString("Please enter the URL of the deck you wish to load.", "")
+        if url == None: return
         if not "deck-details/" in url:
             whisper("Error: Invalid URL.")
             return
@@ -67,11 +66,13 @@ def loadDeck(group, x = 0, y = 0):
         deck = JavaScriptSerializer().DeserializeObject(data)["data"]
     for id in deck["cards"]:
         card = me.Deck.create(id, 1)
+        if card == None:
+            whisper("Error loading deck: Unknown card found.  Please restart game and try a different deck.")
     houses = deck["_links"]["houses"]
     notify('{} loaded deck "{}" ({})'.format(me, deck["name"], ", ".join(houses)))
     me.setGlobalVariable("houses", str(houses))
     me.Deck.shuffle()
-    createKeys(deck)
+    createKeys(deck, 0, -100 if me.isInverted else 100)
 
 def chooseHouse(group, x = 0, y = 0):
     mute()
@@ -113,20 +114,20 @@ def dieFunct(num):
         notify("{} rolls {} on a {}-sided die.".format(me, n, num))
 
 
-def keysNotCreated(group,x,y):
+def keysNotCreated(group,x = 0,y = 0):
     mute()
     tableCards = [card.model for card in table if card.owner == me]
-    for title in queryCard({"Type": "Key"}):
-        if title in tableCards:
-            return False
-    return True
+    for title in [BlueKeyToken, RedKeyToken, YellowKeyToken]:
+        if title not in tableCards:
+            return True
+    return False
 
 def createKeys(group, x = 0, y = 0):
     mute()
     tableCards = [card.model for card in table if card.owner == me]
-    for title in queryCard({"Type": "Key"}):
+    for title in [BlueKeyToken, RedKeyToken, YellowKeyToken]:
         if title not in tableCards:
-            titleCard = table.create(title, x, y, 1)
+            titleCard = table.create(title, x, y, 1) 
             x += 10
             if titleCard.isInverted():
                 y -= 10
@@ -353,7 +354,7 @@ def shuffleDiscardIntoDeck(group, x = 0, y = 0):
     card.owner.Deck.shuffle()
     notify("{} shuffles their discard pile into their Deck.".format(me))
 
-def deckNotLoaded(group,x,y):
+def deckNotLoaded(group, x = 0, y = 0):
     if len(me.Deck) > 0:
         return False
     return True
@@ -362,43 +363,43 @@ def deckNotLoaded(group,x,y):
 # Card Type Checks
 #------------------
 
-def isKey(cards,x,y):
+def isKey(cards, x = 0, y = 0):
     for c in cards:
         if c.Type != 'Key':
             return False
     return True
 
-def isAction(cards,x,y):
+def isAction(cards, x = 0, y = 0):
     for c in cards:
         if c.Type != 'Action':
             return False
     return True
 
-def isArtifact(cards,x,y):
+def isArtifact(cards, x = 0, y = 0):
     for c in cards:
         if c.Type != 'Artifact':
             return False
     return True
 
-def isCreature(cards,x,y):
+def isCreature(cards, x = 0, y = 0):
     for c in cards:
         if c.Type != 'Creature':
             return False
     return True
 
-def isUpgrade(cards,x,y):
+def isUpgrade(cards, x = 0, y = 0):
     for c in cards:
         if c.Type != 'Upgrade':
             return False
     return True
 
-def isRealCard(cards,x,y):
+def isRealCard(cards, x = 0, y = 0):
     for c in cards:
         if c.Type != 'Artifact' and c.Type != "Creature" and c.Type != "Action" and c.Type != "Upgrade":
             return False
     return True
 
-def exhaustable(cards, x, y):
+def exhaustable(cards, x = 0, y = 0):
     for c in cards:
         if c.type != "Artifact" and c.type != "Creature":
             return False
