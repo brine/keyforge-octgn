@@ -5248,6 +5248,30 @@ Each other friendly Niffle creature gets +1 power.</property>
       <property name="Maverick" value="True" />
       <property name="Code" value="PJ6HFMR62X8F" />
     </card>
+    <card name="Champion’s Challenge" id="d8e271c7-dcde-4ed0-9f50-a67984dca45a">
+      <property name="House" value="Untamed" />
+      <property name="Type" value="Action" />
+      <property name="Text">Play: Destroy each enemy creature except the most powerful enemy creature. Destroy each friendly creature except the most powerful friendly creature. Ready and fight with your remaining creature.</property>
+      <property name="Æmber" value="0" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="6" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="PJ6HFMR62X8F" />
+    </card>
+    <card name="Champion’s Challenge" id="e7f13b59-a3ad-413d-bf55-c2ba302eb52a">
+      <property name="House" value="Mars" />
+      <property name="Type" value="Action" />
+      <property name="Text">Play: Destroy each enemy creature except the most powerful enemy creature. Destroy each friendly creature except the most powerful friendly creature. Ready and fight with your remaining creature.</property>
+      <property name="Æmber" value="0" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="6" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="PJ6HFMR62X8F" />
+    </card>
     <card name="Coward’s End" id="dbab23e3-0e42-4abb-8391-f7f2cf878771">
       <property name="House" value="Mars" />
       <property name="Type" value="Action" />
@@ -5550,6 +5574,19 @@ Each other friendly Niffle creature gets +1 power.</property>
     </card>
     <card name="Take that, Smartypants" id="d6f91111-70ea-44fe-9703-b861115ec1da">
       <property name="House" value="Sanctum" />
+      <property name="Type" value="Action" />
+      <property name="Text">Play: Steal 2<s value="aember">[A]</s> if your opponent has 3 or more Logos cards in play.</property>
+      <property name="Æmber" value="1" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Flavor">"Them bots don't wear pants. I carry spares."</property>
+      <property name="Number" value="11" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="R2V4JJXQRVGH" />
+    </card>
+    <card name="Take that, Smartypants" id="ee40020a-a206-4a2f-a4dc-c4ee6bd6bd24">
+      <property name="House" value="Untamed" />
       <property name="Type" value="Action" />
       <property name="Text">Play: Steal 2<s value="aember">[A]</s> if your opponent has 3 or more Logos cards in play.</property>
       <property name="Æmber" value="1" />
@@ -6103,6 +6140,19 @@ Each other friendly Niffle creature gets +1 power.</property>
       <property name="Maverick" value="True" />
       <property name="Code" value="3FQVR3V3CR7F" />
     </card>
+    <card name="Banner of Battle" id="096c3299-3c3b-45df-9892-73e869364727">
+      <property name="House" value="Dis" />
+      <property name="Type" value="Artifact" />
+      <property name="Text">Each friendly creature gets +1 power.</property>
+      <property name="Traits" value="Item" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="20" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="3FQVR3V3CR7F" />
+    </card>
     <card name="Cannon" id="6f7d279a-1306-4c7a-8961-767b0388260f">
       <property name="House" value="Dis" />
       <property name="Type" value="Artifact" />
@@ -6330,6 +6380,19 @@ Each other friendly Niffle creature gets +1 power.</property>
       <property name="Maverick" value="True" />
       <property name="Code" value="CG2485CM5HV4" />
     </card>
+    <card name="Mighty Javelin" id="df2d0022-9799-49a2-8e3c-f2fa86a6c63e">
+      <property name="House" value="Mars" />
+      <property name="Type" value="Artifact" />
+      <property name="Text">Omni: Sacrifice Mighty Javelin. Deal 4<s value="damage">[D]</s> to a creature.</property>
+      <property name="Traits" value="Weapon" />
+      <property name="Æmber" value="1" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Number" value="24" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="CG2485CM5HV4" />
+    </card>
     <card name="Pile of Skulls" id="85cc8ad9-ee31-42e7-b1db-b77bdfe5879c">
       <property name="House" value="Untamed" />
       <property name="Type" value="Artifact" />
@@ -6358,6 +6421,19 @@ Each other friendly Niffle creature gets +1 power.</property>
     </card>
     <card name="Pile of Skulls" id="059fa90a-65b4-433a-adcd-4d68bededf39">
       <property name="House" value="Sanctum" />
+      <property name="Type" value="Artifact" />
+      <property name="Text">Each time an enemy creature is destroyed during your turn, a friendly creature captures 1<s value="aember">[A]</s>.</property>
+      <property name="Traits" value="Location" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="25" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="M6WXP2FVXH53" />
+    </card>
+    <card name="Pile of Skulls" id="dc387d45-feae-4f32-8927-141505b5da7b">
+      <property name="House" value="Mars" />
       <property name="Type" value="Artifact" />
       <property name="Text">Each time an enemy creature is destroyed during your turn, a friendly creature captures 1<s value="aember">[A]</s>.</property>
       <property name="Traits" value="Location" />
@@ -6865,6 +6941,20 @@ Each other friendly Niffle creature gets +1 power.</property>
       <property name="Maverick" value="True" />
       <property name="Code" value="C7RGGJ9WG7XW" />
     </card>
+    <card name="Earthshaker" id="7564254f-af03-4a05-90ce-a50fda2632e2">
+      <property name="House" value="Mars" />
+      <property name="Type" value="Creature" />
+      <property name="Text">Play: Destroy each creature with power 3 or lower.</property>
+      <property name="Traits" value="Giant" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="7" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Flavor">"Did you feel that?"</property>
+      <property name="Number" value="31" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="C7RGGJ9WG7XW" />
+    </card>
     <card name="Firespitter" id="088e0a4b-e144-47c8-8391-cdf863ee85c3">
       <property name="House" value="Sanctum" />
       <property name="Type" value="Creature" />
@@ -7349,6 +7439,20 @@ Fight/Reap: Gain 1<s value="aember">[A]</s>. Deal 5<s value="damage">[D]</s> to 
       <property name="Maverick" value="True" />
       <property name="Code" value="PGMRV99HCWG7" />
     </card>
+    <card name="Kelifi Dragon" id="e895d0a3-1444-446b-8311-108107f05cb2">
+      <property name="House" value="Untamed" />
+      <property name="Type" value="Creature" />
+      <property name="Text">Kelifi Dragon cannot be played unless you have 7<s value="aember">[A]</s> or more.
+Fight/Reap: Gain 1<s value="aember">[A]</s>. Deal 5<s value="damage">[D]</s> to a creature.</property>
+      <property name="Traits" value="Dragon" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="12" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="37" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="PGMRV99HCWG7" />
+    </card>
     <card name="King of the Crag" id="99557900-2879-4738-a48a-253f4e3504bf">
       <property name="House" value="Dis" />
       <property name="Type" value="Creature" />
@@ -7379,6 +7483,34 @@ Fight/Reap: Gain 1<s value="aember">[A]</s>. Deal 5<s value="damage">[D]</s> to 
     </card>
     <card name="King of the Crag" id="4230bddf-40d6-4a09-99e5-899db429ee14">
       <property name="House" value="Mars" />
+      <property name="Type" value="Creature" />
+      <property name="Text">Each enemy Brobnar creature gets –2 power.</property>
+      <property name="Traits" value="Giant" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="7" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Flavor">Overthrowing this king is an uphill battle. </property>
+      <property name="Number" value="38" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="VH6FGMM4HCH4" />
+    </card>
+    <card name="King of the Crag" id="188190fa-e3e0-4b7a-a30e-df4bc5f2a74f">
+      <property name="House" value="Logos" />
+      <property name="Type" value="Creature" />
+      <property name="Text">Each enemy Brobnar creature gets –2 power.</property>
+      <property name="Traits" value="Giant" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="7" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Flavor">Overthrowing this king is an uphill battle. </property>
+      <property name="Number" value="38" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="VH6FGMM4HCH4" />
+    </card>
+    <card name="King of the Crag" id="7723014a-2a1b-4814-8b87-cee456e9eff5">
+      <property name="House" value="Untamed" />
       <property name="Type" value="Creature" />
       <property name="Text">Each enemy Brobnar creature gets –2 power.</property>
       <property name="Traits" value="Giant" />
@@ -7675,6 +7807,19 @@ Reap: For the remainder of the turn, gain 1<s value="aember">[A]</s> each time a
       <property name="Maverick" value="True" />
       <property name="Code" value="6G82WPR8965X" />
     </card>
+    <card name="Mugwump" id="883e7079-b17b-45eb-9500-0651d7085b0c">
+      <property name="House" value="Sanctum" />
+      <property name="Type" value="Creature" />
+      <property name="Text">After an enemy creature is destroyed fighting Mugwump, fully heal Mugwump and give it a +1 power counter.</property>
+      <property name="Traits" value="Giant" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="6" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="42" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="6G82WPR8965X" />
+    </card>
     <card name="Pingle Who Annoys" id="acbe2a68-ba5f-4997-90cc-afb3dd599bb5">
       <property name="House" value="Mars" />
       <property name="Type" value="Creature" />
@@ -7745,6 +7890,20 @@ Deal 1<s value="damage">[D]</s> to each enemy creature after it enters play.</pr
       <property name="Maverick" value="True" />
       <property name="Code" value="PC7XR5283WJ" />
     </card>
+    <card name="Pingle Who Annoys" id="783b655e-03a5-4c62-b399-b4b78d0a39a2">
+      <property name="House" value="Logos" />
+      <property name="Type" value="Creature" />
+      <property name="Text">Elusive. (The first time this creature is attacked each turn, no damage is dealt.)
+Deal 1<s value="damage">[D]</s> to each enemy creature after it enters play.</property>
+      <property name="Traits" value="Goblin" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="2" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="43" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="PC7XR5283WJ" />
+    </card>
     <card name="Rogue Ogre" id="2b4cd92d-accd-412b-b698-1f945f9b83c7">
       <property name="House" value="Dis" />
       <property name="Type" value="Creature" />
@@ -7789,6 +7948,20 @@ Deal 1<s value="damage">[D]</s> to each enemy creature after it enters play.</pr
     </card>
     <card name="Rogue Ogre" id="a5684ac9-30a2-426a-a5ee-b50764df4d8f">
       <property name="House" value="Untamed" />
+      <property name="Type" value="Creature" />
+      <property name="Text">At the end of your turn, if you played exactly one card this turn, Rogue Ogre heals 2 damage and captures 1<s value="aember">[A]</s>.</property>
+      <property name="Traits" value="Giant • Mutant" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="6" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Flavor">"I like to think of it as a Roguere." –Dodger</property>
+      <property name="Number" value="45" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="HWPQ963W848R" />
+    </card>
+    <card name="Rogue Ogre" id="c155a198-d860-4bda-81e6-119c330413fa">
+      <property name="House" value="Shadows" />
       <property name="Type" value="Creature" />
       <property name="Text">At the end of your turn, if you played exactly one card this turn, Rogue Ogre heals 2 damage and captures 1<s value="aember">[A]</s>.</property>
       <property name="Traits" value="Giant • Mutant" />
@@ -7917,6 +8090,21 @@ If your opponent has no creatures in play, destroy Tireless Crocag.</property>
     </card>
     <card name="Tireless Crocag" id="ae99a256-9a4b-4bd3-bc6b-e4c67e0c5605">
       <property name="House" value="Untamed" />
+      <property name="Type" value="Creature" />
+      <property name="Text">Tireless Crocag cannot reap.
+You may use Tireless Crocag as if it belonged to the active house.
+If your opponent has no creatures in play, destroy Tireless Crocag.</property>
+      <property name="Traits" value="Giant" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="7" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="47" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="QHVVFWHGJM8R" />
+    </card>
+    <card name="Tireless Crocag" id="fdacc9fa-a889-4025-bf4a-f859b6531ebb">
+      <property name="House" value="Sanctum" />
       <property name="Type" value="Creature" />
       <property name="Text">Tireless Crocag cannot reap.
 You may use Tireless Crocag as if it belonged to the active house.
@@ -8466,6 +8654,32 @@ Play: Fully heal this creature.</property>
     </card>
     <card name="Creeping Oblivion" id="353b22fa-04ce-4b0c-a78a-f3fe51065352">
       <property name="House" value="Mars" />
+      <property name="Type" value="Action" />
+      <property name="Text">Play: Purge up to 2 cards from a discard pile.</property>
+      <property name="Æmber" value="1" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Flavor">"As far as oblivions go, it's in my bottom three." –Dr. Escotera</property>
+      <property name="Number" value="56" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="4RHHVXPC3X35" />
+    </card>
+    <card name="Creeping Oblivion" id="522f66d2-d401-4ea6-b686-ec7446bc83d5">
+      <property name="House" value="Brobnar" />
+      <property name="Type" value="Action" />
+      <property name="Text">Play: Purge up to 2 cards from a discard pile.</property>
+      <property name="Æmber" value="1" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Flavor">"As far as oblivions go, it's in my bottom three." –Dr. Escotera</property>
+      <property name="Number" value="56" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="4RHHVXPC3X35" />
+    </card>
+    <card name="Creeping Oblivion" id="e2855571-276e-4cd8-a66d-7be3c5c0536e">
+      <property name="House" value="Shadows" />
       <property name="Type" value="Action" />
       <property name="Text">Play: Purge up to 2 cards from a discard pile.</property>
       <property name="Æmber" value="1" />
@@ -9548,6 +9762,32 @@ Play: Fully heal this creature.</property>
       <property name="Maverick" value="True" />
       <property name="Code" value="H2HJ8R9HF5C" />
     </card>
+    <card name="Annihilation Ritual " id="01c626a8-59b7-4dc6-b89c-6ea24dccde3f">
+      <property name="House" value="Untamed" />
+      <property name="Type" value="Artifact" />
+      <property name="Text">When a creature would enter a discard pile from play, it is purged instead.</property>
+      <property name="Traits" value="Power" />
+      <property name="Æmber" value="1" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="72" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="H2HJ8R9HF5C" />
+    </card>
+    <card name="Annihilation Ritual " id="40dd4091-07d4-41dd-a169-263f266bbb86">
+      <property name="House" value="Brobnar" />
+      <property name="Type" value="Artifact" />
+      <property name="Text">When a creature would enter a discard pile from play, it is purged instead.</property>
+      <property name="Traits" value="Power" />
+      <property name="Æmber" value="1" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="72" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="H2HJ8R9HF5C" />
+    </card>
     <card name="Dominator Bauble" id="0e3404c9-9d54-4670-995a-0b32fcbbf278">
       <property name="House" value="Untamed" />
       <property name="Type" value="Artifact" />
@@ -10465,6 +10705,19 @@ Play: If your opponent has 7<s value="aember">[A]</s> or more, capture all of it
       <property name="Maverick" value="True" />
       <property name="Code" value="5P9QW3X62X46" />
     </card>
+    <card name="Eater of the Dead" id="9685ef84-5950-4318-8236-df2616fb072c">
+      <property name="House" value="Sanctum" />
+      <property name="Type" value="Creature" />
+      <property name="Text">Fight/Reap: Purge a creature from a discard pile. If you do, put a +1 power counter on Eater of the Dead.</property>
+      <property name="Traits" value="Demon" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="4" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="84" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="5P9QW3X62X46" />
+    </card>
     <card name="Ember Imp" id="4f438035-6597-4863-8bb1-35463034e0f2">
       <property name="House" value="Brobnar" />
       <property name="Type" value="Creature" />
@@ -10582,6 +10835,19 @@ Play: If your opponent has 7<s value="aember">[A]</s> or more, capture all of it
       <property name="Maverick" value="True" />
       <property name="Code" value="33RP646XMQ93" />
     </card>
+    <card name="Gabos Longarms" id="30aa512d-bc1d-4a1f-bc0a-b67ce70ffce9">
+      <property name="House" value="Shadows" />
+      <property name="Type" value="Creature" />
+      <property name="Text">Before Fight: Choose a creature. Gabos Longarms deals damage to that creature rather than the one it is fighting.</property>
+      <property name="Traits" value="Demon" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="5" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="86" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="33RP646XMQ93" />
+    </card>
     <card name="Overlord Greking" id="3ef71392-1245-4f18-aa5c-d00a37df57c6">
       <property name="House" value="Brobnar" />
       <property name="Type" value="Creature" />
@@ -10623,6 +10889,19 @@ Play: If your opponent has 7<s value="aember">[A]</s> or more, capture all of it
     </card>
     <card name="Overlord Greking" id="9009cc32-f61b-47cf-a85f-73189c2cedc2">
       <property name="House" value="Mars" />
+      <property name="Type" value="Creature" />
+      <property name="Text">After an enemy creature is destroyed fighting Overlord Greking, put that creature into play under your control.</property>
+      <property name="Traits" value="Demon" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="7" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="87" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="JFFVJ73VP9VQ" />
+    </card>
+    <card name="Overlord Greking" id="37e52b26-8060-452e-a42a-58a9819eac38">
+      <property name="House" value="Sanctum" />
       <property name="Type" value="Creature" />
       <property name="Text">After an enemy creature is destroyed fighting Overlord Greking, put that creature into play under your control.</property>
       <property name="Traits" value="Demon" />
@@ -10768,6 +11047,76 @@ Play: If your opponent has 7<s value="aember">[A]</s> or more, capture all of it
       <property name="Maverick" value="True" />
       <property name="Code" value="6PRCRMHM5G4W" />
     </card>
+    <card name="Master of 2" id="b4e6a225-680d-46bf-a428-7a75de38f203">
+      <property name="House" value="Mars" />
+      <property name="Type" value="Creature" />
+      <property name="Text">Reap: You may destroy a creature with 2 power.</property>
+      <property name="Traits" value="Demon" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="4" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Variant" />
+      <property name="Flavor">The second sin is apathy.</property>
+      <property name="Number" value="90" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="6PRCRMHM5G4W" />
+    </card>
+    <card name="Master of 2" id="fcb372e1-1660-4ce8-b927-73532254ec01">
+      <property name="House" value="Untamed" />
+      <property name="Type" value="Creature" />
+      <property name="Text">Reap: You may destroy a creature with 2 power.</property>
+      <property name="Traits" value="Demon" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="4" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Variant" />
+      <property name="Flavor">The second sin is apathy.</property>
+      <property name="Number" value="90" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="6PRCRMHM5G4W" />
+    </card>
+    <card name="Master of 3" id="74f95268-6cc2-4a9c-9384-2c2ad683bbda">
+      <property name="House" value="Untamed" />
+      <property name="Type" value="Creature" />
+      <property name="Text">Reap: You may destroy a creature with 3 power.</property>
+      <property name="Traits" value="Demon" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="4" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Variant" />
+      <property name="Flavor">The third sin is greed.</property>
+      <property name="Number" value="91" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="JQ7CXW28FW88" />
+    </card>
+    <card name="Master of 3" id="829d08c0-fe64-44e2-8895-9d76cfa7c7de">
+      <property name="House" value="Brobnar" />
+      <property name="Type" value="Creature" />
+      <property name="Text">Reap: You may destroy a creature with 3 power.</property>
+      <property name="Traits" value="Demon" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="4" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Variant" />
+      <property name="Flavor">The third sin is greed.</property>
+      <property name="Number" value="91" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="JQ7CXW28FW88" />
+    </card>
+    <card name="Master of 3" id="9a15a7fd-506d-4514-92d0-f272fa30d2a6">
+      <property name="House" value="Sanctum" />
+      <property name="Type" value="Creature" />
+      <property name="Text">Reap: You may destroy a creature with 3 power.</property>
+      <property name="Traits" value="Demon" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="4" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Variant" />
+      <property name="Flavor">The third sin is greed.</property>
+      <property name="Number" value="91" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="JQ7CXW28FW88" />
+    </card>
     <card name="Pit Demon" id="a68fe871-4a8b-4adf-8ea5-b0a8818be4c0">
       <property name="House" value="Brobnar" />
       <property name="Type" value="Creature" />
@@ -10868,6 +11217,34 @@ While Pitlord is in play you must choose Dis as your active house.</property>
     </card>
     <card name="Pitlord" id="23fe6a7a-578d-4bb8-940c-a29eec12edaf">
       <property name="House" value="Untamed" />
+      <property name="Type" value="Creature" />
+      <property name="Text">Taunt. (This creature's neighbors cannot be attacked unless they have taunt.)
+While Pitlord is in play you must choose Dis as your active house.</property>
+      <property name="Traits" value="Demon" />
+      <property name="Æmber" value="2" />
+      <property name="Power" value="9" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="93" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="95PVMCCHQ7P2" />
+    </card>
+    <card name="Pitlord" id="6ba26241-734a-490f-9540-b2eabbc32d46">
+      <property name="House" value="Mars" />
+      <property name="Type" value="Creature" />
+      <property name="Text">Taunt. (This creature's neighbors cannot be attacked unless they have taunt.)
+While Pitlord is in play you must choose Dis as your active house.</property>
+      <property name="Traits" value="Demon" />
+      <property name="Æmber" value="2" />
+      <property name="Power" value="9" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="93" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="95PVMCCHQ7P2" />
+    </card>
+    <card name="Pitlord" id="dbf69162-8476-4d31-b45d-ab3411e97c29">
+      <property name="House" value="Brobnar" />
       <property name="Type" value="Creature" />
       <property name="Text">Taunt. (This creature's neighbors cannot be attacked unless they have taunt.)
 While Pitlord is in play you must choose Dis as your active house.</property>
@@ -11405,6 +11782,19 @@ While Pitlord is in play you must choose Dis as your active house.</property>
       <property name="Maverick" value="True" />
       <property name="Code" value="WQWQX27FH7M2" />
     </card>
+    <card name="Tentacus" id="68853814-aa0b-4b2d-9899-ec4e803862e8">
+      <property name="House" value="Untamed" />
+      <property name="Type" value="Creature" />
+      <property name="Text">Your opponent must pay you 1<s value="aember">[A]</s> in order to use an artifact.</property>
+      <property name="Traits" value="Demon" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="5" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Number" value="100" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="WQWQX27FH7M2" />
+    </card>
     <card name="The Terror" id="3642f368-8e4d-4b64-90bb-c5d1e9a7b22a">
       <property name="House" value="Mars" />
       <property name="Type" value="Creature" />
@@ -11623,8 +12013,82 @@ Each time a creature is destroyed, its opponent gains 1<s value="aember">[A]</s>
       <property name="Maverick" value="True" />
       <property name="Code" value="PMC43W3QPFW4" />
     </card>
+    <card name="Tolas" id="68c4c37b-0210-4ed8-846d-7bb463376646">
+      <property name="House" value="Mars" />
+      <property name="Type" value="Creature" />
+      <property name="Text">Elusive. (The first time this creature is attacked each turn, no damage is dealt.)
+Each time a creature is destroyed, its opponent gains 1<s value="aember">[A]</s>.</property>
+      <property name="Traits" value="Imp" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="1" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="103" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="PMC43W3QPFW4" />
+    </card>
     <card name="Truebaru" id="9a9ee420-e50b-45da-a456-71a74c521dff">
       <property name="House" value="Mars" />
+      <property name="Type" value="Creature" />
+      <property name="Text">You must lose 3<s value="aember">[A]</s> in order to play Truebaru.  
+Taunt. (This creature's neighbors cannot be attacked unless they have taunt.)
+Destroyed: Gain 5<s value="aember">[A]</s>. </property>
+      <property name="Traits" value="Demon" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="7" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="104" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="VCQ8F8XMQJCH" />
+    </card>
+    <card name="Truebaru" id="5dac6c39-cd16-40f9-9b46-f154fc2bdb5f">
+      <property name="House" value="Shadows" />
+      <property name="Type" value="Creature" />
+      <property name="Text">You must lose 3<s value="aember">[A]</s> in order to play Truebaru.  
+Taunt. (This creature's neighbors cannot be attacked unless they have taunt.)
+Destroyed: Gain 5<s value="aember">[A]</s>. </property>
+      <property name="Traits" value="Demon" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="7" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="104" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="VCQ8F8XMQJCH" />
+    </card>
+    <card name="Truebaru" id="e9e5ceb2-ba39-49b7-ad34-945b2de3fe42">
+      <property name="House" value="Logos" />
+      <property name="Type" value="Creature" />
+      <property name="Text">You must lose 3<s value="aember">[A]</s> in order to play Truebaru.  
+Taunt. (This creature's neighbors cannot be attacked unless they have taunt.)
+Destroyed: Gain 5<s value="aember">[A]</s>. </property>
+      <property name="Traits" value="Demon" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="7" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="104" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="VCQ8F8XMQJCH" />
+    </card>
+    <card name="Truebaru" id="9ccdcfb6-3e8e-4ce1-b880-1ef4845b6529">
+      <property name="House" value="Untamed" />
+      <property name="Type" value="Creature" />
+      <property name="Text">You must lose 3<s value="aember">[A]</s> in order to play Truebaru.  
+Taunt. (This creature's neighbors cannot be attacked unless they have taunt.)
+Destroyed: Gain 5<s value="aember">[A]</s>. </property>
+      <property name="Traits" value="Demon" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="7" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="104" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="VCQ8F8XMQJCH" />
+    </card>
+    <card name="Truebaru" id="1b332581-6afa-4d14-9cc9-f67e62843b16">
+      <property name="House" value="Sanctum" />
       <property name="Type" value="Creature" />
       <property name="Text">You must lose 3<s value="aember">[A]</s> in order to play Truebaru.  
 Taunt. (This creature's neighbors cannot be attacked unless they have taunt.)
@@ -12074,6 +12538,18 @@ Destroyed: Gain 5<s value="aember">[A]</s>. </property>
     </card>
     <card name="Interdimensional Graft" id="bc4419ff-aec9-4649-907b-a85d75c8b730">
       <property name="House" value="Sanctum" />
+      <property name="Type" value="Action" />
+      <property name="Text">Play: If an opponent forges a key on their next turn, they must give you their remaining <s value="aember">[A]</s>.</property>
+      <property name="Æmber" value="1" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Number" value="112" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="VWRCJXGG9J99" />
+    </card>
+    <card name="Interdimensional Graft" id="9bb6231d-5707-448e-a41d-20189e2505d5">
+      <property name="House" value="Untamed" />
       <property name="Type" value="Action" />
       <property name="Text">Play: If an opponent forges a key on their next turn, they must give you their remaining <s value="aember">[A]</s>.</property>
       <property name="Æmber" value="1" />
@@ -13379,6 +13855,20 @@ Action: Move 1<s value="aember">[A]</s> from your pool to Pocket Universe.</prop
       <property name="Maverick" value="True" />
       <property name="Code" value="Q67W5PMV8768" />
     </card>
+    <card name="Pocket Universe" id="ffb325db-c6bf-4379-9cd8-ccde38bb1ace">
+      <property name="House" value="Untamed" />
+      <property name="Type" value="Artifact" />
+      <property name="Text">You may spend <s value="aember">[A]</s> on Pocket Universe when forging keys.
+Action: Move 1<s value="aember">[A]</s> from your pool to Pocket Universe.</property>
+      <property name="Traits" value="Item" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="131" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="Q67W5PMV8768" />
+    </card>
     <card name="Spangler Box" id="e70724b0-bd59-48e7-9723-df64307b91d6">
       <property name="House" value="Shadows" />
       <property name="Type" value="Artifact" />
@@ -13394,6 +13884,32 @@ Action: Move 1<s value="aember">[A]</s> from your pool to Pocket Universe.</prop
     </card>
     <card name="Spangler Box" id="84502833-52a4-461b-b9b8-a244f1d98ddf">
       <property name="House" value="Brobnar" />
+      <property name="Type" value="Artifact" />
+      <property name="Text">Action: Purge a creature in play. If you do, your opponent gains control of Spangler Box. If Spangler Box leaves play, return to play all cards purged by Spangler Box.</property>
+      <property name="Traits" value="Item" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="132" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="XQ93M42M9FR5" />
+    </card>
+    <card name="Spangler Box" id="8977eafd-6ccd-4543-8c07-4ef7aeb9bcad">
+      <property name="House" value="Sanctum" />
+      <property name="Type" value="Artifact" />
+      <property name="Text">Action: Purge a creature in play. If you do, your opponent gains control of Spangler Box. If Spangler Box leaves play, return to play all cards purged by Spangler Box.</property>
+      <property name="Traits" value="Item" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="132" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="XQ93M42M9FR5" />
+    </card>
+    <card name="Spangler Box" id="30430bd6-78ec-4557-9a7b-32dd6689b42a">
+      <property name="House" value="Mars" />
       <property name="Type" value="Artifact" />
       <property name="Text">Action: Purge a creature in play. If you do, your opponent gains control of Spangler Box. If Spangler Box leaves play, return to play all cards purged by Spangler Box.</property>
       <property name="Traits" value="Item" />
@@ -13527,6 +14043,20 @@ Action: Move 1<s value="aember">[A]</s> from your pool to Pocket Universe.</prop
     </card>
     <card name="Strange Gizmo" id="2e540c2a-9bc6-4adc-b1ed-ab8caed57c0a">
       <property name="House" value="Mars" />
+      <property name="Type" value="Artifact" />
+      <property name="Text">After you forge a key, destroy each creature and artifact.</property>
+      <property name="Traits" value="Item" />
+      <property name="Æmber" value="1" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Flavor">"Why did we make this again?"</property>
+      <property name="Number" value="134" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="J3JWR285J2M3" />
+    </card>
+    <card name="Strange Gizmo" id="9a314e0e-f77f-4c59-b949-082165fca786">
+      <property name="House" value="Untamed" />
       <property name="Type" value="Artifact" />
       <property name="Text">After you forge a key, destroy each creature and artifact.</property>
       <property name="Traits" value="Item" />
@@ -14714,6 +15244,20 @@ Fight/Reap: Heal 3 damage from a Mars creature or stun a Mars creature. </proper
       <property name="Maverick" value="True" />
       <property name="Code" value="GW4755VJMRRP" />
     </card>
+    <card name="Psychic Bug" id="94ddd6aa-38db-4f8f-b56d-932f47717c45">
+      <property name="House" value="Mars" />
+      <property name="Type" value="Creature" />
+      <property name="Text">Play/Reap: Look at your opponent's hand.</property>
+      <property name="Traits" value="Cyborg • Insect" />
+      <property name="Æmber" value="1" />
+      <property name="Power" value="2" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Flavor">"I'd make more, but I discovered lesser minds aren't worth reading." – Biologician Moreau</property>
+      <property name="Number" value="149" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="GW4755VJMRRP" />
+    </card>
     <card name="Replicator" id="8bd24d31-97ff-4686-bc7f-5e521aa43344">
       <property name="House" value="Brobnar" />
       <property name="Type" value="Creature" />
@@ -15063,6 +15607,20 @@ Reap: Choose a house. Reveal the top card of your deck. If it is of that house, 
       <property name="Maverick" value="True" />
       <property name="Code" value="4XJVMF643M6C" />
     </card>
+    <card name="Vespilon Theorist" id="3676056c-1710-4f96-9076-d8005b097718">
+      <property name="House" value="Sanctum" />
+      <property name="Type" value="Creature" />
+      <property name="Text">Elusive. (The first time this creature is attacked each turn, no damage is dealt.)
+Reap: Choose a house. Reveal the top card of your deck. If it is of that house, archive it and gain 1<s value="aember">[A]</s>. Otherwise, discard it.</property>
+      <property name="Traits" value="Cyborg • Scientist" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="2" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="155" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="4XJVMF643M6C" />
+    </card>
     <card name="Veylan Analyst" id="2952a722-e8f4-49dd-b509-4a3fbb096cf8">
       <property name="House" value="Untamed" />
       <property name="Type" value="Creature" />
@@ -15335,6 +15893,30 @@ Play: Stun and exhaust this creature.</property>
     </card>
     <card name="Transposition Sandals" id="d8e4d515-c14f-43d3-8338-1d4f497c595a">
       <property name="House" value="Brobnar" />
+      <property name="Type" value="Upgrade" />
+      <property name="Text">This creature gains, "Action: Swap this creature with another friendly creature in the battleline. You may use that other creature this turn."</property>
+      <property name="Æmber" value="1" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="159" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="RQ6V4VP7WP2P" />
+    </card>
+    <card name="Transposition Sandals" id="8325af4e-c2d5-42f9-a785-3dade86f480a">
+      <property name="House" value="Mars" />
+      <property name="Type" value="Upgrade" />
+      <property name="Text">This creature gains, "Action: Swap this creature with another friendly creature in the battleline. You may use that other creature this turn."</property>
+      <property name="Æmber" value="1" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="159" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="RQ6V4VP7WP2P" />
+    </card>
+    <card name="Transposition Sandals" id="6feb44f3-6c1c-4ed2-be40-1b154b035323">
+      <property name="House" value="Untamed" />
       <property name="Type" value="Upgrade" />
       <property name="Text">This creature gains, "Action: Swap this creature with another friendly creature in the battleline. You may use that other creature this turn."</property>
       <property name="Æmber" value="1" />
@@ -15756,6 +16338,32 @@ Play: Stun and exhaust this creature.</property>
       <property name="Maverick" value="True" />
       <property name="Code" value="3M79PQ4XJ4W2" />
     </card>
+    <card name="Martian Hounds" id="098bd160-0200-41b9-935b-f48bbaf5c376">
+      <property name="House" value="Untamed" />
+      <property name="Type" value="Action" />
+      <property name="Text">Play: Choose a creature. For each damaged creature, give the chosen creature two +1 power counters.</property>
+      <property name="Æmber" value="0" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Flavor">Who let the... dogs?... out?</property>
+      <property name="Number" value="167" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="3M79PQ4XJ4W2" />
+    </card>
+    <card name="Martian Hounds" id="f1182fdb-78f3-43dc-bb99-af4205e80721">
+      <property name="House" value="Shadows" />
+      <property name="Type" value="Action" />
+      <property name="Text">Play: Choose a creature. For each damaged creature, give the chosen creature two +1 power counters.</property>
+      <property name="Æmber" value="0" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Flavor">Who let the... dogs?... out?</property>
+      <property name="Number" value="167" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="3M79PQ4XJ4W2" />
+    </card>
     <card name="Martians Make Bad Allies" id="48b6b000-e622-4431-a7a2-e63e7e62d424">
       <property name="House" value="Brobnar" />
       <property name="Type" value="Action" />
@@ -16028,6 +16636,18 @@ Play: Stun and exhaust this creature.</property>
     </card>
     <card name="Sample Collection" id="c6e9156f-3924-46cd-832b-7b65cb318583">
       <property name="House" value="Logos" />
+      <property name="Type" value="Action" />
+      <property name="Text">Play: Put an enemy creature into your archives for each key your opponent has forged. If any of these creatures leave your archives, they are put into their owner's hand instead.</property>
+      <property name="Æmber" value="0" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Number" value="175" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="6FF5HPJG5FFV" />
+    </card>
+    <card name="Sample Collection" id="fcd6d19f-ceb1-4d1f-aa79-b4b80898a01a">
+      <property name="House" value="Dis" />
       <property name="Type" value="Action" />
       <property name="Text">Play: Put an enemy creature into your archives for each key your opponent has forged. If any of these creatures leave your archives, they are put into their owner's hand instead.</property>
       <property name="Æmber" value="0" />
@@ -16462,6 +17082,19 @@ Play: Stun and exhaust this creature.</property>
       <property name="Maverick" value="True" />
       <property name="Code" value="3G89HPF6R2GX" />
     </card>
+    <card name="Custom Virus" id="0b571743-473f-4602-ada1-d20fe1c08cf7">
+      <property name="House" value="Shadows" />
+      <property name="Type" value="Artifact" />
+      <property name="Text">Omni: Sacrifice Custom Virus. Purge a creature from your hand. Destroy each creature that shares a trait with the purged creature.</property>
+      <property name="Traits" value="Weapon" />
+      <property name="Æmber" value="1" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="183" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="3G89HPF6R2GX" />
+    </card>
     <card name="Feeding Pit" id="a022316f-aa24-4ee7-b24d-8eec7d97dbcd">
       <property name="House" value="Untamed" />
       <property name="Type" value="Artifact" />
@@ -16572,6 +17205,20 @@ Play: Stun and exhaust this creature.</property>
     </card>
     <card name="Sniffer" id="93588aa9-dd40-4a28-be1f-4981f42aa008">
       <property name="House" value="Dis" />
+      <property name="Type" value="Artifact" />
+      <property name="Text">Action: For the remainder of the turn, each creature loses elusive.</property>
+      <property name="Traits" value="Ally" />
+      <property name="Æmber" value="1" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Flavor">Even the Martians' pets have a bone to pick with the other lifeforms on the Crucible.</property>
+      <property name="Number" value="188" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="JXXCR37F52MR" />
+    </card>
+    <card name="Sniffer" id="6fa44d96-b23a-4beb-a41e-caa481a880e1">
+      <property name="House" value="Logos" />
       <property name="Type" value="Artifact" />
       <property name="Text">Action: For the remainder of the turn, each creature loses elusive.</property>
       <property name="Traits" value="Ally" />
@@ -17029,6 +17676,34 @@ Action: Your opponent loses 1<s value="aember">[A]</s> for each other friendly M
       <property name="Maverick" value="True" />
       <property name="Code" value="C637CW23C7M7" />
     </card>
+    <card name="Phylyx the Disintegrator" id="c0e51f7c-f3ca-46f0-bd82-5732cf40f2c4">
+      <property name="House" value="Untamed" />
+      <property name="Type" value="Creature" />
+      <property name="Text">Elusive. (The first time this creature is attacked each turn, no damage is dealt.)
+Action: Your opponent loses 1<s value="aember">[A]</s> for each other friendly Mars creature.</property>
+      <property name="Traits" value="Martian • Soldier" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="1" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="197" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="C637CW23C7M7" />
+    </card>
+    <card name="Phylyx the Disintegrator" id="74f9e688-63c4-4795-aa63-e5e80e8950dc">
+      <property name="House" value="Shadows" />
+      <property name="Type" value="Creature" />
+      <property name="Text">Elusive. (The first time this creature is attacked each turn, no damage is dealt.)
+Action: Your opponent loses 1<s value="aember">[A]</s> for each other friendly Mars creature.</property>
+      <property name="Traits" value="Martian • Soldier" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="1" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="197" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="C637CW23C7M7" />
+    </card>
     <card name="Qyxxlyx Plague Master" id="e5ab8f78-61d9-4e73-a8b5-ebe4b24aba80">
       <property name="House" value="Logos" />
       <property name="Type" value="Creature" />
@@ -17070,6 +17745,19 @@ Action: Your opponent loses 1<s value="aember">[A]</s> for each other friendly M
     </card>
     <card name="Qyxxlyx Plague Master" id="a905f452-2554-48b5-9856-ee27a2b98fee">
       <property name="House" value="Dis" />
+      <property name="Type" value="Creature" />
+      <property name="Text">Fight/Reap: Deal 3<s value="damage">[D]</s> to each Human creature. This damage cannot be prevented by armor.</property>
+      <property name="Traits" value="Martian • Scientist" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="3" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="198" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="4QXQJ939VVQM" />
+    </card>
+    <card name="Qyxxlyx Plague Master" id="4041aae3-221a-4720-8248-5f036be7965e">
+      <property name="House" value="Sanctum" />
       <property name="Type" value="Creature" />
       <property name="Text">Fight/Reap: Deal 3<s value="damage">[D]</s> to each Human creature. This damage cannot be prevented by armor.</property>
       <property name="Traits" value="Martian • Scientist" />
@@ -17597,6 +18285,21 @@ Yxilx Dominator enters play stunned. </property>
       <property name="Maverick" value="True" />
       <property name="Code" value="GPCHG3XCV2MV" />
     </card>
+    <card name="Yxilx Dominator" id="77259b7d-a4b5-4140-9fcd-6f2bc048a9d1">
+      <property name="House" value="Shadows" />
+      <property name="Type" value="Creature" />
+      <property name="Text">Taunt. (This creature's neighbors cannot be attacked unless they have taunt.)
+Yxilx Dominator enters play stunned. </property>
+      <property name="Traits" value="Robot" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="9" />
+      <property name="Armor" value="1" />
+      <property name="Rarity" value="Common" />
+      <property name="Flavor">Core power online. Stand by for domination. </property>
+      <property name="Number" value="205" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="GPCHG3XCV2MV" />
+    </card>
     <card name="Zorg" id="1ee56b80-68b4-47af-b7a0-64fae691f0b4">
       <property name="House" value="Untamed" />
       <property name="Type" value="Creature" />
@@ -17957,6 +18660,18 @@ Before Fight: Stun the creature Zorg fights and each of that creature's neighbor
       <property name="Maverick" value="True" />
       <property name="Code" value="W36G9HXF9RQ7" />
     </card>
+    <card name="Begone!" id="a75745f2-dc48-42d7-9579-3d9368c9c9a7">
+      <property name="House" value="Shadows" />
+      <property name="Type" value="Action" />
+      <property name="Text">Play: Choose one: destroy each Dis creature, or gain 1<s value="aember">[A]</s>.</property>
+      <property name="Æmber" value="0" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="212" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="W36G9HXF9RQ7" />
+    </card>
     <card name="Blinding Light" id="f1092558-1ae1-4ed2-aaef-32b34fc3fa6e">
       <property name="House" value="Dis" />
       <property name="Type" value="Action" />
@@ -18055,6 +18770,18 @@ Before Fight: Stun the creature Zorg fights and each of that creature's neighbor
     </card>
     <card name="Charge!" id="8450d199-bb40-4696-bdf8-d7fe4e0bb6e1">
       <property name="House" value="Untamed" />
+      <property name="Type" value="Action" />
+      <property name="Text">Play: For the remainder of the turn, each creature you play gains, "Play: Deal 2<s value="damage">[D]</s> to an enemy creature."</property>
+      <property name="Æmber" value="1" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="214" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="X3RQF994MG6R" />
+    </card>
+    <card name="Charge!" id="eb73dfe2-aa56-4421-af92-8438e1f57254">
+      <property name="House" value="Brobnar" />
       <property name="Type" value="Action" />
       <property name="Text">Play: For the remainder of the turn, each creature you play gains, "Play: Deal 2<s value="damage">[D]</s> to an enemy creature."</property>
       <property name="Æmber" value="1" />
@@ -18191,6 +18918,19 @@ Before Fight: Stun the creature Zorg fights and each of that creature's neighbor
     </card>
     <card name="Clear Mind" id="c4283af4-c8e1-46e5-af7b-40f51d35ad2a">
       <property name="House" value="Shadows" />
+      <property name="Type" value="Action" />
+      <property name="Text">Play: Unstun each friendly creature.</property>
+      <property name="Æmber" value="1" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Flavor">Thy body is an illusion. Only thy spirit is eternal.</property>
+      <property name="Number" value="216" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="4CVXQJV2QG3P" />
+    </card>
+    <card name="Clear Mind" id="8c750f54-1aa9-4154-8a50-2b832ca3eabe">
+      <property name="House" value="Untamed" />
       <property name="Type" value="Action" />
       <property name="Text">Play: Unstun each friendly creature.</property>
       <property name="Æmber" value="1" />
@@ -18614,6 +19354,18 @@ Before Fight: Stun the creature Zorg fights and each of that creature's neighbor
       <property name="Maverick" value="True" />
       <property name="Code" value="PHQJHJ4P73J2" />
     </card>
+    <card name="One Stood Against Many" id="0d6d9f25-0c9b-4fdc-a50d-75b6d777d824">
+      <property name="House" value="Mars" />
+      <property name="Type" value="Action" />
+      <property name="Text">Play: Ready and fight with a friendly creature 3 times, each time against a different enemy creature. Resolve these fights one at a time.</property>
+      <property name="Æmber" value="1" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="223" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="PHQJHJ4P73J2" />
+    </card>
     <card name="Radiant Truth" id="2237a0e2-de17-4cbe-b0b9-1b0fd6c4b68f">
       <property name="House" value="Mars" />
       <property name="Type" value="Action" />
@@ -18964,6 +19716,18 @@ Before Fight: Stun the creature Zorg fights and each of that creature's neighbor
     </card>
     <card name="The Harder They Come" id="4726c01b-4c33-409d-bf6c-aa5be8538fd2">
       <property name="House" value="Logos" />
+      <property name="Type" value="Action" />
+      <property name="Text">Play: Purge a creature with power 5 or higher.</property>
+      <property name="Æmber" value="0" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Number" value="228" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="JQM953FW234C" />
+    </card>
+    <card name="The Harder They Come" id="fbcba77c-f476-43f9-8350-44da2c973c25">
+      <property name="House" value="Mars" />
       <property name="Type" value="Action" />
       <property name="Text">Play: Purge a creature with power 5 or higher.</property>
       <property name="Æmber" value="0" />
@@ -19418,6 +20182,20 @@ Before Fight: Stun the creature Zorg fights and each of that creature's neighbor
       <property name="Maverick" value="True" />
       <property name="Code" value="MJMGJPH3545P" />
     </card>
+    <card name="Round Table" id="f98b8f72-07f6-43a7-b9f5-086e7cf88be8">
+      <property name="House" value="Logos" />
+      <property name="Type" value="Artifact" />
+      <property name="Text">Each friendly Knight creature gets +1 power and gains taunt.</property>
+      <property name="Traits" value="Location" />
+      <property name="Æmber" value="1" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Flavor">"Come my friends, let us ready for battle." –King Godfrey Greywind</property>
+      <property name="Number" value="235" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="MJMGJPH3545P" />
+    </card>
     <card name="Whispering Reliquary" id="1cb02e99-edad-496c-92cd-39ad021d92bb">
       <property name="House" value="Untamed" />
       <property name="Type" value="Artifact" />
@@ -19472,6 +20250,19 @@ Before Fight: Stun the creature Zorg fights and each of that creature's neighbor
     </card>
     <card name="Whispering Reliquary" id="7a33d63b-f15b-4ab9-a85e-671addf54eb8">
       <property name="House" value="Shadows" />
+      <property name="Type" value="Artifact" />
+      <property name="Text">Action: Return an artifact to its owner's hand.</property>
+      <property name="Traits" value="Item" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Number" value="237" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="MMHF7CR6FMJ2" />
+    </card>
+    <card name="Whispering Reliquary" id="3b1f1b88-be64-4ece-b4ed-d0bdd6274aaa">
+      <property name="House" value="Dis" />
       <property name="Type" value="Artifact" />
       <property name="Text">Action: Return an artifact to its owner's hand.</property>
       <property name="Traits" value="Item" />
@@ -20093,6 +20884,20 @@ Reap: Heal 2 damage from a creature.</property>
       <property name="Maverick" value="True" />
       <property name="Code" value="7MHFM8Q84QMX" />
     </card>
+    <card name="Hayyel the Merchant" id="4dd25915-cb5b-4155-9eaa-b315ccf92075">
+      <property name="House" value="Untamed" />
+      <property name="Type" value="Creature" />
+      <property name="Text">Each time you play an artifact, gain 1<s value="aember">[A]</s>.</property>
+      <property name="Traits" value="Human • Merchant" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="3" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Flavor">"The Enlightened are above haggling. Me, on the other hand…"</property>
+      <property name="Number" value="245" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="7MHFM8Q84QMX" />
+    </card>
     <card name="Lady Maxena" id="34ef8927-1374-4d23-8717-15d668b34699">
       <property name="House" value="Brobnar" />
       <property name="Type" value="Creature" />
@@ -20274,6 +21079,19 @@ Action: Return Lady Maxena to its owner's hand.</property>
     </card>
     <card name="Numquid the Fair" id="af33d6fb-5e90-4a6d-833c-e12270ebca19">
       <property name="House" value="Dis" />
+      <property name="Type" value="Creature" />
+      <property name="Text">Play: Destroy an enemy creature. Repeat this card's effect if your opponent still controls more creatures than you.</property>
+      <property name="Traits" value="Human" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="3" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="253" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="3G85FMW7C6QH" />
+    </card>
+    <card name="Numquid the Fair" id="64fd6bb7-fac2-4479-bf8b-7043f2da387e">
+      <property name="House" value="Brobnar" />
       <property name="Type" value="Creature" />
       <property name="Text">Play: Destroy an enemy creature. Repeat this card's effect if your opponent still controls more creatures than you.</property>
       <property name="Traits" value="Human" />
@@ -20946,6 +21764,19 @@ Fight/Reap: Swap Sanctum Guardian with another friendly creature in your battlel
       <property name="Maverick" value="True" />
       <property name="Code" value="VP65GQXWR45X" />
     </card>
+    <card name="Veemos Lightbringer" id="2356a5f1-3277-4951-864f-bde9efc96ed9">
+      <property name="House" value="Untamed" />
+      <property name="Type" value="Creature" />
+      <property name="Text">Play: Destroy each elusive creature.</property>
+      <property name="Traits" value="Angel • Spirit" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="6" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="262" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="VP65GQXWR45X" />
+    </card>
     <card name="Armageddon Cloak" id="9a139afa-7654-4cad-8b5f-854fba19af02">
       <property name="House" value="Logos" />
       <property name="Type" value="Upgrade" />
@@ -21551,6 +22382,19 @@ Fight/Reap: Swap Sanctum Guardian with another friendly creature in your battlel
     </card>
     <card name="Hidden Stash" id="a097f1c1-7c59-422e-8461-87ff3f073fe5">
       <property name="House" value="Untamed" />
+      <property name="Type" value="Action" />
+      <property name="Text">Play: Archive a card.</property>
+      <property name="Æmber" value="1" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Flavor">"Now where did you put that..."</property>
+      <property name="Number" value="271" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="3CCM38JM8932" />
+    </card>
+    <card name="Hidden Stash" id="f33eb26e-2218-4562-8726-ecceb30c19b3">
+      <property name="House" value="Mars" />
       <property name="Type" value="Action" />
       <property name="Text">Play: Archive a card.</property>
       <property name="Æmber" value="1" />
@@ -22312,6 +23156,30 @@ Fight/Reap: Swap Sanctum Guardian with another friendly creature in your battlel
       <property name="Maverick" value="True" />
       <property name="Code" value="Q7HHRF75F97J" />
     </card>
+    <card name="Treasure Map" id="d25ef09f-3c86-4bc3-b35c-1d5574e4708e">
+      <property name="House" value="Logos" />
+      <property name="Type" value="Action" />
+      <property name="Text">Play: If you have not played any other cards this turn, gain 3<s value="aember">[A]</s>. For the remainder of the turn, you cannot play cards.</property>
+      <property name="Æmber" value="1" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="284" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="Q7HHRF75F97J" />
+    </card>
+    <card name="Treasure Map" id="3c3a8fe2-e6eb-4e59-8beb-0121c2538d92">
+      <property name="House" value="Mars" />
+      <property name="Type" value="Action" />
+      <property name="Text">Play: If you have not played any other cards this turn, gain 3<s value="aember">[A]</s>. For the remainder of the turn, you cannot play cards.</property>
+      <property name="Æmber" value="1" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="284" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="Q7HHRF75F97J" />
+    </card>
     <card name="Customs Office" id="0c5949c2-aa62-4809-b70e-6d15fe5f561e">
       <property name="House" value="Brobnar" />
       <property name="Type" value="Artifact" />
@@ -22468,6 +23336,19 @@ Fight/Reap: Swap Sanctum Guardian with another friendly creature in your battlel
       <property name="Maverick" value="True" />
       <property name="Code" value="H6CGFG593XMM" />
     </card>
+    <card name="Longfused Mines" id="16fbd8d1-ac35-450a-9dc9-e1d181309ba7">
+      <property name="House" value="Untamed" />
+      <property name="Type" value="Artifact" />
+      <property name="Text">Omni: Sacrifice Longfused Mines. Deal 3<s value="damage">[D]</s> to each enemy creature not on a flank.</property>
+      <property name="Traits" value="Weapon" />
+      <property name="Æmber" value="1" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="287" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="H6CGFG593XMM" />
+    </card>
     <card name="Masterplan" id="1ffe7c50-0c4f-422d-8d23-3e1bd6a1d483">
       <property name="House" value="Untamed" />
       <property name="Type" value="Artifact" />
@@ -22484,6 +23365,48 @@ Omni: Play the card beneath Masterplan. Sacrifice Masterplan.</property>
     </card>
     <card name="Masterplan" id="55026fa3-796d-4d31-9806-7cf2aceba033">
       <property name="House" value="Dis" />
+      <property name="Type" value="Artifact" />
+      <property name="Text">Play: Put a card from your hand facedown beneath Masterplan.
+Omni: Play the card beneath Masterplan. Sacrifice Masterplan.</property>
+      <property name="Traits" value="Item" />
+      <property name="Æmber" value="1" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="288" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="8FJVHVWFWC4P" />
+    </card>
+    <card name="Masterplan" id="dd9afe81-cbd5-41ae-ba33-b3cc81a48f0a">
+      <property name="House" value="Sanctum" />
+      <property name="Type" value="Artifact" />
+      <property name="Text">Play: Put a card from your hand facedown beneath Masterplan.
+Omni: Play the card beneath Masterplan. Sacrifice Masterplan.</property>
+      <property name="Traits" value="Item" />
+      <property name="Æmber" value="1" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="288" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="8FJVHVWFWC4P" />
+    </card>
+    <card name="Masterplan" id="1ff68412-5bda-4f1a-b96a-f58efd7dc8a5">
+      <property name="House" value="Mars" />
+      <property name="Type" value="Artifact" />
+      <property name="Text">Play: Put a card from your hand facedown beneath Masterplan.
+Omni: Play the card beneath Masterplan. Sacrifice Masterplan.</property>
+      <property name="Traits" value="Item" />
+      <property name="Æmber" value="1" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="288" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="8FJVHVWFWC4P" />
+    </card>
+    <card name="Masterplan" id="9dd12de7-9186-4f82-bde7-240134a00f6c">
+      <property name="House" value="Brobnar" />
       <property name="Type" value="Artifact" />
       <property name="Text">Play: Put a card from your hand facedown beneath Masterplan.
 Omni: Play the card beneath Masterplan. Sacrifice Masterplan.</property>
@@ -22540,6 +23463,20 @@ Action: Move 1<s value="aember">[A]</s> from your pool to Safe Place.</property>
     </card>
     <card name="Safe Place" id="1df98896-d07f-4923-ae92-a0b4e8ce0a9c">
       <property name="House" value="Dis" />
+      <property name="Type" value="Artifact" />
+      <property name="Text">You may spend <s value="aember">[A]</s> on Safe Place when forging keys.
+Action: Move 1<s value="aember">[A]</s> from your pool to Safe Place.</property>
+      <property name="Traits" value="Location" />
+      <property name="Æmber" value="1" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="289" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="88GPJGFV248G" />
+    </card>
+    <card name="Safe Place" id="66515b6e-21c3-4531-8095-8cba2b932237">
+      <property name="House" value="Sanctum" />
       <property name="Type" value="Artifact" />
       <property name="Text">You may spend <s value="aember">[A]</s> on Safe Place when forging keys.
 Action: Move 1<s value="aember">[A]</s> from your pool to Safe Place.</property>
@@ -23140,6 +24077,34 @@ Reap: Destroy a flank creature.</property>
       <property name="Maverick" value="True" />
       <property name="Code" value="G45G2JGWP362" />
     </card>
+    <card name="Bulleteye" id="4fe2d2a6-aeec-4818-97d7-da7390f05a1c">
+      <property name="House" value="Sanctum" />
+      <property name="Type" value="Creature" />
+      <property name="Text">Elusive. (The first time this creature is attacked each turn, no damage is dealt.)
+Reap: Destroy a flank creature.</property>
+      <property name="Traits" value="Elf • Thief" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="2" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="297" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="G45G2JGWP362" />
+    </card>
+    <card name="Bulleteye" id="21d76398-2ae4-441f-8265-29ea3f02aa43">
+      <property name="House" value="Mars" />
+      <property name="Type" value="Creature" />
+      <property name="Text">Elusive. (The first time this creature is attacked each turn, no damage is dealt.)
+Reap: Destroy a flank creature.</property>
+      <property name="Traits" value="Elf • Thief" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="2" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="297" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="G45G2JGWP362" />
+    </card>
     <card name="Carlo Phantom" id="9b09b22b-cc73-434e-9008-622787bafdce">
       <property name="House" value="Logos" />
       <property name="Type" value="Creature" />
@@ -23274,6 +24239,34 @@ Omni: Choose a friendly creature. You may use that creature this turn.</property
     </card>
     <card name="Deipno Spymaster" id="70a0427c-384e-4939-8d7a-7824ad2c7f36">
       <property name="House" value="Mars" />
+      <property name="Type" value="Creature" />
+      <property name="Text">Elusive. (The first time this creature is attacked each turn, no damage is dealt.)
+Omni: Choose a friendly creature. You may use that creature this turn.</property>
+      <property name="Traits" value="Elf • Thief" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="1" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="299" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="M3P2FVHP7MC" />
+    </card>
+    <card name="Deipno Spymaster" id="130d4d38-750e-41c3-a0f1-75f671797a73">
+      <property name="House" value="Dis" />
+      <property name="Type" value="Creature" />
+      <property name="Text">Elusive. (The first time this creature is attacked each turn, no damage is dealt.)
+Omni: Choose a friendly creature. You may use that creature this turn.</property>
+      <property name="Traits" value="Elf • Thief" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="1" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="299" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="M3P2FVHP7MC" />
+    </card>
+    <card name="Deipno Spymaster" id="9c351c91-7b3f-4ba8-af2b-1da490cfabdc">
+      <property name="House" value="Untamed" />
       <property name="Type" value="Creature" />
       <property name="Text">Elusive. (The first time this creature is attacked each turn, no damage is dealt.)
 Omni: Choose a friendly creature. You may use that creature this turn.</property>
@@ -24019,6 +25012,19 @@ Play: Capture 3<s value="aember">[A]</s>.</property>
       <property name="Maverick" value="True" />
       <property name="Code" value="7GJ6RPFR59G2" />
     </card>
+    <card name="Selwyn the Fence" id="c40e4b42-bcf9-44fd-a3c9-6e9020201d90">
+      <property name="House" value="Brobnar" />
+      <property name="Type" value="Creature" />
+      <property name="Text">Fight/Reap: Move 1<s value="aember">[A]</s> from one of your cards to your pool.</property>
+      <property name="Traits" value="Elf • Thief" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="3" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="309" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="7GJ6RPFR59G2" />
+    </card>
     <card name="Shadow Self" id="40587911-1857-4947-87e7-867cfd7fbab4">
       <property name="House" value="Logos" />
       <property name="Type" value="Creature" />
@@ -24231,6 +25237,20 @@ Reap: If you forged a key this turn, take control of an enemy flank creature.</p
     </card>
     <card name="Smiling Ruth" id="27b0405c-a890-4c8d-abd1-c0bc4e3d2388">
       <property name="House" value="Sanctum" />
+      <property name="Type" value="Creature" />
+      <property name="Text">Elusive. (The first time this creature is attacked each turn, no damage is dealt.)
+Reap: If you forged a key this turn, take control of an enemy flank creature.</property>
+      <property name="Traits" value="Elf • Thief" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="1" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="312" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="V2H6733WRV33" />
+    </card>
+    <card name="Smiling Ruth" id="9b4e1c44-5886-4b4f-b57a-fe5b00378982">
+      <property name="House" value="Brobnar" />
       <property name="Type" value="Creature" />
       <property name="Text">Elusive. (The first time this creature is attacked each turn, no damage is dealt.)
 Reap: If you forged a key this turn, take control of an enemy flank creature.</property>
@@ -24548,6 +25568,32 @@ Play: Steal 1<s value="aember">[A]</s>.</property>
       <property name="Maverick" value="True" />
       <property name="Code" value="F7RPHF6XHVWC" />
     </card>
+    <card name="Ring of Invisibility" id="eead118d-2a26-4661-a30b-6070fbeddd58">
+      <property name="House" value="Untamed" />
+      <property name="Type" value="Upgrade" />
+      <property name="Text">This creature gains elusive and skirmish.</property>
+      <property name="Æmber" value="1" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Flavor">"I put it down for just a second..."</property>
+      <property name="Number" value="317" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="F7RPHF6XHVWC" />
+    </card>
+    <card name="Ring of Invisibility" id="2a894b87-b32f-4cfc-8eb9-97ba5939379f">
+      <property name="House" value="Brobnar" />
+      <property name="Type" value="Upgrade" />
+      <property name="Text">This creature gains elusive and skirmish.</property>
+      <property name="Æmber" value="1" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Flavor">"I put it down for just a second..."</property>
+      <property name="Number" value="317" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="F7RPHF6XHVWC" />
+    </card>
     <card name="Silent Dagger" id="465c3fe8-9af0-46a7-987f-e47b697dafe1">
       <property name="House" value="Sanctum" />
       <property name="Type" value="Upgrade" />
@@ -24760,6 +25806,42 @@ Play: Steal 1<s value="aember">[A]</s>.</property>
       <property name="Maverick" value="True" />
       <property name="Code" value="43VFXWMHFR7M" />
     </card>
+    <card name="Fertility Chant" id="8b73d7bc-749a-4dc1-948a-4c035e342634">
+      <property name="House" value="Brobnar" />
+      <property name="Type" value="Action" />
+      <property name="Text">Play: Your opponent gains 2<s value="aember">[A]</s>.</property>
+      <property name="Æmber" value="4" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="321" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="43VFXWMHFR7M" />
+    </card>
+    <card name="Fertility Chant" id="cf8c895a-968a-43b7-bcfb-2c61dd9ae078">
+      <property name="House" value="Logos" />
+      <property name="Type" value="Action" />
+      <property name="Text">Play: Your opponent gains 2<s value="aember">[A]</s>.</property>
+      <property name="Æmber" value="4" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="321" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="43VFXWMHFR7M" />
+    </card>
+    <card name="Fertility Chant" id="7a157cfd-a932-4ae8-813b-4e5bb2b4151b">
+      <property name="House" value="Dis" />
+      <property name="Type" value="Action" />
+      <property name="Text">Play: Your opponent gains 2<s value="aember">[A]</s>.</property>
+      <property name="Æmber" value="4" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="321" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="43VFXWMHFR7M" />
+    </card>
     <card name="Fogbank" id="244aaeaa-5f51-4434-ae66-66169156bf46">
       <property name="House" value="Mars" />
       <property name="Type" value="Action" />
@@ -24810,6 +25892,18 @@ Play: Steal 1<s value="aember">[A]</s>.</property>
     </card>
     <card name="Fogbank" id="ff7848bb-bbdb-43e2-bddd-8dcf140183f7">
       <property name="House" value="Dis" />
+      <property name="Type" value="Action" />
+      <property name="Text">Play: Your opponent cannot use creatures to fight on their next turn.</property>
+      <property name="Æmber" value="1" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Number" value="322" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="9RH25FHMC26H" />
+    </card>
+    <card name="Fogbank" id="8bbd732d-de17-4bec-a478-09c59afeba34">
+      <property name="House" value="Shadows" />
       <property name="Type" value="Action" />
       <property name="Text">Play: Your opponent cannot use creatures to fight on their next turn.</property>
       <property name="Æmber" value="1" />
@@ -25708,6 +26802,30 @@ Play: Steal 1<s value="aember">[A]</s>.</property>
       <property name="Maverick" value="True" />
       <property name="Code" value="W8RW3VC8V333" />
     </card>
+    <card name="Scout" id="ae2e7c47-1de6-487a-ab30-f298a9009b24">
+      <property name="House" value="Mars" />
+      <property name="Type" value="Action" />
+      <property name="Text">Play: For the remainder of the turn, up to 2 friendly creatures gain skirmish. Then, fight with those creatures one at a time.</property>
+      <property name="Æmber" value="1" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="334" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="W8RW3VC8V333" />
+    </card>
+    <card name="Scout" id="98b7c6df-5ee8-4ab8-8365-27c09e8d0118">
+      <property name="House" value="Dis" />
+      <property name="Type" value="Action" />
+      <property name="Text">Play: For the remainder of the turn, up to 2 friendly creatures gain skirmish. Then, fight with those creatures one at a time.</property>
+      <property name="Æmber" value="1" />
+      <property name="Power" value="0" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="334" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="W8RW3VC8V333" />
+    </card>
     <card name="Stampede" id="9512b724-e1ce-4221-86ba-5d098c72a402">
       <property name="House" value="Sanctum" />
       <property name="Type" value="Action" />
@@ -26356,6 +27474,20 @@ Reap: Stun and exhaust a creature.</property>
       <property name="Maverick" value="True" />
       <property name="Code" value="X9R7J6J64H38" />
     </card>
+    <card name="Briar Grubbling" id="e754c228-08c9-46c7-b32b-850d1738ad77">
+      <property name="House" value="Dis" />
+      <property name="Type" value="Creature" />
+      <property name="Text">Hazardous 5. (Before this creature is attacked, deal 5<s value="damage">[D]</s> to the attacking enemy.)</property>
+      <property name="Traits" value="Beast • Insect" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="2" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Flavor">Nature says "do not touch" in so many creative ways. </property>
+      <property name="Number" value="348" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="X9R7J6J64H38" />
+    </card>
     <card name="Chota Hazri" id="d81bb46c-ce51-4fc9-883f-642e36720f91">
       <property name="House" value="Dis" />
       <property name="Type" value="Creature" />
@@ -26740,6 +27872,19 @@ Reap: Gain 1<s value="aember">[A]</s>.</property>
     </card>
     <card name="Fuzzy Gruen" id="9b2f76b8-e16b-4893-b2f0-3608d17ac230">
       <property name="House" value="Dis" />
+      <property name="Type" value="Creature" />
+      <property name="Text">Play: Your opponent gains 1<s value="aember">[A]</s>.</property>
+      <property name="Traits" value="Beast" />
+      <property name="Æmber" value="2" />
+      <property name="Power" value="5" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Number" value="353" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="5P9MP78G2R8Q" />
+    </card>
+    <card name="Fuzzy Gruen" id="0151e20b-9d59-47f9-a85f-541e01a14992">
+      <property name="House" value="Shadows" />
       <property name="Type" value="Creature" />
       <property name="Text">Play: Your opponent gains 1<s value="aember">[A]</s>.</property>
       <property name="Traits" value="Beast" />
@@ -27470,6 +28615,34 @@ Play: Deal 2<s value="damage">[D]</s> to an enemy creature.</property>
     </card>
     <card name="Piranha Monkeys" id="6fad5acb-34a7-4ae0-bf7a-181ff342ad5d">
       <property name="House" value="Logos" />
+      <property name="Type" value="Creature" />
+      <property name="Text">Play/Reap: Deal 2<s value="damage">[D]</s> to each other creature.</property>
+      <property name="Traits" value="Beast" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="2" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Flavor">They can skeletonize a snufflegator in two minutes flat.</property>
+      <property name="Number" value="365" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="9WCFVMXQMVJG" />
+    </card>
+    <card name="Piranha Monkeys" id="a7e97ec8-9c90-4bc2-9ffd-5e26f97e21d6">
+      <property name="House" value="Brobnar" />
+      <property name="Type" value="Creature" />
+      <property name="Text">Play/Reap: Deal 2<s value="damage">[D]</s> to each other creature.</property>
+      <property name="Traits" value="Beast" />
+      <property name="Æmber" value="0" />
+      <property name="Power" value="2" />
+      <property name="Armor" value="0" />
+      <property name="Rarity" value="Rare" />
+      <property name="Flavor">They can skeletonize a snufflegator in two minutes flat.</property>
+      <property name="Number" value="365" />
+      <property name="Maverick" value="True" />
+      <property name="Code" value="9WCFVMXQMVJG" />
+    </card>
+    <card name="Piranha Monkeys" id="01e53315-2d9b-43a9-a341-1617a007002e">
+      <property name="House" value="Dis" />
       <property name="Type" value="Creature" />
       <property name="Text">Play/Reap: Deal 2<s value="damage">[D]</s> to each other creature.</property>
       <property name="Traits" value="Beast" />
