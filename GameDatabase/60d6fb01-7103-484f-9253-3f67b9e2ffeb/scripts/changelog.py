@@ -15,5 +15,12 @@ changelog = {
         "All known mavericks are now included.",
         "Removed the deck generator algorithm.",
         "You can now load a registered deck via URL, or load a random deck from a gigantic deck pool"
+        ]),
+    1000200: ("1.0.2.0", "15 December 2018", [
+        "Added more Maverick data",
+        "Optimized the initial deck loading sequence",
+        "Fixed some game errors",
+        "Certain table actions will become hidden from the menu when they are not relevant",
+        "Special thanks for SeiferTim for code contributions!"
         ])
 }
